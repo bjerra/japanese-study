@@ -493,9 +493,14 @@ body.readings-locked rt {
 .tile:active { background: var(--accent-soft); }
 
 .tile:disabled {
-  opacity: 0.32;
+  opacity: 1;
+  color: #6f675e;
+  background: #f4efe6;
+  border-color: #d9d0c4;
   cursor: default;
 }
+
+.tile:disabled:active { background: #f4efe6; }
 
 .game-actions { margin-bottom: 0.35rem; }
 
