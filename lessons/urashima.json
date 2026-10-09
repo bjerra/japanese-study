@@ -1,0 +1,82 @@
+{
+  "id": "urashima",
+  "title": "浦島太郎",
+  "titleReading": "うらしまたろう",
+  "summary": "Urashima Taro saves a little turtle from some cruel children.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は『むかし むかし あるところに』（童話屋、1996年）。親本は『日本童話宝玉集』（童話春秋社、1948–1949年）。新字新仮名。かめを海にはなすところまでの抜粋で、いじめの場面を短くしています。底本は「丹後の国水の江の浦」と続いているので、国のあとに読点を入れました。",
+  "sentences": [
+    {
+      "jp": "むかし、むかし、丹後{たんご}の国{くに}、水{みず}の江{え}の浦{うら}に、浦島太郎{うらしまたろう}というりょうしがありました。",
+      "en": "Long ago, in Mizunoe Bay in the land of Tango, there was a fisherman named Urashima Taro."
+    },
+    {
+      "jp": "浦島太郎{うらしまたろう}は、毎日{まいにち}海{うみ}へ出{で}て、おさかなをつって、おとうさんとおかあさんをやしなっていました。",
+      "en": "Every day Urashima Taro went out to sea, fished, and supported his father and mother."
+    },
+    {
+      "jp": "ある日{ひ}、子{こ}どもたちが、小{ちい}さいかめの子{こ}を一{いっ}ぴきつかまえて、いじめていました。",
+      "en": "One day some children had caught one little turtle and were tormenting it."
+    },
+    {
+      "jp": "「そんなかわいそうなことをするものではない。」と、浦島{うらしま}はとめました。",
+      "en": "\"You must not do such a pitiful thing,\" said Urashima, and he tried to stop them."
+    },
+    {
+      "jp": "でも、子{こ}どもたちはきき入{い}れようともしませんでした。",
+      "en": "But the children would not listen at all."
+    },
+    {
+      "jp": "「おあしをあげるから、そのかめの子{こ}を売{う}っておくれ。」",
+      "en": "\"I'll give you some money, so please sell me that little turtle.\""
+    },
+    {
+      "jp": "浦島{うらしま}はおあしをやって、かめの子{こ}をもらいました。",
+      "en": "Urashima gave them the money and took the little turtle."
+    },
+    {
+      "jp": "それから、かめを海{うみ}ばたまで持{も}って行{い}って、はなしてやりました。",
+      "en": "Then he carried the turtle to the shore and let it go."
+    },
+    {
+      "jp": "かめはうれしそうに、水{みず}のなかにしずんで行{い}きました。",
+      "en": "Looking glad, the turtle sank away into the water."
+    }
+  ],
+  "vocabulary": [
+    { "word": "丹後", "reading": "たんご", "meaning": "Tango, an old province on the Japan Sea" },
+    { "word": "国", "reading": "くに", "meaning": "country; province" },
+    { "word": "水", "reading": "みず", "meaning": "water" },
+    { "word": "江", "reading": "え", "meaning": "inlet" },
+    { "word": "浦", "reading": "うら", "meaning": "bay; inlet" },
+    { "word": "浦島太郎", "reading": "うらしまたろう", "meaning": "Urashima Taro (a fisherman's name)" },
+    { "word": "毎日", "reading": "まいにち", "meaning": "every day" },
+    { "word": "海", "reading": "うみ", "meaning": "sea" },
+    { "word": "日", "reading": "ひ", "meaning": "day" },
+    { "word": "子", "reading": "こ", "meaning": "child" },
+    { "word": "小さい", "reading": "ちいさい", "meaning": "small" },
+    { "word": "一匹", "reading": "いっぴき", "meaning": "one (small animal)" },
+    { "word": "出る", "reading": "でる", "meaning": "to go out" },
+    { "word": "売る", "reading": "うる", "meaning": "to sell" },
+    { "word": "持つ", "reading": "もつ", "meaning": "to hold; to carry" },
+    { "word": "行く", "reading": "いく", "meaning": "to go" }
+  ],
+  "grammar": [
+    {
+      "title": "という",
+      "note": "浦島太郎というりょうし means \"a fisherman called Urashima Taro.\" という attaches the name to what the person is."
+    },
+    {
+      "title": "〜ていました",
+      "note": "やしなっていました and いじめていました are the past of 〜ている. The fishing is his daily life, and the bullying is already happening when Urashima finds it."
+    },
+    {
+      "title": "ものではない",
+      "note": "するものではない means \"that is not something one should do.\" Urashima is telling the children to stop."
+    },
+    {
+      "title": "〜てやりました",
+      "note": "はなしてやりました is the て-form plus やる. やる shows that he did it for the turtle's sake."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "momotaro-2",
+  "title": "桃太郎（二）",
+  "titleReading": "ももたろう",
+  "summary": "The peach splits open, and the child is named Momotaro.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」のつづき（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は『日本の神話と十大昔話』（講談社学術文庫、1983年）、新字新仮名。桃が割れて、桃太郎という名がつくところまでで、文を少し短くしています。",
+  "sentences": [
+    {
+      "jp": "夕方{ゆうがた}になって、おじいさんは山{やま}からしばを背負{せお}って帰{かえ}って来{き}ました。",
+      "en": "When evening came, the old man returned from the mountain with brushwood on his back."
+    },
+    {
+      "jp": "「おばあさん、今{いま}帰{かえ}ったよ。」",
+      "en": "\"Grandma, I'm home.\""
+    },
+    {
+      "jp": "「待{ま}っていましたよ。いいものを上{あ}げますから。」",
+      "en": "\"I've been waiting. I'll give you something good.\""
+    },
+    {
+      "jp": "おばあさんは戸棚{とだな}の中{なか}から、桃{もも}を持{も}って来{き}ました。",
+      "en": "The old woman brought the peach out of the cupboard."
+    },
+    {
+      "jp": "「この桃{もも}は、今日{きょう}川{かわ}で拾{ひろ}って来{き}たのですよ。」",
+      "en": "\"I picked this peach up at the river today.\""
+    },
+    {
+      "jp": "桃{もも}はぽんと中{なか}から二{ふた}つに割{わ}れて、赤{あか}さんがとび出{だ}しました。",
+      "en": "The peach split in two with a pop, and a baby sprang out."
+    },
+    {
+      "jp": "おじいさんもおばあさんもびっくりして、二人{ふたり}で声{こえ}を立{た}てました。",
+      "en": "The old man and the old woman were astonished, and they both cried out."
+    },
+    {
+      "jp": "「きっと神{かみ}さまが、この子{こ}をさずけて下{くだ}さったにちがいありません。」",
+      "en": "\"A god must surely have granted us this child.\""
+    },
+    {
+      "jp": "桃{もも}の中{なか}から生{う}まれた子{こ}だというので、この子{こ}に桃太郎{ももたろう}という名{な}をつけました。",
+      "en": "Because the child was born from a peach, they gave him the name Momotaro."
+    }
+  ],
+  "vocabulary": [
+    { "word": "夕方", "reading": "ゆうがた", "meaning": "evening" },
+    { "word": "背負う", "reading": "せおう", "meaning": "to carry on one's back" },
+    { "word": "今", "reading": "いま", "meaning": "now" },
+    { "word": "待つ", "reading": "まつ", "meaning": "to wait" },
+    { "word": "上げる", "reading": "あげる", "meaning": "to give; to lift" },
+    { "word": "戸棚", "reading": "とだな", "meaning": "cupboard" },
+    { "word": "中", "reading": "なか", "meaning": "inside" },
+    { "word": "今日", "reading": "きょう", "meaning": "today" },
+    { "word": "拾う", "reading": "ひろう", "meaning": "to pick up" },
+    { "word": "二つ", "reading": "ふたつ", "meaning": "two (things)" },
+    { "word": "割れる", "reading": "われる", "meaning": "to split; to crack open" },
+    { "word": "赤", "reading": "あか", "meaning": "red; 赤さん is a baby" },
+    { "word": "声", "reading": "こえ", "meaning": "voice" },
+    { "word": "神", "reading": "かみ", "meaning": "god" },
+    { "word": "子", "reading": "こ", "meaning": "child" },
+    { "word": "生まれる", "reading": "うまれる", "meaning": "to be born" },
+    { "word": "桃太郎", "reading": "ももたろう", "meaning": "Momotaro (a boy's name)" },
+    { "word": "名", "reading": "な", "meaning": "name" }
+  ],
+  "grammar": [
+    {
+      "title": "〜て来ました",
+      "note": "帰って来ました, 持って来ました, and 拾って来ました are the て-form plus 来る. Something was done elsewhere, and then the person or thing comes this way."
+    },
+    {
+      "title": "〜から",
+      "note": "から means \"from\": 山から (from the mountain), 戸棚の中から (from inside the cupboard), 桃の中から (from inside the peach)."
+    },
+    {
+      "title": "にちがいありません",
+      "note": "にちがいない means \"it must be.\" ありません is the polite form. The old couple are sure that a god sent the child."
+    },
+    {
+      "title": "という名",
+      "note": "桃太郎という名をつける: という attaches the name. \"They gave him the name Momotaro.\""
+    }
+  ]
+}

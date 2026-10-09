@@ -1,0 +1,89 @@
+{
+  "id": "hanasaka-jijii",
+  "title": "花咲かじじい",
+  "titleReading": "はなさかじじい",
+  "summary": "The honest old man's dog, Shiro, shows him where gold coins are buried.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は『むかし むかし あるところに』（童話屋、1996年）。親本は『日本童話宝玉集』（童話春秋社、1948–1949年）。新字新仮名。一の初め、白が小判の場所を教えるところまでの抜粋で、となりの人の描写を短くしています。",
+  "sentences": [
+    {
+      "jp": "むかし、むかし、あるところに、おじいさんとおばあさんがありました。",
+      "en": "Long, long ago, there lived an old man and an old woman."
+    },
+    {
+      "jp": "正直{しょうじき}な人{ひと}でしたが、子{こ}どもがないので、飼犬{かいいぬ}の白{しろ}を子{こ}どものようにかわいがっていました。",
+      "en": "They were honest people, but they had no children, so they loved their dog Shiro as if he were their own child."
+    },
+    {
+      "jp": "白{しろ}も、おじいさんとおばあさんによくなついていました。",
+      "en": "Shiro was just as fond of the old man and the old woman."
+    },
+    {
+      "jp": "おとなりのおじいさんは欲{よく}ばりで、白{しろ}をにくんでいました。",
+      "en": "The old man next door was greedy, and he hated Shiro."
+    },
+    {
+      "jp": "ある日{ひ}、正直{しょうじき}おじいさんが畑{はたけ}をほっていますと、白{しろ}も一緒{いっしょ}について来{き}ました。",
+      "en": "One day, while the honest old man was digging in the field, Shiro came along with him."
+    },
+    {
+      "jp": "白{しろ}は、畑{はたけ}のすみの大{おお}きなえのきの木{き}の下{した}まで、おじいさんをつれて行{い}きました。",
+      "en": "Shiro led the old man to the foot of a big enoki tree at the edge of the field."
+    },
+    {
+      "jp": "白{しろ}は前足{まえあし}で土{つち}をかきながら、「ここほれ、ワン、ワン。」となきました。",
+      "en": "Scraping the soil with his front paws, Shiro barked, \"Dig here! Woof, woof!\""
+    },
+    {
+      "jp": "おじいさんが土{つち}をほると、穴{あな}から小判{こばん}がたくさん出{で}てきました。",
+      "en": "When the old man dug into the soil, a great many gold coins came out of the hole."
+    },
+    {
+      "jp": "おじいさんは、小判{こばん}をうちの中{なか}へはこびました。",
+      "en": "The old man carried the gold coins into the house."
+    },
+    {
+      "jp": "正直{しょうじき}なおじいさんとおばあさんは、きゅうに金{かね}持{も}ちになりました。",
+      "en": "The honest old man and woman suddenly became rich."
+    }
+  ],
+  "vocabulary": [
+    { "word": "正直", "reading": "しょうじき", "meaning": "honest" },
+    { "word": "飼犬", "reading": "かいいぬ", "meaning": "pet dog" },
+    { "word": "白", "reading": "しろ", "meaning": "white; Shiro, the dog's name" },
+    { "word": "欲ばり", "reading": "よくばり", "meaning": "greedy person; greed" },
+    { "word": "日", "reading": "ひ", "meaning": "day" },
+    { "word": "畑", "reading": "はたけ", "meaning": "field; vegetable plot" },
+    { "word": "一緒", "reading": "いっしょ", "meaning": "together" },
+    { "word": "来る", "reading": "くる", "meaning": "to come" },
+    { "word": "大きい", "reading": "おおきい", "meaning": "big" },
+    { "word": "木", "reading": "き", "meaning": "tree" },
+    { "word": "下", "reading": "した", "meaning": "under; below" },
+    { "word": "行く", "reading": "いく", "meaning": "to go" },
+    { "word": "前足", "reading": "まえあし", "meaning": "front paw" },
+    { "word": "土", "reading": "つち", "meaning": "soil; earth" },
+    { "word": "穴", "reading": "あな", "meaning": "hole" },
+    { "word": "小判", "reading": "こばん", "meaning": "koban, an oval gold coin" },
+    { "word": "出る", "reading": "でる", "meaning": "to come out" },
+    { "word": "中", "reading": "なか", "meaning": "inside" },
+    { "word": "金持ち", "reading": "かねもち", "meaning": "rich person" }
+  ],
+  "grammar": [
+    {
+      "title": "〜ので",
+      "note": "子どもがないので gives the reason: \"because they had no children, they loved the dog.\""
+    },
+    {
+      "title": "〜ていますと",
+      "note": "ほっていますと means \"while he was digging.\" と after that verb marks the moment the next thing happens."
+    },
+    {
+      "title": "〜て来ました",
+      "note": "ついて来ました is \"followed and came along.\" 来る keeps the movement toward the old man."
+    },
+    {
+      "title": "〜から出てきました",
+      "note": "穴から出てきました: から means \"out of,\" and 出てくる means \"come out.\""
+    }
+  ]
+}

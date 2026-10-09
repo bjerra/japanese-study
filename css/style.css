@@ -111,6 +111,15 @@ h1 {
   letter-spacing: 0.06em;
 }
 
+.credit {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.credit a { overflow-wrap: anywhere; }
+
 .hint {
   margin: 1rem 0 0.25rem;
   color: var(--muted);

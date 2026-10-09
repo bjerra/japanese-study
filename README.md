@@ -46,6 +46,7 @@ UTF-8 JSON. No comments and no trailing commas. Unknown fields are ignored.
 | `titleReading` | no | Hiragana (and katakana) for the whole title. Shown under the title. |
 | `summary` | no | One English sentence on the home page card. |
 | `level` | no | Short label such as `beginner` or `intermediate`. |
+| `credit` | no | Source note: author, title, and URL. Shown under the lesson title. A web address in the text becomes a link. If you shorten the text or modernise spelling, say so here. |
 | `sentences` | yes | Non-empty array. One object per sentence (or short paragraph). |
 | `sentences[].jp` | yes | Japanese with `漢字{かんじ}` readings. Braces are source notation; learners never see the braces. |
 | `sentences[].en` | yes | English for that sentence. Hidden until the learner reveals it. |
@@ -95,6 +96,7 @@ Leave words with no extra reading unmarked (`コーヒー`, `です`, `それか
   "titleReading": "れっすんのだいめい",
   "summary": "One sentence shown on the home page.",
   "level": "beginner",
+  "credit": "Author, title. https://example.com/source . Excerpt; say what you changed.",
   "sentences": [
     {
       "jp": "私{わたし}は学生{がくせい}です。",
@@ -127,7 +129,7 @@ Leave words with no extra reading unmarked (`コーヒー`, `です`, `それか
 }
 ```
 
-Each entry is only the id string. Title, reading, summary, and level come from the lesson file.
+Each entry is only the id string. Title, reading, summary, level, and credit come from the lesson file.
 
 ## What the learner sees
 
@@ -136,7 +138,8 @@ Each entry is only the id string. Title, reading, summary, and level come from t
 - **Show all readings** / **Hide all readings** toggles every marked word.
 - **Show English** / **Hide English** is per sentence.
 - Vocabulary shows word, reading, and meaning. Grammar notes are always visible.
-- A vocabulary game at the bottom of the lesson spells each kanji headword from its `reading`. No extra lesson fields. While a word is still unsolved, furigana, the title reading, and the vocabulary reading column are hidden.
+- A vocabulary game at the bottom of the lesson spells each kanji headword from its `reading`. The game needs no extra fields. While a word is still unsolved, furigana, the title reading, and the vocabulary reading column are hidden.
+- If a lesson has `credit`, that source note is shown under the title.
 
 Tiles are the reading split into kana. A small kana (ゃゅょぁぃぅぇぉゎ, and the katakana forms) stays on the preceding kana, so `きょう` is the tiles `きょ` and `う`. `っ`, `ん`, and `ー` are their own tiles. Repeated kana are repeated tiles. Headwords with no kanji, such as `コーヒー`, are skipped because the prompt would already be the answer.
 
