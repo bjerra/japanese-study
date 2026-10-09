@@ -135,7 +135,10 @@ Each entry is only the id string. Title, reading, summary, and level come from t
 - Tap or click a marked word to show its hiragana above the kanji. Tap again to hide it.
 - **Show all readings** / **Hide all readings** toggles every marked word.
 - **Show English** / **Hide English** is per sentence.
-- Vocabulary always shows word, reading, and meaning. Grammar notes are always visible.
+- Vocabulary shows word, reading, and meaning. Grammar notes are always visible.
+- A vocabulary game at the bottom of the lesson spells each kanji headword from its `reading`. No extra lesson fields. While a word is still unsolved, furigana, the title reading, and the vocabulary reading column are hidden.
+
+Tiles are the reading split into kana. A small kana (ゃゅょぁぃぅぇぉゎ, and the katakana forms) stays on the preceding kana, so `きょう` is the tiles `きょ` and `う`. `っ`, `ん`, and `ー` are their own tiles. Repeated kana are repeated tiles. Headwords with no kanji, such as `コーヒー`, are skipped because the prompt would already be the answer.
 
 ## Hosting
 

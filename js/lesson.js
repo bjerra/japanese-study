@@ -1,5 +1,8 @@
 (function () {
   var ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  var readingsLocked = false;
+  var concealedText = new WeakMap();
+  var concealedLabels = new WeakMap();
 
   document.addEventListener("DOMContentLoaded", function () {
     var main = document.getElementById("lesson");
@@ -31,6 +34,7 @@
         renderLesson(main, lesson);
         wireReadings(main, toggle);
         wireTranslations(main);
+        mountGame(main, lesson.vocabulary || []);
       })
       .catch(function (error) {
         var hint =
@@ -244,6 +248,7 @@
     ["Word", "Reading", "Meaning"].forEach(function (label) {
       var span = document.createElement("span");
       span.textContent = label;
+      if (label === "Reading") span.className = "vocab-head-reading";
       head.append(span);
     });
     list.append(head);
@@ -278,6 +283,7 @@
     toggle.setAttribute("aria-controls", "passage");
 
     main.addEventListener("click", function (event) {
+      if (readingsLocked) return;
       var button = event.target.closest(".token");
       if (!button || !main.contains(button)) return;
       setToken(button, !button.classList.contains("is-on"));
@@ -285,12 +291,75 @@
     });
 
     toggle.addEventListener("click", function () {
+      if (readingsLocked) return;
       var turnOn = toggle.getAttribute("aria-pressed") !== "true";
       main.querySelectorAll(".token").forEach(function (button) {
         setToken(button, turnOn);
       });
       syncToggle(main, toggle);
     });
+  }
+
+  function mountGame(main, vocabulary) {
+    if (!window.JapaneseStudyGame) return;
+    var host = document.createElement("div");
+    host.id = "vocab-game";
+    main.append(host);
+    JapaneseStudyGame.mount(host, vocabulary, { lockReadings: lockReadings });
+  }
+
+  function lockReadings(locked) {
+    var toggle = document.getElementById("toggle-readings");
+    if (locked) {
+      readingsLocked = true;
+      document.body.classList.add("readings-locked");
+      document.querySelectorAll(".token.is-on").forEach(function (button) {
+        setToken(button, false);
+      });
+      document.querySelectorAll(".token").forEach(concealToken);
+      document.querySelectorAll(".vocab-reading, .title-reading").forEach(concealText);
+      if (toggle) toggle.disabled = true;
+      return;
+    }
+    document.querySelectorAll(".token").forEach(restoreToken);
+    document.querySelectorAll(".vocab-reading, .title-reading").forEach(restoreText);
+    readingsLocked = false;
+    document.body.classList.remove("readings-locked");
+    if (toggle) toggle.disabled = false;
+  }
+
+  function concealText(node) {
+    if (concealedText.has(node)) return;
+    concealedText.set(node, node.textContent);
+    node.textContent = "";
+    node.setAttribute("aria-hidden", "true");
+  }
+
+  function restoreText(node) {
+    if (!concealedText.has(node)) return;
+    node.textContent = concealedText.get(node);
+    concealedText.delete(node);
+    node.removeAttribute("aria-hidden");
+  }
+
+  function concealToken(button) {
+    if (!concealedLabels.has(button)) {
+      concealedLabels.set(button, {
+        label: button.getAttribute("aria-label") || "",
+        reading: button.dataset.reading || ""
+      });
+    }
+    delete button.dataset.reading;
+    var base = button.querySelector("ruby").firstChild;
+    button.setAttribute("aria-label", base ? base.textContent : "");
+  }
+
+  function restoreToken(button) {
+    var saved = concealedLabels.get(button);
+    if (!saved) return;
+    if (saved.reading) button.dataset.reading = saved.reading;
+    button.setAttribute("aria-label", saved.label);
+    concealedLabels.delete(button);
   }
 
   function setToken(button, on) {
