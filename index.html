@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Japanese reading practice. Show each word's reading only when you want it.">
+  <title>Japanese Study</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Japanese Study</a>
+    </div>
+  </header>
+  <main class="wrap page">
+    <p class="page-kicker">Lessons</p>
+    <h1>Japanese Study</h1>
+    <p class="lede">Reading practice for coached lessons. Kanji stay unmarked until you tap a word or show every reading.</p>
+    <p id="status" class="panel">Loading lessons…</p>
+    <ul id="lesson-list" class="lesson-list"></ul>
+  </main>
+  <noscript>
+    <p class="wrap panel error">This site needs JavaScript to load lessons.</p>
+  </noscript>
+  <script src="js/home.js"></script>
+</body>
+</html>

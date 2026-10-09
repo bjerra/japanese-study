@@ -1,0 +1,63 @@
+{
+  "id": "morning-coffee",
+  "title": "朝のコーヒー",
+  "titleReading": "あさのコーヒー",
+  "summary": "A short morning routine: coffee, the weather, studying in the park, and meeting a friend.",
+  "level": "beginner",
+  "sentences": [
+    {
+      "jp": "朝{あさ}、私{わたし}はコーヒーを飲{の}みます。",
+      "en": "In the morning, I drink coffee."
+    },
+    {
+      "jp": "今日{きょう}はいい天気{てんき}です。",
+      "en": "The weather is nice today."
+    },
+    {
+      "jp": "公園{こうえん}で日本語{にほんご}を勉強します{べんきょうします}。",
+      "en": "I study Japanese at the park."
+    },
+    {
+      "jp": "それから、午後{ごご}は友達{ともだち}に会{あ}います。",
+      "en": "After that, I'll meet a friend in the afternoon."
+    }
+  ],
+  "vocabulary": [
+    { "word": "朝", "reading": "あさ", "meaning": "morning" },
+    { "word": "私", "reading": "わたし", "meaning": "I; me" },
+    { "word": "コーヒー", "reading": "コーヒー", "meaning": "coffee" },
+    { "word": "飲む", "reading": "のむ", "meaning": "to drink" },
+    { "word": "今日", "reading": "きょう", "meaning": "today" },
+    { "word": "いい", "reading": "いい", "meaning": "good" },
+    { "word": "天気", "reading": "てんき", "meaning": "weather" },
+    { "word": "公園", "reading": "こうえん", "meaning": "park" },
+    { "word": "日本語", "reading": "にほんご", "meaning": "the Japanese language" },
+    { "word": "勉強する", "reading": "べんきょうする", "meaning": "to study" },
+    { "word": "それから", "reading": "それから", "meaning": "after that; and then" },
+    { "word": "午後", "reading": "ごご", "meaning": "afternoon" },
+    { "word": "友達", "reading": "ともだち", "meaning": "friend" },
+    { "word": "会う", "reading": "あう", "meaning": "to meet" }
+  ],
+  "grammar": [
+    {
+      "title": "は — topic marker",
+      "note": "私は marks 私 as the topic (“as for me”). 午後は does the same for “the afternoon,” often with a mild contrast against the earlier part of the day. As a particle, は is pronounced わ."
+    },
+    {
+      "title": "を — object marker",
+      "note": "を marks what the verb acts on: コーヒーを飲みます (drink coffee), 日本語を勉強します (study Japanese)."
+    },
+    {
+      "title": "で — place of an action",
+      "note": "公園で勉強します means the studying happens at the park. Use で for where an action takes place. Use に with verbs such as 住む for where someone lives or something exists."
+    },
+    {
+      "title": "会う takes に",
+      "note": "The person you meet is marked with に, not を: 友達に会います."
+    },
+    {
+      "title": "ます — polite non-past",
+      "note": "飲みます, 勉強します, and 会います are polite non-past forms. Dictionary forms: 飲む, 勉強する, 会う. The non-past covers habits and the future, so 会います can mean “I meet” or “I will meet.”"
+    }
+  ]
+}
