@@ -1,0 +1,86 @@
+{
+  "id": "momotaro-1",
+  "title": "桃太郎（一）",
+  "titleReading": "ももたろう",
+  "summary": "An old woman finds a giant peach floating down the river.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は『日本の神話と十大昔話』（講談社学術文庫、1983年）で、公開テキストは新字新仮名です。話の初め、桃を家へ持ち帰るところまでの抜粋で、文を少し短くしています。歌ののばした言い方は、普通の長さにしています。",
+  "sentences": [
+    {
+      "jp": "むかし、むかし、あるところに、おじいさんとおばあさんがありました。",
+      "en": "Long, long ago, there lived an old man and an old woman."
+    },
+    {
+      "jp": "まいにち、おじいさんは山{やま}へしば刈{か}りに、おばあさんは川{かわ}へ洗濯{せんたく}に行{い}きました。",
+      "en": "Every day the old man went to the mountain to cut brushwood, and the old woman went to the river to do the washing."
+    },
+    {
+      "jp": "ある日{ひ}、おばあさんが川{かわ}のそばで洗濯{せんたく}をしていますと、川上{かわかみ}から大{おお}きな桃{もも}が一つ{ひとつ}、流{なが}れて来{き}ました。",
+      "en": "One day, as she was washing beside the river, a great peach came floating down from upstream."
+    },
+    {
+      "jp": "「おやおや、これはみごとな桃{もも}だこと。おじいさんへのおみやげに、うちへ持{も}って帰{かえ}りましょう。」",
+      "en": "\"Oh my, what a splendid peach. I'll take it home as a present for Grandpa.\""
+    },
+    {
+      "jp": "おばあさんは、そう言{い}いながら、腰{こし}をかがめて桃{もも}を取{と}ろうとしましたが、遠{とお}くって手{て}がとどきません。",
+      "en": "As she said that, she bent down to pick the peach up, but it was too far for her hand to reach."
+    },
+    {
+      "jp": "おばあさんは、「あっちの水{みず}は、からいぞ。こっちの水{みず}は、あまいぞ。」と歌{うた}いながら、手{て}をたたきました。",
+      "en": "She clapped her hands and sang, \"The water over there is bitter. The water over here is sweet.\""
+    },
+    {
+      "jp": "すると桃{もも}は、おばあさんの前{まえ}へ流{なが}れて来{き}ました。",
+      "en": "Then the peach floated right up in front of her."
+    },
+    {
+      "jp": "「早{はや}くおじいさんと二人{ふたり}で分{わ}けて食{た}べましょう。」",
+      "en": "\"Let's share it with Grandpa and eat it soon.\""
+    },
+    {
+      "jp": "おばあさんは桃{もも}をひろい上{あ}げて、洗濯物{せんたくもの}といっしょに、おうちへ帰{かえ}りました。",
+      "en": "The old woman picked up the peach and went home with the laundry."
+    }
+  ],
+  "vocabulary": [
+    { "word": "山", "reading": "やま", "meaning": "mountain" },
+    { "word": "刈る", "reading": "かる", "meaning": "to cut (grass or brushwood)" },
+    { "word": "川", "reading": "かわ", "meaning": "river" },
+    { "word": "洗濯", "reading": "せんたく", "meaning": "washing; laundry" },
+    { "word": "日", "reading": "ひ", "meaning": "day" },
+    { "word": "川上", "reading": "かわかみ", "meaning": "upstream" },
+    { "word": "大きい", "reading": "おおきい", "meaning": "big" },
+    { "word": "桃", "reading": "もも", "meaning": "peach" },
+    { "word": "一つ", "reading": "ひとつ", "meaning": "one (thing)" },
+    { "word": "流れる", "reading": "ながれる", "meaning": "to flow; to float along" },
+    { "word": "来る", "reading": "くる", "meaning": "to come" },
+    { "word": "持つ", "reading": "もつ", "meaning": "to hold; to carry" },
+    { "word": "帰る", "reading": "かえる", "meaning": "to go home" },
+    { "word": "腰", "reading": "こし", "meaning": "waist; lower back" },
+    { "word": "取る", "reading": "とる", "meaning": "to take; to pick up" },
+    { "word": "遠い", "reading": "とおい", "meaning": "far" },
+    { "word": "水", "reading": "みず", "meaning": "water" },
+    { "word": "歌", "reading": "うた", "meaning": "song" },
+    { "word": "二人", "reading": "ふたり", "meaning": "two people" },
+    { "word": "食べる", "reading": "たべる", "meaning": "to eat" }
+  ],
+  "grammar": [
+    {
+      "title": "むかし、むかし",
+      "note": "Folk tales often begin with むかし、むかし, \"long, long ago.\" Saying むかし twice pushes the story further into the past."
+    },
+    {
+      "title": "ありました",
+      "note": "In old tales, people are introduced with ありました, \"there was.\" In everyday speech, people take います, and あります is for things."
+    },
+    {
+      "title": "〜へ〜に行きました",
+      "note": "山へしば刈りに行きました: へ marks the place he goes, and に marks the purpose, \"in order to cut brushwood.\" 川へ洗濯に行きました is the same pattern."
+    },
+    {
+      "title": "〜ましょう",
+      "note": "帰りましょう and 食べましょう are the polite \"let's\" form. Here Grandma is deciding what she and Grandpa will do."
+    }
+  ]
+}

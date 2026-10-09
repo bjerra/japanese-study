@@ -92,7 +92,7 @@
         checkFields(errors, item, "grammar[" + index + "]", ["title", "note"]);
       });
     }
-    ["titleReading", "summary", "level"].forEach(function (key) {
+    ["titleReading", "summary", "level", "credit"].forEach(function (key) {
       if (lesson[key] != null && typeof lesson[key] !== "string") {
         errors.push('"' + key + '" must be a string.');
       }
@@ -150,6 +150,10 @@
       main.append(reading);
     }
 
+    if (lesson.credit && lesson.credit.trim()) {
+      main.append(renderCredit(lesson.credit));
+    }
+
     var hint = document.createElement("p");
     hint.className = "hint";
     hint.textContent = "Tap a word to show or hide its reading.";
@@ -186,6 +190,31 @@
       });
       main.append(notes);
     }
+  }
+
+  function renderCredit(credit) {
+    var note = document.createElement("p");
+    note.className = "credit";
+    var pattern = /https?:\/\/[^\s]+/g;
+    var last = 0;
+    var match;
+    while ((match = pattern.exec(credit)) !== null) {
+      if (match.index > last) {
+        note.append(document.createTextNode(credit.slice(last, match.index)));
+      }
+      var href = match[0].replace(/[)。、.]+$/u, "");
+      var trailing = match[0].slice(href.length);
+      var link = document.createElement("a");
+      link.href = href;
+      link.textContent = href;
+      link.rel = "noopener noreferrer";
+      link.target = "_blank";
+      note.append(link);
+      if (trailing) note.append(document.createTextNode(trailing));
+      last = match.index + match[0].length;
+    }
+    if (last < credit.length) note.append(document.createTextNode(credit.slice(last)));
+    return note;
   }
 
   function sectionLabel(text) {

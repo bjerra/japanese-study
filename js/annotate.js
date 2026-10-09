@@ -93,7 +93,9 @@
       while (start > 0 && isKana(c[start - 1])) {
         var prefix = c.slice(start - 1, kanjiStart).join("");
         var remaining = r.slice(0, readEnd).join("");
-        if (remaining.indexOf(prefix) === 0) start -= 1;
+        /* Keep at least one mora of the reading on the kanji.
+           Otherwise って手{て} would swallow the reading into the て of って. */
+        if (prefix.length < remaining.length && remaining.indexOf(prefix) === 0) start -= 1;
         else break;
       }
     }
