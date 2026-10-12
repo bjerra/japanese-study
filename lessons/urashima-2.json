@@ -1,0 +1,108 @@
+{
+  "id": "urashima-2",
+  "title": "浦島太郎（二）",
+  "titleReading": "うらしまたろう",
+  "summary": "He buys the turtle from the children and lets it go in the sea.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "「なんだい。なんだい、かまうもんかい」といいながら、またかめの子{こ}を、あおむけにひっくりかえして、足{あし}でけったり、砂{すな}のなかにうずめたりしました。",
+      "en": "saying \"What? What? Who cares?\", they flipped the little turtle onto its back again, kicked it, and buried it in the sand."
+    },
+    {
+      "jp": "浦島{うらしま}はますますかわいそうにおもって、",
+      "en": "Urashima felt sorrier and sorrier, and"
+    },
+    {
+      "jp": "「じゃあ、おじさんがおあしをあげるから、そのかめの子{こ}を売{う}っておくれ」といいますと、こどもたちは、",
+      "en": "when he said, \"Then Uncle will give you some money, so sell me that little turtle,\" the children"
+    },
+    {
+      "jp": "「うんうん、おあしをくれるならやってもいい」といって、手{て}を出{だ}しました。",
+      "en": "held out their hands and said, \"Yeah, yeah, if you'll give us money, you can have it.\""
+    },
+    {
+      "jp": "そこで浦島{うらしま}はおあしをやってかめの子{こ}をもらいうけました。",
+      "en": "So Urashima paid the money and received the little turtle."
+    },
+    {
+      "jp": "子{こ}どもたちは、",
+      "en": "The children,"
+    },
+    {
+      "jp": "「おじさん、ありがとう。また買{か}っておくれよ」と、わいわいいいながら、行{い}ってしまいました。",
+      "en": "chattering \"Thanks, Uncle. Buy from us again,\" went off."
+    },
+    {
+      "jp": "そのあとで浦島{うらしま}は、こうらからそっと出{だ}したかめの首{くび}をやさしくなでてやって、",
+      "en": "After that Urashima gently stroked the turtle's neck, which he had drawn softly out of the shell, and"
+    },
+    {
+      "jp": "「やれやれ、あぶないところだった。さあもうお帰{かえ}りお帰{かえ}り」といって、わざわざ、かめを海{うみ}ばたまで持{も}って行{い}ってはなしてやりました。",
+      "en": "said, \"There, there, that was a close call. Now go on home,\" and went out of his way to carry the turtle to the shore and let it go."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "足",
+      "reading": "あし",
+      "meaning": "foot; leg"
+    },
+    {
+      "word": "砂",
+      "reading": "すな",
+      "meaning": "sand"
+    },
+    {
+      "word": "売る",
+      "reading": "うる",
+      "meaning": "to sell"
+    },
+    {
+      "word": "手",
+      "reading": "て",
+      "meaning": "hand"
+    },
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to put out; to hold out"
+    },
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meaning": "to buy"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    },
+    {
+      "word": "首",
+      "reading": "くび",
+      "meaning": "neck"
+    },
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "to hold; to carry"
+    },
+    {
+      "word": "子",
+      "reading": "こ",
+      "meaning": "child"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "から",
+      "note": "おあしをあげるから gives the reason the children should agree: because he will pay."
+    },
+    {
+      "title": "てやる",
+      "note": "なでてやって and はなしてやりました: he does it for the turtle. てやる is a familiar \"do for\" toward someone or something below the speaker."
+    }
+  ]
+}

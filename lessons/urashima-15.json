@@ -1,0 +1,100 @@
+{
+  "id": "urashima-15",
+  "title": "浦島太郎（十五）",
+  "titleReading": "うらしまたろう",
+  "summary": "He understands that three years under the sea were three hundred on land.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "こういって、また腰{こし}をかがめて、よぼよぼあるいて行{い}ってしまいました。",
+      "en": "Saying this, she bent at the waist again and tottered away."
+    },
+    {
+      "jp": "浦島{うらしま}はびっくりしてしまいました。",
+      "en": "Urashima was utterly astonished."
+    },
+    {
+      "jp": "「はて、三{さん}百{びゃく}年{ねん}、おかしなこともあるものだ。たった三{さん}年{ねん}りゅう宮{ぐう}にいたつもりなのに、それが三{さん}百{びゃく}年{ねん}とは。するとりゅう宮{ぐう}の三{さん}年{ねん}は、人間{にんげん}の三{さん}百{びゃく}年{ねん}にあたるのかしらん。それでは家{いえ}もなくなるはずだし、おとうさんやおかあさんがいらっしゃらないのもふしぎはない」",
+      "en": "\"Three hundred years — what an odd thing. I thought I had been at the Dragon Palace for only three years, and that was three hundred years? Then perhaps three years in the Dragon Palace come to three hundred human years. No wonder the house would be gone, and no wonder Father and Mother are not here.\""
+    },
+    {
+      "jp": "こうおもうと、浦島{うらしま}はきゅうにかなしくなって、さびしくなって、目{め}の前{まえ}がくらくなりました。",
+      "en": "When he thought this, Urashima suddenly grew sad and lonely, and everything before his eyes went dark."
+    },
+    {
+      "jp": "いまさらりゅう宮{ぐう}がこいしくてたまらなくなりました。",
+      "en": "Now, too late, he longed for the Dragon Palace unbearably."
+    },
+    {
+      "jp": "しおしおとまた浜{はま}べへ出{で}てみましたが、海{うみ}の水{みず}はまんまんとたたえていて、どこがはてともしれません。",
+      "en": "Dejected, he went out to the beach again, but the sea stretched full and wide, and he could not tell where it ended."
+    },
+    {
+      "jp": "もうかめも出{で}てきませんから、どうしてりゅう宮{ぐう}へわたろう手{て}だてもありませんでした。",
+      "en": "The turtle did not come out either, so he had no means of crossing over to the Dragon Palace."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "腰",
+      "reading": "こし",
+      "meaning": "waist"
+    },
+    {
+      "word": "年",
+      "reading": "ねん",
+      "meaning": "year"
+    },
+    {
+      "word": "人間",
+      "reading": "にんげん",
+      "meaning": "human being"
+    },
+    {
+      "word": "家",
+      "reading": "いえ",
+      "meaning": "house"
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meaning": "eye"
+    },
+    {
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "front; before one's eyes"
+    },
+    {
+      "word": "浜",
+      "reading": "はま",
+      "meaning": "beach"
+    },
+    {
+      "word": "海",
+      "reading": "うみ",
+      "meaning": "sea"
+    },
+    {
+      "word": "水",
+      "reading": "みず",
+      "meaning": "water"
+    },
+    {
+      "word": "手",
+      "reading": "て",
+      "meaning": "hand; means"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "つもり",
+      "note": "三年いたつもり is what he believed had been the case. つもり can part from the facts, as it does here."
+    },
+    {
+      "title": "にあたる",
+      "note": "人間の三百年にあたる: it amounts to, it corresponds to."
+    }
+  ]
+}

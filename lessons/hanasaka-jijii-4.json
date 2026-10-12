@@ -1,0 +1,124 @@
+{
+  "id": "hanasaka-jijii-4",
+  "title": "花咲かじじい（四）",
+  "titleReading": "はなさかじじい",
+  "summary": "They bury Shiro under a pine, and rice multiplies in a mortar made from the tree.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "正直{しょうじき}おじいさんとおばあさんは、あとでどんなにかなしがったでしょう。",
+      "en": "How the honest old man and old woman grieved afterward."
+    },
+    {
+      "jp": "けれども死{し}んでしまったものはしかたがありませんから、涙{なみだ}をこぼしながら、白{しろ}の死骸{しがい}を引{ひ}きとって、お庭{にわ}のすみに穴{あな}をほって、ていねいにうずめてやって、お墓{はか}の代{かわ}りにちいさいまつの木{き}を一{いっ}本{ぽん}、その上{うえ}にうえました。",
+      "en": "But there was nothing to be done about one who was already dead, so, shedding tears, they took Shiro's body back, dug a hole in a corner of the garden, buried him carefully, and in place of a gravestone planted one small pine on top."
+    },
+    {
+      "jp": "するとそのまつが、みるみるそだって行{い}って、やがてりっぱな大木{たいぼく}になりました。",
+      "en": "Then that pine grew as they watched, and before long it became a fine great tree."
+    },
+    {
+      "jp": "「これは白{しろ}の形見{かたみ}だ」",
+      "en": "\"This is a keepsake of Shiro.\""
+    },
+    {
+      "jp": "こうおじいさんはいって、そのまつを切{き}って、うすをこしらえました。",
+      "en": "Saying this, the old man cut the pine and made a mortar of it."
+    },
+    {
+      "jp": "そうして、",
+      "en": "Then,"
+    },
+    {
+      "jp": "「白{しろ}はおもちがすきだったから」といって、うすのなかにお米{こめ}を入{い}れて、おばあさんとふたりで、",
+      "en": "saying \"Because Shiro liked rice cakes,\" he put rice in the mortar, and he and the old woman together"
+    },
+    {
+      "jp": "「ぺんたらこっこ、ぺんたらこっこ」と、つきはじめますと、ふしぎなことには、いくらついてもついても、あとからあとから、お米{こめ}がふえて、みるみるうすにあふれて、そとにこぼれ出{だ}して、やがて、台所{だいどころ}いっぱいお米{こめ}になってしまいました。",
+      "en": "began to pound, \"Pentarakokko, pentarakokko,\" and the strange thing was that however much they pounded, rice kept increasing from behind, soon overflowed the mortar, spilled out, and at last the whole kitchen was full of rice."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "涙",
+      "reading": "なみだ",
+      "meaning": "tear"
+    },
+    {
+      "word": "死骸",
+      "reading": "しがい",
+      "meaning": "corpse"
+    },
+    {
+      "word": "引く",
+      "reading": "ひく",
+      "meaning": "to take back; to pull"
+    },
+    {
+      "word": "庭",
+      "reading": "にわ",
+      "meaning": "garden"
+    },
+    {
+      "word": "墓",
+      "reading": "はか",
+      "meaning": "grave"
+    },
+    {
+      "word": "代わり",
+      "reading": "かわり",
+      "meaning": "in place of"
+    },
+    {
+      "word": "白",
+      "reading": "しろ",
+      "meaning": "white; Shiro"
+    },
+    {
+      "word": "一本",
+      "reading": "いっぽん",
+      "meaning": "one (tree, or long thing)"
+    },
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "on top"
+    },
+    {
+      "word": "大木",
+      "reading": "たいぼく",
+      "meaning": "great tree"
+    },
+    {
+      "word": "形見",
+      "reading": "かたみ",
+      "meaning": "keepsake"
+    },
+    {
+      "word": "切る",
+      "reading": "きる",
+      "meaning": "to cut"
+    },
+    {
+      "word": "米",
+      "reading": "こめ",
+      "meaning": "rice"
+    },
+    {
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning": "kitchen"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "てしまう",
+      "note": "死んでしまったものはしかたがありません: しまう marks it finished, often with regret. しかたがありません says nothing can be done."
+    },
+    {
+      "title": "代わりに",
+      "note": "お墓の代わりに: in place of a gravestone. The pine stands where a stone would have stood."
+    }
+  ]
+}

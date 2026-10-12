@@ -1,0 +1,134 @@
+{
+  "id": "urashima-7",
+  "title": "浦島太郎（七）",
+  "titleReading": "うらしまたろう",
+  "summary": "After the feast she opens the eastern door onto a spring landscape.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "きれいな腰元{こしもと}たちは、歌{うた}をうたったり踊{おど}りをおどったりしました。",
+      "en": "The beautiful ladies-in-waiting sang songs and danced."
+    },
+    {
+      "jp": "浦島{うらしま}はただもう夢{ゆめ}のなかで夢{ゆめ}を見{み}ているようでした。",
+      "en": "Urashima felt as if he were dreaming inside a dream."
+    },
+    {
+      "jp": "ごちそうがすむと、浦島{うらしま}はまた乙姫{おとひめ}さまの案内{あんない}で、御殿{ごてん}のなかをのこらず見{み}せてもらいました。",
+      "en": "When the feast was over, Urashima was guided by Princess Otohime again and shown every part of the palace."
+    },
+    {
+      "jp": "どのおへやも、どのおへやも、めずらしい宝石{ほうせき}でかざり立{た}ててありますからそのうつくしさは、とても口{くち}やことばではいえないくらいでした。",
+      "en": "Every room was decorated with rare jewels, and the beauty was more than mouth or words could tell."
+    },
+    {
+      "jp": "ひととおり見{み}てしまうと、乙姫{おとひめ}さまは、",
+      "en": "When they had seen it all, Princess Otohime"
+    },
+    {
+      "jp": "「こんどは四季{しき}のけしきをお目{め}にかけましょう」といって、まず、東{ひがし}の戸{と}をおあけになりました。",
+      "en": "said, \"Next I shall show you the scenery of the four seasons,\" and first opened the eastern door."
+    },
+    {
+      "jp": "そこは春{はる}のけしきで、いちめん、ぼうっとかすんだなかに、さくらの花{はな}が、うつくしい絵{え}のように咲{さ}き乱{みだ}れていました。",
+      "en": "There it was spring: through a soft haze, cherry blossoms bloomed in a riot, like a beautiful picture."
+    },
+    {
+      "jp": "青青{あおあお}としたやなぎの枝{えだ}が風{かぜ}になびいて、そのなかで小鳥{ことり}がないたり、ちょうちょうが舞{ま}ったりしていました。",
+      "en": "Green willow branches swayed in the wind, and among them little birds sang and butterflies danced."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "歌",
+      "reading": "うた",
+      "meaning": "song"
+    },
+    {
+      "word": "踊る",
+      "reading": "おどる",
+      "meaning": "to dance"
+    },
+    {
+      "word": "口",
+      "reading": "くち",
+      "meaning": "mouth"
+    },
+    {
+      "word": "四季",
+      "reading": "しき",
+      "meaning": "the four seasons"
+    },
+    {
+      "word": "東",
+      "reading": "ひがし",
+      "meaning": "east"
+    },
+    {
+      "word": "戸",
+      "reading": "と",
+      "meaning": "door"
+    },
+    {
+      "word": "春",
+      "reading": "はる",
+      "meaning": "spring"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    },
+    {
+      "word": "絵",
+      "reading": "え",
+      "meaning": "picture"
+    },
+    {
+      "word": "咲く",
+      "reading": "さく",
+      "meaning": "to bloom"
+    },
+    {
+      "word": "乱れる",
+      "reading": "みだれる",
+      "meaning": "to bloom in profusion"
+    },
+    {
+      "word": "青青",
+      "reading": "あおあお",
+      "meaning": "lush green"
+    },
+    {
+      "word": "枝",
+      "reading": "えだ",
+      "meaning": "branch"
+    },
+    {
+      "word": "風",
+      "reading": "かぜ",
+      "meaning": "wind"
+    },
+    {
+      "word": "小鳥",
+      "reading": "ことり",
+      "meaning": "little bird"
+    },
+    {
+      "word": "舞う",
+      "reading": "まう",
+      "meaning": "to dance; to flutter"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "たり〜たり",
+      "note": "歌をうたったり踊りをおどったり lists sample actions, not every action. たり attaches to the past stem."
+    },
+    {
+      "title": "てはいえない",
+      "note": "口やことばではいえない: it cannot be said by mouth or in words. てはいけない would be a prohibition; this は is the topic, and いえない is \"cannot say.\""
+    }
+  ]
+}

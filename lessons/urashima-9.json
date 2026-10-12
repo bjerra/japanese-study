@@ -1,0 +1,101 @@
+{
+  "id": "urashima-9",
+  "title": "浦島太郎（九）",
+  "titleReading": "うらしまたろう",
+  "summary": "Lost in wonder, he forgets himself, and three years pass before he dreams of home.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "山{やま}から谷{たに}にかけて、雪{ゆき}がまっ白{しろ}に降{ふ}り埋{うず}んだなかから、柴{しば}をたくけむりがほそぼそとあがっていました。",
+      "en": "From the mountains down into the valleys, thin smoke from burning brushwood rose out of the snow that had buried everything white."
+    },
+    {
+      "jp": "浦島{うらしま}は何{なに}を見{み}ても、おどろきあきれて、目{め}ばかり見{み}はっていました。",
+      "en": "Whatever Urashima saw, he was lost in wonder, and he could only stare."
+    },
+    {
+      "jp": "そのうちだんだんぼうっとしてきて、お酒{さけ}に酔{よ}った人{ひと}のようになって、何{なに}もかもわすれてしまいました。",
+      "en": "Little by little he grew dazed, became like a person drunk on wine, and forgot everything."
+    },
+    {
+      "jp": "毎日{まいにち}おもしろい、めずらしいことが、それからそれとつづいて、あまりりゅう宮{ぐう}がたのしいので、なんということもおもわずに、うかうかあそんでくらすうち、三{さん}年{ねん}の月日{つきひ}がたちました。",
+      "en": "Every day interesting, rare things followed one after another, and the Dragon Palace was so pleasant that, without a thought for anything in particular, he idled the time away in play, and three years passed."
+    },
+    {
+      "jp": "三{さん}年{ねん}めの春{はる}になったとき、浦島{うらしま}はときどき、ひさしくわすれていたふるさとの夢{ゆめ}を見{み}るようになりました。",
+      "en": "When the third spring came, Urashima began now and then to dream of the hometown he had long forgotten."
+    },
+    {
+      "jp": "春{はる}の日{ひ}のぽかぽかあたっている水{みず}の江{え}の浜{はま}べで、りょうしたちがげんきよく舟{ふね}うたをうたいながら、網{あみ}をひいたり舟{ふね}をこいだりしているところを、まざまざと夢{ゆめ}に見{み}るようになりました。",
+      "en": "He began to see, vividly in dreams, the fishermen on the beach at Mizunoe in the warm spring sun, singing boat songs cheerfully as they hauled nets and rowed."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "谷",
+      "reading": "たに",
+      "meaning": "valley"
+    },
+    {
+      "word": "雪",
+      "reading": "ゆき",
+      "meaning": "snow"
+    },
+    {
+      "word": "降る",
+      "reading": "ふる",
+      "meaning": "to fall (rain or snow)"
+    },
+    {
+      "word": "埋む",
+      "reading": "うずむ",
+      "meaning": "to bury"
+    },
+    {
+      "word": "柴",
+      "reading": "しば",
+      "meaning": "brushwood"
+    },
+    {
+      "word": "酒",
+      "reading": "さけ",
+      "meaning": "sake; wine"
+    },
+    {
+      "word": "酔う",
+      "reading": "よう",
+      "meaning": "to get drunk"
+    },
+    {
+      "word": "年",
+      "reading": "ねん",
+      "meaning": "year"
+    },
+    {
+      "word": "月日",
+      "reading": "つきひ",
+      "meaning": "days and months; time"
+    },
+    {
+      "word": "浜",
+      "reading": "はま",
+      "meaning": "beach"
+    },
+    {
+      "word": "網",
+      "reading": "あみ",
+      "meaning": "net"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "うち",
+      "note": "あそんでくらすうち: while that easy life went on, three years passed. うちに marks time during which something else happens."
+    },
+    {
+      "title": "ようになる",
+      "note": "夢を見るようになりました: he reached the point of dreaming it. なる marks the change."
+    }
+  ]
+}

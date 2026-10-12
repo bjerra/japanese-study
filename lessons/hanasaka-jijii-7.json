@@ -1,0 +1,108 @@
+{
+  "id": "hanasaka-jijii-7",
+  "title": "花咲かじじい（七）",
+  "titleReading": "はなさかじじい",
+  "summary": "Calling himself the flower man, he makes a dead cherry bloom for a passing lord.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "そこで、おじいさんは、ざるにのこった灰{はい}をかかえて、",
+      "en": "So the old man took up the ash left in the basket and"
+    },
+    {
+      "jp": "「花咲{はなさ}かじじい、花咲{はなさ}かじじい、日本一{にっぽんいち}の花咲{はなさ}かじじい、枯{か}れ木{き}に花{はな}を咲{さ}かせましょう」と、往来{おうらい}をよんであるきました。",
+      "en": "walked along the street calling, \"The old man who makes flowers bloom, the old man who makes flowers bloom, the finest flower-blooming old man in Japan — I'll make dead trees bloom.\""
+    },
+    {
+      "jp": "すると、むこうから殿{との}さまが、馬{うま}にのって、おおぜい家来{けらい}をつれて、狩{かり}から帰{かえ}ってきました。",
+      "en": "Then a lord, on horseback and bringing a great many retainers, came back from the hunt."
+    },
+    {
+      "jp": "殿{との}さまは、おじいさんをよんで、",
+      "en": "The lord called the old man over and"
+    },
+    {
+      "jp": "「ほう、めずらしいじじいだ。ではそこのさくらの枯{か}れ木{き}に、花{はな}を咲{さ}かせて見{み}せよ」といいつけました。",
+      "en": "ordered, \"Ho, a rare old fellow. Then make that withered cherry bloom, and show me.\""
+    },
+    {
+      "jp": "おじいさんは、さっそくざるをかかえて、さくらの木{き}に上{あ}がって、",
+      "en": "The old man at once took up the basket, climbed the cherry tree, and"
+    },
+    {
+      "jp": "「金{きん}のさくら、さらさら。",
+      "en": "\"Golden cherry, sarasara."
+    },
+    {
+      "jp": "銀{ぎん}のさくら、さらさら」といいながら、灰{はい}をつかんでふりまきますと、みるみる花{はな}が咲{さ}き出{だ}して、やがていちめん、さくらの花{はな}ざかりになりました。",
+      "en": "Silver cherry, sarasara,\" he said, and when he took the ash and scattered it, blossoms burst out as they watched, and soon the cherry was in full bloom all over."
+    },
+    {
+      "jp": "殿{との}さまはびっくりして、",
+      "en": "The lord was astonished, and"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "花咲",
+      "reading": "はなさ",
+      "meaning": "flower-blooming (in 花咲かじじい)"
+    },
+    {
+      "word": "日本一",
+      "reading": "にっぽんいち",
+      "meaning": "the best in Japan"
+    },
+    {
+      "word": "往来",
+      "reading": "おうらい",
+      "meaning": "street"
+    },
+    {
+      "word": "殿",
+      "reading": "との",
+      "meaning": "lord"
+    },
+    {
+      "word": "馬",
+      "reading": "うま",
+      "meaning": "horse"
+    },
+    {
+      "word": "家来",
+      "reading": "けらい",
+      "meaning": "retainer"
+    },
+    {
+      "word": "狩",
+      "reading": "かり",
+      "meaning": "hunting"
+    },
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "to see; to show"
+    },
+    {
+      "word": "金",
+      "reading": "きん",
+      "meaning": "gold"
+    },
+    {
+      "word": "銀",
+      "reading": "ぎん",
+      "meaning": "silver"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "て見せる",
+      "note": "花を咲かせて見せよ: make it bloom, and show me. 見せよ is a blunt command, the sort a lord uses."
+    },
+    {
+      "title": "て来る",
+      "note": "狩から帰ってきました: 来る after て brings the lord back toward the people who see him coming."
+    }
+  ]
+}

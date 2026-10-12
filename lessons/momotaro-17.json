@@ -1,0 +1,118 @@
+{
+  "id": "momotaro-17",
+  "title": "桃太郎（十七）",
+  "titleReading": "ももたろう",
+  "summary": "They hurry home, and the old couple rejoice over the spoils.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "帰{かえ}りは行{い}きよりもまた一{いっ}そう船{ふね}の走{はし}るのが速{はや}くって、間{ま}もなく日本{にほん}の国{くに}に着{つ}きました。",
+      "en": "The way home was faster even than the way there, and before long they arrived in Japan."
+    },
+    {
+      "jp": "船{ふね}が陸{おか}に着{つ}きますと、宝物{たからもの}をいっぱい積{つ}んだ車{くるま}を、犬{いぬ}が先{さき}に立{た}って引{ひ}き出{だ}しました。",
+      "en": "When the boat reached land, the dog went in front and pulled out the cart piled full of treasure."
+    },
+    {
+      "jp": "きじが綱{つな}を引{ひ}いて、猿{さる}があとを押{お}しました。",
+      "en": "The pheasant pulled on the rope, and the monkey pushed from behind."
+    },
+    {
+      "jp": "「えんやらさ、えんやらさ。」",
+      "en": "\"En yarasa, en yarasa.\""
+    },
+    {
+      "jp": "三{さん}にんは重{おも}そうに、かけ声{ごえ}をかけかけ進{すす}んでいきました。",
+      "en": "The three of them went on, calling out over and over as if the load were heavy."
+    },
+    {
+      "jp": "うちではおじいさんと、おばあさんが、かわるがわる、",
+      "en": "At home the old man and the old woman, taking turns,"
+    },
+    {
+      "jp": "「もう桃太郎{ももたろう}が帰{かえ}りそうなものだが。」と言{い}い言{い}い、首{くび}をのばして待{ま}っていました。",
+      "en": "kept saying, \"Momotaro ought to be coming home any time now,\" and waited with their necks craned."
+    },
+    {
+      "jp": "そこへ桃太郎{ももたろう}が三{さん}にんのりっぱな家来{けらい}に、ぶんどりの宝物{たからもの}を引{ひ}かせて、さもとくいらしい様子{ようす}をして帰{かえ}って来{き}ましたので、おじいさんもおばあさんも、目{め}も鼻{はな}もなくして喜{よろこ}びました。",
+      "en": "Then Momotaro came home looking thoroughly proud, with his three fine retainers hauling the plundered treasure, and the old man and the old woman were beside themselves with joy."
+    },
+    {
+      "jp": "「えらいぞ、えらいぞ、それこそ日本一{にっぽんいち}だ。」とおじいさんは言{い}いました。",
+      "en": "\"Well done, well done. That is the finest in all Japan,\" the old man said."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "着く",
+      "reading": "つく",
+      "meaning": "to arrive"
+    },
+    {
+      "word": "先",
+      "reading": "さき",
+      "meaning": "ahead; the front"
+    },
+    {
+      "word": "綱",
+      "reading": "つな",
+      "meaning": "rope"
+    },
+    {
+      "word": "押す",
+      "reading": "おす",
+      "meaning": "to push"
+    },
+    {
+      "word": "様子",
+      "reading": "ようす",
+      "meaning": "look; appearance"
+    },
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "meaning": "nose"
+    },
+    {
+      "word": "喜ぶ",
+      "reading": "よろこぶ",
+      "meaning": "to rejoice"
+    },
+    {
+      "word": "国",
+      "reading": "くに",
+      "meaning": "country"
+    },
+    {
+      "word": "引く",
+      "reading": "ひく",
+      "meaning": "to pull"
+    },
+    {
+      "word": "船",
+      "reading": "ふね",
+      "meaning": "boat"
+    },
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "to wait"
+    },
+    {
+      "word": "日本",
+      "reading": "にほん",
+      "meaning": "Japan"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "そうなものだ",
+      "note": "もう桃太郎が帰りそうなものだが: そうだ guesses, and ものだ says how things ought to be. \"He really should be coming home.\""
+    },
+    {
+      "title": "目も鼻もなく",
+      "note": "目も鼻もなくして喜びました is an idiom: so overjoyed that one is beside oneself."
+    }
+  ]
+}

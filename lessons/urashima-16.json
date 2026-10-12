@@ -1,0 +1,147 @@
+{
+  "id": "urashima-16",
+  "title": "浦島太郎（十六）",
+  "titleReading": "うらしまたろう",
+  "summary": "He opens the box, a purple cloud rises, and he becomes a white-haired old man.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "そのとき、浦島{うらしま}はふと、かかえていた玉手箱{たまてばこ}に気{き}がつきました。",
+      "en": "Then Urashima suddenly noticed the tamatebako he was carrying."
+    },
+    {
+      "jp": "「そうだ。この箱{はこ}をあけてみたらば、わかるかもしれない」",
+      "en": "\"That's it. If I open this box, I might understand.\""
+    },
+    {
+      "jp": "こうおもうとうれしくなって、浦島{うらしま}は、うっかり乙姫{おとひめ}さまにいわれたことはわすれて、箱{はこ}のふたをとりました。",
+      "en": "The thought made him glad, and, carelessly forgetting what Princess Otohime had told him, he took off the lid."
+    },
+    {
+      "jp": "するとむらさき色{いろ}の雲{くも}が、なかからむくむく立{た}ちのぼって、それが顔{かお}にかかったかとおもうと、すうっと消{き}えて行{い}って箱{はこ}のなかにはなんにものこっていませんでした。",
+      "en": "Then a purple cloud rose billowing from inside, and just as he thought it had touched his face, it faded away, and nothing at all was left in the box."
+    },
+    {
+      "jp": "その代{かわ}り、いつのまにか顔{かお}じゅうしわになって、手{て}も足{あし}もちぢかまって、きれいなみぎわの水{みず}にうつった影{かげ}を見{み}ると、髪{かみ}もひげも、まっしろな、かわいいおじいさんになっていました。",
+      "en": "Instead, before he knew it his whole face was wrinkled, his hands and legs had shrunk, and when he looked at the reflection in the clear water at the water's edge, he had become a dear little old man, hair and beard pure white."
+    },
+    {
+      "jp": "浦島{うらしま}はからになった箱{はこ}のなかをのぞいて、",
+      "en": "Urashima peered into the emptied box and"
+    },
+    {
+      "jp": "「なるほど、乙姫{おとひめ}さまが、人間{にんげん}のいちばんだいじなたからを入{い}れておくとおっしゃったあれは、人間{にんげん}の寿命{じゅみょう}だったのだな」と、ざんねんそうにつぶやきました。",
+      "en": "murmured regretfully, \"I see. When Princess Otohime said she had put in the most precious treasure a human has, that was a human lifespan.\""
+    },
+    {
+      "jp": "春{はる}の海{うみ}はどこまでも遠{とお}くかすんでいました。",
+      "en": "The spring sea faded into haze as far as the eye could see."
+    },
+    {
+      "jp": "どこからかいい声{こえ}で舟{ふね}うたをうたうのが、またきこえてきました。",
+      "en": "From somewhere, a fine voice singing a boat song could be heard again."
+    },
+    {
+      "jp": "浦島{うらしま}は、ぼんやりとむかしのことをおもい出{だ}していました。",
+      "en": "Urashima was vaguely remembering the old days."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "玉手箱",
+      "reading": "たまてばこ",
+      "meaning": "tamatebako"
+    },
+    {
+      "word": "気",
+      "reading": "き",
+      "meaning": "notice (in 気がつく)"
+    },
+    {
+      "word": "箱",
+      "reading": "はこ",
+      "meaning": "box"
+    },
+    {
+      "word": "乙姫",
+      "reading": "おとひめ",
+      "meaning": "Princess Otohime"
+    },
+    {
+      "word": "色",
+      "reading": "いろ",
+      "meaning": "color"
+    },
+    {
+      "word": "雲",
+      "reading": "くも",
+      "meaning": "cloud"
+    },
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning": "to rise"
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "word": "消える",
+      "reading": "きえる",
+      "meaning": "to vanish"
+    },
+    {
+      "word": "足",
+      "reading": "あし",
+      "meaning": "leg"
+    },
+    {
+      "word": "影",
+      "reading": "かげ",
+      "meaning": "reflection"
+    },
+    {
+      "word": "髪",
+      "reading": "かみ",
+      "meaning": "hair"
+    },
+    {
+      "word": "入れる",
+      "reading": "いれる",
+      "meaning": "to put in"
+    },
+    {
+      "word": "寿命",
+      "reading": "じゅみょう",
+      "meaning": "lifespan"
+    },
+    {
+      "word": "遠い",
+      "reading": "とおい",
+      "meaning": "far; distant"
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "word": "舟",
+      "reading": "ふね",
+      "meaning": "boat"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "かもしれない",
+      "note": "わかるかもしれない is possible, not certain. かもしれない attaches to the plain form."
+    },
+    {
+      "title": "のだ",
+      "note": "寿命だったのだな explains what it turned out to have been. The final な is him agreeing with his own conclusion."
+    }
+  ]
+}

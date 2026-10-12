@@ -1,0 +1,125 @@
+{
+  "id": "momotaro-16",
+  "title": "桃太郎（十六）",
+  "titleReading": "ももたろう",
+  "summary": "Momotaro pins the ogre chief and loads a cart with treasure.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "桃太郎{ももたろう}は大{おお}きな鬼{おに}の背中{せなか}に、馬乗{うまの}りにまたがって、",
+      "en": "Momotaro straddled the great ogre's back as if riding a horse, and"
+    },
+    {
+      "jp": "「どうだ、これでも降参{こうさん}しないか。」といって、ぎゅうぎゅう、ぎゅうぎゅう、押{お}さえつけました。",
+      "en": "pressing down hard and harder, said, \"Well? Will you still not surrender?\""
+    },
+    {
+      "jp": "鬼{おに}の大将{たいしょう}は、桃太郎{ももたろう}の大力{だいりき}で首{くび}をしめられて、もう苦{くる}しくってたまりませんから、大{おお}つぶの涙{なみだ}をぼろぼろこぼしながら、",
+      "en": "The ogre chief had his neck squeezed by Momotaro's great strength and could bear it no longer, so, spilling great tears,"
+    },
+    {
+      "jp": "「降参{こうさん}します、降参{こうさん}します。命{いのち}だけはお助{たす}け下{くだ}さい。その代{か}わりに宝物{たからもの}をのこらずさし上{あ}げます。」",
+      "en": "he said, \"I surrender, I surrender. Spare only my life. In return I will present every one of the treasures.\""
+    },
+    {
+      "jp": "こう言{い}って、ゆるしてもらいました。",
+      "en": "Saying this, he was let go."
+    },
+    {
+      "jp": "鬼{おに}の大将{たいしょう}は約束{やくそく}のとおり、お城{しろ}から、かくれみのに、かくれ笠{がさ}、うちでの小{こ}づちに如意宝珠{にょいほうじゅ}、そのほかさんごだの、たいまいだの、るりだの、世界{せかい}でいちばん貴{とうと}い宝物{たからもの}を山{やま}のように車{くるま}に積{つ}んで出{だ}しました。",
+      "en": "Just as he had promised, the ogre chief brought out from the castle a cloak of invisibility, a hat of invisibility, a mallet that grants wishes, a wish-fulfilling jewel, and besides those coral, tortoiseshell, and lapis — the most precious treasures in the world — and piled them on a cart until they stood like a mountain."
+    },
+    {
+      "jp": "桃太郎{ももたろう}はたくさんの宝物{たからもの}をのこらず積{つ}んで、三{さん}にんの家来{けらい}といっしょに、また船{ふね}に乗{の}りました。",
+      "en": "Momotaro loaded every one of the many treasures and, together with his three retainers, boarded the boat again."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "背中",
+      "reading": "せなか",
+      "meaning": "back (of the body)"
+    },
+    {
+      "word": "馬乗り",
+      "reading": "うまのり",
+      "meaning": "riding astride"
+    },
+    {
+      "word": "大力",
+      "reading": "だいりき",
+      "meaning": "great strength"
+    },
+    {
+      "word": "首",
+      "reading": "くび",
+      "meaning": "neck"
+    },
+    {
+      "word": "苦しい",
+      "reading": "くるしい",
+      "meaning": "painful; hard to bear"
+    },
+    {
+      "word": "涙",
+      "reading": "なみだ",
+      "meaning": "tear"
+    },
+    {
+      "word": "命",
+      "reading": "いのち",
+      "meaning": "life"
+    },
+    {
+      "word": "助ける",
+      "reading": "たすける",
+      "meaning": "to save; to help"
+    },
+    {
+      "word": "代わり",
+      "reading": "かわり",
+      "meaning": "in exchange; instead"
+    },
+    {
+      "word": "約束",
+      "reading": "やくそく",
+      "meaning": "promise"
+    },
+    {
+      "word": "如意宝珠",
+      "reading": "にょいほうじゅ",
+      "meaning": "wish-fulfilling jewel"
+    },
+    {
+      "word": "世界",
+      "reading": "せかい",
+      "meaning": "world"
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meaning": "cart"
+    },
+    {
+      "word": "積む",
+      "reading": "つむ",
+      "meaning": "to load; to pile"
+    },
+    {
+      "word": "笠",
+      "reading": "かさ",
+      "meaning": "hat"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "その代わりに",
+      "note": "命だけは助ける、その代わりに宝物を上げる: in exchange for the life that is spared."
+    },
+    {
+      "title": "のとおり",
+      "note": "約束のとおり means just as the promise said. とおり here is written in kana."
+    }
+  ]
+}

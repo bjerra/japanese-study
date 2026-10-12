@@ -1,0 +1,130 @@
+{
+  "id": "hanasaka-jijii-1",
+  "title": "花咲かじじい（一）",
+  "titleReading": "はなさかじじい",
+  "summary": "An honest old couple dote on their dog Shiro, who leads the old man to dig.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "むかし、むかし、あるところに、おじいさんとおばあさんがありました。",
+      "en": "Long, long ago, in a certain place, there lived an old man and an old woman."
+    },
+    {
+      "jp": "正直{しょうじき}な、人{ひと}のいいおじいさんとおばあさんどうしでしたけれど、子{こ}どもがないので、飼犬{かいいぬ}の白{しろ}を、ほんとうの子{こ}どものようにかわいがっていました。",
+      "en": "They were an honest, good-natured old couple, but they had no children, so they cherished their dog Shiro as if he were a real child."
+    },
+    {
+      "jp": "白{しろ}も、おじいさんとおばあさんに、それはよくなついていました。",
+      "en": "Shiro, too, was very attached to the old man and the old woman."
+    },
+    {
+      "jp": "すると、おとなりにも、おじいさんとおばあさんがありました。",
+      "en": "Next door there also lived an old man and an old woman."
+    },
+    {
+      "jp": "このほうは、いけない、欲{よく}ばりのおじいさんとおばあさんでした。",
+      "en": "This pair was a wicked, greedy old man and old woman."
+    },
+    {
+      "jp": "ですから、おとなりの白{しろ}をにくらしがって、きたならしがって、いつもいじのわるいことばかりしていました。",
+      "en": "So they hated the neighbors' Shiro and thought him filthy, and they were always doing mean things."
+    },
+    {
+      "jp": "ある日{ひ}、正直{しょうじき}おじいさんが、いつものようにくわをかついで、畑{はたけ}をほりかえしていますと、白{しろ}も一緒{いっしょ}についてきて、そこらをくんくんかぎまわっていましたが、ふと、おじいさんのすそをくわえて、畑{はたけ}のすみの、大{おお}きなえのきの木{き}の下{した}までつれて行{い}って、前足{まえあし}で土{つち}をかき立{た}てながら、",
+      "en": "One day, as the honest old man was turning the soil with his hoe on his shoulder, as usual, Shiro came along too and sniffed about, then suddenly took the old man's hem in his mouth, led him to the foot of a great enoki tree at the corner of the field, and, scraping the earth with his front paws,"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "正直",
+      "reading": "しょうじき",
+      "meaning": "honest"
+    },
+    {
+      "word": "人",
+      "reading": "ひと",
+      "meaning": "person"
+    },
+    {
+      "word": "子",
+      "reading": "こ",
+      "meaning": "child"
+    },
+    {
+      "word": "飼犬",
+      "reading": "かいいぬ",
+      "meaning": "pet dog"
+    },
+    {
+      "word": "白",
+      "reading": "しろ",
+      "meaning": "white; Shiro (the dog's name)"
+    },
+    {
+      "word": "欲",
+      "reading": "よく",
+      "meaning": "greed"
+    },
+    {
+      "word": "日",
+      "reading": "ひ",
+      "meaning": "day"
+    },
+    {
+      "word": "畑",
+      "reading": "はたけ",
+      "meaning": "field"
+    },
+    {
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning": "together"
+    },
+    {
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning": "big"
+    },
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree"
+    },
+    {
+      "word": "下",
+      "reading": "した",
+      "meaning": "under; below"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    },
+    {
+      "word": "前足",
+      "reading": "まえあし",
+      "meaning": "front paw"
+    },
+    {
+      "word": "土",
+      "reading": "つち",
+      "meaning": "earth; soil"
+    },
+    {
+      "word": "立てる",
+      "reading": "たてる",
+      "meaning": "to scrape up; to raise"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "ので",
+      "note": "子どもがないので gives the reason. ので is a little softer than から, and here it explains why they cherish the dog."
+    },
+    {
+      "title": "ように",
+      "note": "子どものようにかわいがって: ように marks the manner, \"as if he were their child.\""
+    }
+  ]
+}

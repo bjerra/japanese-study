@@ -1,0 +1,127 @@
+{
+  "id": "momotaro-11",
+  "title": "桃太郎（十一）",
+  "titleReading": "ももたろう",
+  "summary": "On the plain, a pheasant joins Momotaro and his companions.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "山{やま}を下{お}りて、森{もり}をぬけて、こんどはひろい野原{のはら}へ出{で}ました。",
+      "en": "Down the mountain and out through the forest, he came this time onto a wide plain."
+    },
+    {
+      "jp": "すると空{そら}の上{うえ}で、「ケン、ケン。」と鳴{な}く声{こえ}がして、きじが一{いち}羽{わ}とんで来{き}ました。",
+      "en": "Then there was a cry of \"Ken, ken\" up in the sky, and a pheasant flew over."
+    },
+    {
+      "jp": "桃太郎{ももたろう}がふり返{かえ}ると、きじはていねいに、おじぎをして、",
+      "en": "When Momotaro turned around, the pheasant bowed politely and"
+    },
+    {
+      "jp": "「桃太郎{ももたろう}さん、桃太郎{ももたろう}さん、どちらへおいでになります。」とたずねました。",
+      "en": "asked, \"Momotaro, Momotaro, where are you going?\""
+    },
+    {
+      "jp": "「鬼{おに}が島{しま}へ鬼{おに}せいばつに行{い}くのだ。」",
+      "en": "\"I'm going to Onigashima to punish the ogres.\""
+    },
+    {
+      "jp": "「お腰{こし}に下{さ}げたものは、何{なん}でございます。」",
+      "en": "\"What is that thing hanging at your waist?\""
+    },
+    {
+      "jp": "「日本一{にっぽんいち}のきびだんごさ。」",
+      "en": "\"The finest millet dumplings in Japan.\""
+    },
+    {
+      "jp": "「一{ひと}つ下{くだ}さい、お供{とも}しましょう。」",
+      "en": "\"Please give me one, and I will accompany you.\""
+    },
+    {
+      "jp": "「よし、よし、やるから、ついて来{こ}い。」",
+      "en": "\"All right, all right. I'll give you one, so come along.\""
+    },
+    {
+      "jp": "きじもきびだんごを一{ひと}つもらって、桃太郎{ももたろう}のあとからついて行{い}きました。",
+      "en": "The pheasant too received one millet dumpling and followed after Momotaro."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "野原",
+      "reading": "のはら",
+      "meaning": "field; plain"
+    },
+    {
+      "word": "空",
+      "reading": "そら",
+      "meaning": "sky"
+    },
+    {
+      "word": "鳴く",
+      "reading": "なく",
+      "meaning": "to cry; to sing (of a bird)"
+    },
+    {
+      "word": "羽",
+      "reading": "わ",
+      "meaning": "counter for birds"
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "to come"
+    },
+    {
+      "word": "桃太郎",
+      "reading": "ももたろう",
+      "meaning": "Momotaro"
+    },
+    {
+      "word": "鬼",
+      "reading": "おに",
+      "meaning": "ogre"
+    },
+    {
+      "word": "腰",
+      "reading": "こし",
+      "meaning": "waist"
+    },
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one"
+    },
+    {
+      "word": "日本一",
+      "reading": "にっぽんいち",
+      "meaning": "the best in Japan"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    },
+    {
+      "word": "返る",
+      "reading": "かえる",
+      "meaning": "to turn back"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "羽",
+      "note": "きじが一羽. 羽（わ） counts birds. One pheasant is 一羽, not 一つ or 一ぴき."
+    },
+    {
+      "title": "さ",
+      "note": "きびだんごさ ends the sentence in a blunt, friendly way. さ here is a sentence ending, not the さ of 下げる."
+    }
+  ]
+}

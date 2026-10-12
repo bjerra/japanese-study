@@ -1,0 +1,120 @@
+{
+  "id": "momotaro-5",
+  "title": "桃太郎（五）",
+  "titleReading": "ももたろう",
+  "summary": "They name him Momotaro and raise a child who is huge, strong, and kind.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "するといきなり、",
+      "en": "Then, all of a sudden,"
+    },
+    {
+      "jp": "「うん。」と言{い}いながら、赤{あか}さんは抱{だ}いているおばあさんの手{て}をはねのけました。",
+      "en": "with an \"Unh,\" the baby pushed away the hand of the old woman who was holding him."
+    },
+    {
+      "jp": "「おやおや、何{なん}という元気{げんき}のいい子{こ}だろう。」",
+      "en": "\"Oh my, what a vigorous child.\""
+    },
+    {
+      "jp": "おじいさんとおばあさんは、こう言{い}って顔{かお}を見合{みあ}わせながら、「あッは、あッは。」とおもしろそうに笑{わら}いました。",
+      "en": "The old man and the old woman said this, and looking at each other's faces they laughed merrily, \"Ah ha, ah ha.\""
+    },
+    {
+      "jp": "そして桃{もも}の中{なか}から生{う}まれた子{こ}だというので、この子{こ}に桃太郎{ももたろう}という名{な}をつけました。",
+      "en": "And because he was a child born from inside a peach, they gave him the name Momotaro."
+    },
+    {
+      "jp": "おじいさんとおばあさんは、それはそれはだいじにして桃太郎{ももたろう}を育{そだ}てました。",
+      "en": "The old man and the old woman treasured Momotaro and raised him with the greatest care."
+    },
+    {
+      "jp": "桃太郎{ももたろう}はだんだん成長{せいちょう}するにつれて、あたりまえの子供{こども}にくらべては、ずっと体{からだ}も大{おお}きいし、力{ちから}がばかに強{つよ}くって、すもうをとっても近所{きんじょ}の村{むら}じゅうで、かなうものは一人{ひとり}もないくらいでしたが、そのくせ気{き}だてはごくやさしくって、おじいさんとおばあさんによく孝行{こうこう}をしました。",
+      "en": "As Momotaro grew, his body was far larger than an ordinary child's, and his strength was astonishing; when he wrestled, there was hardly anyone in all the nearby villages who could match him, and yet his nature was very gentle, and he was devoted to the old man and the old woman."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "word": "見合わせる",
+      "reading": "みあわせる",
+      "meaning": "to look at each other"
+    },
+    {
+      "word": "笑う",
+      "reading": "わらう",
+      "meaning": "to laugh"
+    },
+    {
+      "word": "生まれる",
+      "reading": "うまれる",
+      "meaning": "to be born"
+    },
+    {
+      "word": "桃太郎",
+      "reading": "ももたろう",
+      "meaning": "Momotaro"
+    },
+    {
+      "word": "名",
+      "reading": "な",
+      "meaning": "name"
+    },
+    {
+      "word": "育てる",
+      "reading": "そだてる",
+      "meaning": "to raise (a child)"
+    },
+    {
+      "word": "成長",
+      "reading": "せいちょう",
+      "meaning": "growth"
+    },
+    {
+      "word": "体",
+      "reading": "からだ",
+      "meaning": "body"
+    },
+    {
+      "word": "力",
+      "reading": "ちから",
+      "meaning": "strength"
+    },
+    {
+      "word": "強い",
+      "reading": "つよい",
+      "meaning": "strong"
+    },
+    {
+      "word": "近所",
+      "reading": "きんじょ",
+      "meaning": "neighborhood"
+    },
+    {
+      "word": "村",
+      "reading": "むら",
+      "meaning": "village"
+    },
+    {
+      "word": "孝行",
+      "reading": "こうこう",
+      "meaning": "filial devotion"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "〜につれて",
+      "note": "成長するにつれて: as the growing goes on, the rest changes along with it."
+    },
+    {
+      "title": "そのくせ",
+      "note": "そのくせ marks a contrast the speaker finds a little surprising: immensely strong, and yet gentle."
+    }
+  ]
+}

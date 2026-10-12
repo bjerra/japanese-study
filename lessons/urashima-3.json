@@ -1,0 +1,123 @@
+{
+  "id": "urashima-3",
+  "title": "浦島太郎（三）",
+  "titleReading": "うらしまたろう",
+  "summary": "Days later the turtle returns beside his boat to thank him.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "かめはさもうれしそうに、首{くび}や手足{てあし}をうごかして、やがて、ぶくぶくあわをたてながら、水{みず}のなかにふかくしずんで行{い}ってしまいました。",
+      "en": "The turtle looked very glad, moved its head and legs, and soon, blowing bubbles, sank deep into the water and was gone."
+    },
+    {
+      "jp": "それから二{ふつ}、三日{みっか}たって、浦島{うらしま}はまた舟{ふね}にのって海{うみ}へつりに出{で}かけました。",
+      "en": "Two or three days later, Urashima got into his boat again and went out to sea to fish."
+    },
+    {
+      "jp": "遠{とお}い沖{おき}のほうまでもこぎ出{だ}して、一生{いっしょう}けんめいおさかなをつっていますと、ふとうしろのほうで",
+      "en": "He had rowed out even to the far offshore and was fishing with all his might when, suddenly, behind him"
+    },
+    {
+      "jp": "「浦島{うらしま}さん、浦島{うらしま}さん」とよぶ声{こえ}がしました。",
+      "en": "a voice called, \"Urashima, Urashima.\""
+    },
+    {
+      "jp": "おやとおもってふりかえってみますと、だれも人{ひと}のかげは見{み}えません。",
+      "en": "He thought \"What?\" and turned around, but he could see no human figure."
+    },
+    {
+      "jp": "その代{かわ}り、いつのまにか、一{いっ}ぴきのかめが、舟{ふね}のそばにきていました。",
+      "en": "Instead, before he knew it, a turtle had come up beside the boat."
+    },
+    {
+      "jp": "浦島{うらしま}がふしぎそうな顔{かお}をしていると、",
+      "en": "As Urashima wore a puzzled face,"
+    },
+    {
+      "jp": "「わたくしは、先日{せんじつ}助{たす}けていただいたかめでございます。きょうはちょっとそのお礼{れい}にまいりました」",
+      "en": "\"I am the turtle you kindly saved the other day. Today I have come just to thank you.\""
+    },
+    {
+      "jp": "かめがこういったので、浦島{うらしま}はびっくりしました。",
+      "en": "When the turtle said this, Urashima was astonished."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "手足",
+      "reading": "てあし",
+      "meaning": "hands and feet; limbs"
+    },
+    {
+      "word": "二",
+      "reading": "ふつ",
+      "meaning": "two"
+    },
+    {
+      "word": "三日",
+      "reading": "みっか",
+      "meaning": "three days"
+    },
+    {
+      "word": "舟",
+      "reading": "ふね",
+      "meaning": "boat"
+    },
+    {
+      "word": "遠い",
+      "reading": "とおい",
+      "meaning": "far"
+    },
+    {
+      "word": "沖",
+      "reading": "おき",
+      "meaning": "offshore"
+    },
+    {
+      "word": "一生",
+      "reading": "いっしょう",
+      "meaning": "all one's life; with all one's might"
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "word": "先日",
+      "reading": "せんじつ",
+      "meaning": "the other day"
+    },
+    {
+      "word": "助ける",
+      "reading": "たすける",
+      "meaning": "to save; to help"
+    },
+    {
+      "word": "礼",
+      "reading": "れい",
+      "meaning": "thanks"
+    },
+    {
+      "word": "代わり",
+      "reading": "かわり",
+      "meaning": "instead"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "声がする",
+      "note": "「浦島さん」とよぶ声がしました: a voice happens, and と gives the words it calls."
+    },
+    {
+      "title": "ていただく",
+      "note": "助けていただいた is humble. The turtle speaks of Urashima's favor as something it received."
+    }
+  ]
+}

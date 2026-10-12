@@ -1,9 +1,68 @@
 {
   "lessons": [
-    "morning-coffee",
-    "momotaro-1",
-    "momotaro-2",
-    "urashima",
-    "hanasaka-jijii"
+    "morning-coffee"
+  ],
+  "stories": [
+    {
+      "title": "桃太郎",
+      "titleReading": "ももたろう",
+      "parts": [
+        "momotaro-1",
+        "momotaro-2",
+        "momotaro-3",
+        "momotaro-4",
+        "momotaro-5",
+        "momotaro-6",
+        "momotaro-7",
+        "momotaro-8",
+        "momotaro-9",
+        "momotaro-10",
+        "momotaro-11",
+        "momotaro-12",
+        "momotaro-13",
+        "momotaro-14",
+        "momotaro-15",
+        "momotaro-16",
+        "momotaro-17",
+        "momotaro-18"
+      ]
+    },
+    {
+      "title": "浦島太郎",
+      "titleReading": "うらしまたろう",
+      "parts": [
+        "urashima-1",
+        "urashima-2",
+        "urashima-3",
+        "urashima-4",
+        "urashima-5",
+        "urashima-6",
+        "urashima-7",
+        "urashima-8",
+        "urashima-9",
+        "urashima-10",
+        "urashima-11",
+        "urashima-12",
+        "urashima-13",
+        "urashima-14",
+        "urashima-15",
+        "urashima-16"
+      ]
+    },
+    {
+      "title": "花咲かじじい",
+      "titleReading": "はなさかじじい",
+      "parts": [
+        "hanasaka-jijii-1",
+        "hanasaka-jijii-2",
+        "hanasaka-jijii-3",
+        "hanasaka-jijii-4",
+        "hanasaka-jijii-5",
+        "hanasaka-jijii-6",
+        "hanasaka-jijii-7",
+        "hanasaka-jijii-8",
+        "hanasaka-jijii-9"
+      ]
+    }
   ]
 }

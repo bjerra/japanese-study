@@ -1,0 +1,96 @@
+{
+  "id": "hanasaka-jijii-5",
+  "title": "花咲かじじい（五）",
+  "titleReading": "はなさかじじい",
+  "summary": "The neighbors borrow the mortar, get filth instead of rice, and burn it.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "するとこんども、おとなりの欲{よく}ばりおじいさんとおばあさんがそれを知{し}ってうらやましがって、またずうずうしくうすをかりにきました。",
+      "en": "Then once again the greedy old man and old woman next door learned of it, envied them, and came brazenly to borrow the mortar."
+    },
+    {
+      "jp": "人{ひと}のいいおじいさんとおばあさんは、こんどもうっかりうすをかしてやりました。",
+      "en": "The good-natured old man and old woman carelessly lent them the mortar this time too."
+    },
+    {
+      "jp": "うすをかりるとさっそく、欲{よく}ばりおじいさんは、うすのなかにお米{こめ}を入{い}れて、おばあさんをあいてに、",
+      "en": "As soon as he had borrowed it, the greedy old man put rice in the mortar, took the old woman as his partner, and"
+    },
+    {
+      "jp": "「ぺんたらこっこ、ぺんたらこっこ」と、つきはじめましたが、どうしてお米{こめ}がわき出{だ}すどころか、こんどもぷんといやなにおいがして、なかからうじゃうじゃ、きたないものが出{で}てきて、うすにあふれて、そとにこぼれ出{だ}して、やがて、台所{だいどころ}いっぱい、きたないものだらけになりました。",
+      "en": "began to pound, \"Pentarakokko, pentarakokko,\" but far from rice welling up, a nasty smell rose again, filthy things came swarming out, overflowed the mortar, spilled outside, and at last the whole kitchen was covered in filth."
+    },
+    {
+      "jp": "欲{よく}ばりおじいさんは、またかんしゃくをおこして、うすをたたきこわして、薪{まき}にしてもしてしまいました。",
+      "en": "The greedy old man lost his temper again, smashed the mortar to pieces, and even turned it into firewood."
+    },
+    {
+      "jp": "正直{しょうじき}おじいさんは、うすを返{かえ}してもらいに行{い}きますと、灰{はい}になっていましたから、びっくりしました。",
+      "en": "When the honest old man went to have the mortar returned, it had become ash, and he was astonished."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "知る",
+      "reading": "しる",
+      "meaning": "to learn; to know"
+    },
+    {
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to return (something)"
+    },
+    {
+      "word": "薪",
+      "reading": "まき",
+      "meaning": "firewood"
+    },
+    {
+      "word": "灰",
+      "reading": "はい",
+      "meaning": "ash"
+    },
+    {
+      "word": "欲",
+      "reading": "よく",
+      "meaning": "greed"
+    },
+    {
+      "word": "米",
+      "reading": "こめ",
+      "meaning": "rice"
+    },
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to come out"
+    },
+    {
+      "word": "人",
+      "reading": "ひと",
+      "meaning": "person"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    },
+    {
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning": "kitchen"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "どころか",
+      "note": "わき出すどころか: far from welling up. What follows is not a milder version but the opposite."
+    },
+    {
+      "title": "てもらう",
+      "note": "返してもらいに行きます: he goes in order to receive the favor of having it returned. に行く marks that purpose."
+    }
+  ]
+}

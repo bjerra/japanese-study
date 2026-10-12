@@ -2,83 +2,111 @@
   "id": "momotaro-2",
   "title": "桃太郎（二）",
   "titleReading": "ももたろう",
-  "summary": "The peach splits open, and the child is named Momotaro.",
+  "summary": "She sings the peach over, picks it up, and carries it home.",
   "level": "beginner",
-  "credit": "楠山正雄「桃太郎」のつづき（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は『日本の神話と十大昔話』（講談社学術文庫、1983年）、新字新仮名。桃が割れて、桃太郎という名がつくところまでで、文を少し短くしています。",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
   "sentences": [
     {
-      "jp": "夕方{ゆうがた}になって、おじいさんは山{やま}からしばを背負{せお}って帰{かえ}って来{き}ました。",
-      "en": "When evening came, the old man returned from the mountain with brushwood on his back."
+      "jp": "こっちの水{みいず}は、ああまいぞ。",
+      "en": "The water over here is sweet."
     },
     {
-      "jp": "「おばあさん、今{いま}帰{かえ}ったよ。」",
-      "en": "\"Grandma, I'm home.\""
+      "jp": "かあらい水{みいず}は、よけて来{こ}い。",
+      "en": "Keep away from the bitter water, and come."
     },
     {
-      "jp": "「待{ま}っていましたよ。いいものを上{あ}げますから。」",
-      "en": "\"I've been waiting. I'll give you something good.\""
+      "jp": "ああまい水{みいず}に、よって来{こ}い。",
+      "en": "Come along to the sweet water.\""
     },
     {
-      "jp": "おばあさんは戸棚{とだな}の中{なか}から、桃{もも}を持{も}って来{き}ました。",
-      "en": "The old woman brought the peach out of the cupboard."
+      "jp": "と歌{うた}いながら、手{て}をたたきました。",
+      "en": "Singing that, she clapped her hands."
     },
     {
-      "jp": "「この桃{もも}は、今日{きょう}川{かわ}で拾{ひろ}って来{き}たのですよ。」",
-      "en": "\"I picked this peach up at the river today.\""
+      "jp": "すると桃{もも}はまた、",
+      "en": "Then the peach, once again,"
     },
     {
-      "jp": "桃{もも}はぽんと中{なか}から二{ふた}つに割{わ}れて、赤{あか}さんがとび出{だ}しました。",
-      "en": "The peach split in two with a pop, and a baby sprang out."
+      "jp": "「ドンブラコッコ、スッコッコ。",
+      "en": "\"Donburakokko, sukkokko."
     },
     {
-      "jp": "おじいさんもおばあさんもびっくりして、二人{ふたり}で声{こえ}を立{た}てました。",
-      "en": "The old man and the old woman were astonished, and they both cried out."
+      "jp": "ドンブラコッコ、スッコッコ。",
+      "en": "Donburakokko, sukkokko.\""
     },
     {
-      "jp": "「きっと神{かみ}さまが、この子{こ}をさずけて下{くだ}さったにちがいありません。」",
-      "en": "\"A god must surely have granted us this child.\""
+      "jp": "」といいながら、おばあさんの前{まえ}へ流{なが}れて来{き}ました。",
+      "en": "came floating up in front of the old woman, as if saying so."
     },
     {
-      "jp": "桃{もも}の中{なか}から生{う}まれた子{こ}だというので、この子{こ}に桃太郎{ももたろう}という名{な}をつけました。",
-      "en": "Because the child was born from a peach, they gave him the name Momotaro."
+      "jp": "おばあさんはにこにこしながら、",
+      "en": "Beaming, the old woman"
+    },
+    {
+      "jp": "「早{はや}くおじいさんと二人{ふたり}で分{わ}けて食{た}べましょう。」と言{い}って、桃{もも}をひろい上{あ}げて、洗濯物{せんたくもの}といっしょにたらいの中{なか}に入{い}れて、えっちら、おっちら、かかえておうちへ帰{かえ}りました。",
+      "en": "said, \"Let's share it with Grandpa soon and eat it,\" picked the peach up, put it in the tub with the laundry, and, heave-ho, carried it home in her arms."
     }
   ],
   "vocabulary": [
-    { "word": "夕方", "reading": "ゆうがた", "meaning": "evening" },
-    { "word": "背負う", "reading": "せおう", "meaning": "to carry on one's back" },
-    { "word": "今", "reading": "いま", "meaning": "now" },
-    { "word": "待つ", "reading": "まつ", "meaning": "to wait" },
-    { "word": "上げる", "reading": "あげる", "meaning": "to give; to lift" },
-    { "word": "戸棚", "reading": "とだな", "meaning": "cupboard" },
-    { "word": "中", "reading": "なか", "meaning": "inside" },
-    { "word": "今日", "reading": "きょう", "meaning": "today" },
-    { "word": "拾う", "reading": "ひろう", "meaning": "to pick up" },
-    { "word": "二つ", "reading": "ふたつ", "meaning": "two (things)" },
-    { "word": "割れる", "reading": "われる", "meaning": "to split; to crack open" },
-    { "word": "赤", "reading": "あか", "meaning": "red; 赤さん is a baby" },
-    { "word": "声", "reading": "こえ", "meaning": "voice" },
-    { "word": "神", "reading": "かみ", "meaning": "god" },
-    { "word": "子", "reading": "こ", "meaning": "child" },
-    { "word": "生まれる", "reading": "うまれる", "meaning": "to be born" },
-    { "word": "桃太郎", "reading": "ももたろう", "meaning": "Momotaro (a boy's name)" },
-    { "word": "名", "reading": "な", "meaning": "name" }
+    {
+      "word": "歌",
+      "reading": "うた",
+      "meaning": "song"
+    },
+    {
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "front; in front"
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "early; quick"
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "meaning": "two people"
+    },
+    {
+      "word": "分ける",
+      "reading": "わける",
+      "meaning": "to divide; to share"
+    },
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": "to eat"
+    },
+    {
+      "word": "上げる",
+      "reading": "あげる",
+      "meaning": "to lift; to give"
+    },
+    {
+      "word": "洗濯物",
+      "reading": "せんたくもの",
+      "meaning": "the washing; laundry"
+    },
+    {
+      "word": "中",
+      "reading": "なか",
+      "meaning": "inside"
+    },
+    {
+      "word": "入れる",
+      "reading": "いれる",
+      "meaning": "to put in"
+    }
   ],
   "grammar": [
     {
-      "title": "〜て来ました",
-      "note": "帰って来ました, 持って来ました, and 拾って来ました are the て-form plus 来る. Something was done elsewhere, and then the person or thing comes this way."
+      "title": "と",
+      "note": "と after the song marks those words as what she sang. The same と closes a quotation in 「…」と言って."
     },
     {
-      "title": "〜から",
-      "note": "から means \"from\": 山から (from the mountain), 戸棚の中から (from inside the cupboard), 桃の中から (from inside the peach)."
-    },
-    {
-      "title": "にちがいありません",
-      "note": "にちがいない means \"it must be.\" ありません is the polite form. The old couple are sure that a god sent the child."
-    },
-    {
-      "title": "という名",
-      "note": "桃太郎という名をつける: という attaches the name. \"They gave him the name Momotaro.\""
+      "title": "〜ながら",
+      "note": "歌いながら、手をたたきました: she claps while she sings. ながら attaches to the stem of the verb that is going on at the same time."
     }
   ]
 }
