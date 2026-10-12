@@ -142,6 +142,8 @@ A lesson page looks up its id in `stories` and links **Previous** and **Next** t
 
 The **Lessons** button in the header, on the home page and on every lesson, opens the same index: standalone lessons first, then each story as a collapsible group. Choosing an entry opens that lesson. The lesson you are on is marked. A new file shows up in the menu once its id is in the index.
 
+**Mark as cleared** sits on each lesson page. Press it again to undo. The choice is stored in this browser only, under the localStorage key `japanese-study-cleared` (a list of lesson ids). Cleared lessons show a checkmark on the home page and in the Lessons menu. Each story shows how many of its parts are cleared, such as `5/18 cleared`. Finishing the vocabulary game offers the same toggle and does not mark the lesson by itself.
+
 Old ids `urashima` and `hanasaka-jijii` still open part 1 (`urashima-1`, `hanasaka-jijii-1`). New parts use the numbered ids.
 
 ## What the learner sees

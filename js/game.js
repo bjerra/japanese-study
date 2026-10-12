@@ -319,6 +319,7 @@
       var again = el("button", "game-next game-again", "Play again");
       again.type = "button";
       card.append(again);
+      if (options && typeof options.onRoundComplete === "function") options.onRoundComplete(card);
     }
   }
 
