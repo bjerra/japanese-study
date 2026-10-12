@@ -1,16 +1,30 @@
 (function () {
   var ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  var ALIASES = {
+    urashima: "urashima-1",
+    "hanasaka-jijii": "hanasaka-jijii-1"
+  };
+  var TABS = [
+    { id: "reading", label: "Reading" },
+    { id: "grammar", label: "Grammar" },
+    { id: "vocab", label: "Vocab" }
+  ];
   var readingsLocked = false;
   var concealedText = new WeakMap();
   var concealedLabels = new WeakMap();
+  var selectTab = function () {};
 
   document.addEventListener("DOMContentLoaded", function () {
     var main = document.getElementById("lesson");
-    var toggle = document.getElementById("toggle-readings");
     var params = new URLSearchParams(location.search);
-    var id = params.get("id") || "";
+    var requestedId = params.get("id") || "";
+    var id = ALIASES[requestedId] || requestedId;
 
-    if (!ID_RE.test(id)) {
+    window.addEventListener("hashchange", function () {
+      selectTab(tabFromHash(), false);
+    });
+
+    if (!ID_RE.test(requestedId) || !ID_RE.test(id)) {
       renderMessage(
         main,
         "This page needs a lesson id, for example lesson.html?id=morning-coffee.",
@@ -19,22 +33,19 @@
       return;
     }
 
-    fetch("lessons/" + id + ".json")
-      .then(function (response) {
-        if (!response.ok) throw new Error("Could not load lessons/" + id + ".json (" + response.status + ").");
-        return response.text();
-      })
-      .then(function (text) {
-        var lesson = JSON.parse(text.replace(/^\uFEFF/, ""));
+    Promise.all([fetchLesson(id), fetchIndex()])
+      .then(function (loaded) {
+        var lesson = loaded[0];
         var errors = validate(lesson, id);
         if (errors.length) {
           renderMessage(main, errors.join(" "), true);
           return;
         }
-        renderLesson(main, lesson);
-        wireReadings(main, toggle);
+        renderLesson(main, lesson, findNeighbors(loaded[1], id));
+        wireReadings(main);
         wireTranslations(main);
-        mountGame(main, lesson.vocabulary || []);
+        mountGame(document.getElementById("panel-vocab"), lesson.vocabulary || []);
+        selectTab(tabFromHash(), false);
       })
       .catch(function (error) {
         var hint =
@@ -44,6 +55,46 @@
         renderMessage(main, error.message + hint, true);
       });
   });
+
+  function fetchLesson(id) {
+    return fetch("lessons/" + id + ".json").then(function (response) {
+      if (!response.ok) throw new Error("Could not load lessons/" + id + ".json (" + response.status + ").");
+      return response.text();
+    }).then(function (text) {
+      return JSON.parse(text.replace(/^\uFEFF/, ""));
+    });
+  }
+
+  function fetchIndex() {
+    return fetch("lessons/index.json")
+      .then(function (response) {
+        if (!response.ok) return null;
+        return response.json();
+      })
+      .catch(function () {
+        return null;
+      });
+  }
+
+  function findNeighbors(index, id) {
+    var stories = index && Array.isArray(index.stories) ? index.stories : [];
+    for (var s = 0; s < stories.length; s++) {
+      var parts = stories[s] && Array.isArray(stories[s].parts) ? stories[s].parts : [];
+      var at = parts.indexOf(id);
+      if (at === -1) continue;
+      return {
+        prev: at > 0 ? parts[at - 1] : "",
+        next: at < parts.length - 1 ? parts[at + 1] : ""
+      };
+    }
+    return { prev: "", next: "" };
+  }
+
+  function tabFromHash() {
+    var name = (location.hash || "").replace(/^#/, "");
+    var known = TABS.some(function (tab) { return tab.id === name; });
+    return known ? name : "reading";
+  }
 
   function validate(lesson, id) {
     var errors = [];
@@ -125,7 +176,7 @@
     main.append(back, box);
   }
 
-  function renderLesson(main, lesson) {
+  function renderLesson(main, lesson, neighbors) {
     document.title = lesson.title + " · Japanese Study";
     main.replaceChildren();
 
@@ -135,11 +186,82 @@
     back.textContent = "All lessons";
     main.append(back);
 
+    var tablist = document.createElement("div");
+    tablist.className = "lesson-tabs";
+    tablist.setAttribute("role", "tablist");
+    tablist.setAttribute("aria-label", "Lesson sections");
+    tablist.setAttribute("aria-orientation", "horizontal");
+
+    var panels = {};
+    TABS.forEach(function (tab) {
+      var button = document.createElement("button");
+      button.type = "button";
+      button.className = "lesson-tab";
+      button.id = "tab-" + tab.id;
+      button.setAttribute("role", "tab");
+      button.setAttribute("aria-controls", "panel-" + tab.id);
+      button.setAttribute("aria-selected", "false");
+      button.tabIndex = -1;
+      button.textContent = tab.label;
+      button.addEventListener("click", function () {
+        selectTab(tab.id, true);
+      });
+      tablist.append(button);
+
+      var panel = document.createElement("div");
+      panel.className = "lesson-panel";
+      panel.id = "panel-" + tab.id;
+      panel.setAttribute("role", "tabpanel");
+      panel.setAttribute("aria-labelledby", button.id);
+      panel.hidden = true;
+      panels[tab.id] = panel;
+    });
+    main.append(tablist);
+
+    tablist.addEventListener("keydown", function (event) {
+      var tabs = Array.prototype.slice.call(tablist.querySelectorAll('[role="tab"]'));
+      var index = tabs.indexOf(document.activeElement);
+      if (index < 0) return;
+      var next = -1;
+      if (event.key === "ArrowRight") next = (index + 1) % tabs.length;
+      else if (event.key === "ArrowLeft") next = (index - 1 + tabs.length) % tabs.length;
+      else if (event.key === "Home") next = 0;
+      else if (event.key === "End") next = tabs.length - 1;
+      else return;
+      event.preventDefault();
+      var name = tabs[next].id.replace(/^tab-/, "");
+      selectTab(name, true);
+      tabs[next].focus();
+    });
+
+    fillReading(panels.reading, lesson, neighbors);
+    fillGrammar(panels.grammar, lesson.grammar || []);
+    fillVocab(panels.vocab, lesson.vocabulary || []);
+    TABS.forEach(function (tab) {
+      main.append(panels[tab.id]);
+    });
+
+    selectTab = function (name, writeHash) {
+      if (!panels[name]) name = "reading";
+      TABS.forEach(function (tab) {
+        var on = tab.id === name;
+        panels[tab.id].hidden = !on;
+        var button = document.getElementById("tab-" + tab.id);
+        button.setAttribute("aria-selected", on ? "true" : "false");
+        button.tabIndex = on ? 0 : -1;
+      });
+      if (writeHash && location.hash !== "#" + name) {
+        history.replaceState(null, "", location.pathname + location.search + "#" + name);
+      }
+    };
+  }
+
+  function fillReading(panel, lesson, neighbors) {
     var title = document.createElement("h1");
     title.lang = "ja";
     title.setAttribute("translate", "no");
     title.textContent = lesson.title;
-    main.append(title);
+    panel.append(title);
 
     if (lesson.titleReading) {
       var reading = document.createElement("p");
@@ -147,17 +269,30 @@
       reading.lang = "ja";
       reading.setAttribute("translate", "no");
       reading.textContent = lesson.titleReading;
-      main.append(reading);
+      panel.append(reading);
     }
 
     if (lesson.credit && lesson.credit.trim()) {
-      main.append(renderCredit(lesson.credit));
+      panel.append(renderCredit(lesson.credit));
     }
+
+    var topNav = renderPartNav(neighbors);
+    if (topNav) panel.append(topNav);
+
+    var tools = document.createElement("div");
+    tools.className = "reading-tools";
+    var toggle = document.createElement("button");
+    toggle.id = "toggle-readings";
+    toggle.type = "button";
+    toggle.hidden = true;
+    toggle.textContent = "Show all readings";
+    tools.append(toggle);
+    panel.append(tools);
 
     var hint = document.createElement("p");
     hint.className = "hint";
     hint.textContent = "Tap a word to show or hide its reading.";
-    main.append(hint);
+    panel.append(hint);
 
     var list = document.createElement("ol");
     list.className = "passage";
@@ -165,31 +300,67 @@
     lesson.sentences.forEach(function (sentence, index) {
       list.append(renderSentence(sentence, index));
     });
-    main.append(list);
+    panel.append(list);
 
-    var vocabulary = lesson.vocabulary || [];
-    if (vocabulary.length) {
-      main.append(sectionLabel("Vocabulary"));
-      main.append(renderVocabulary(vocabulary));
-    }
+    var bottomNav = renderPartNav(neighbors);
+    if (bottomNav) panel.append(bottomNav);
+  }
 
-    var grammar = lesson.grammar || [];
-    if (grammar.length) {
-      main.append(sectionLabel("Grammar"));
-      var notes = document.createElement("div");
-      notes.className = "grammar";
-      grammar.forEach(function (item) {
-        var article = document.createElement("article");
-        article.className = "grammar-item";
-        var heading = document.createElement("h3");
-        heading.textContent = item.title;
-        var note = document.createElement("p");
-        note.textContent = item.note;
-        article.append(heading, note);
-        notes.append(article);
-      });
-      main.append(notes);
+  function fillGrammar(panel, grammar) {
+    if (!grammar.length) {
+      panel.append(emptyNote("This lesson has no grammar notes."));
+      return;
     }
+    var notes = document.createElement("div");
+    notes.className = "grammar";
+    grammar.forEach(function (item) {
+      var article = document.createElement("article");
+      article.className = "grammar-item";
+      var heading = document.createElement("h2");
+      heading.textContent = item.title;
+      var note = document.createElement("p");
+      note.textContent = item.note;
+      article.append(heading, note);
+      notes.append(article);
+    });
+    panel.append(notes);
+  }
+
+  function fillVocab(panel, vocabulary) {
+    if (!vocabulary.length) {
+      panel.append(emptyNote("This lesson has no vocabulary list."));
+    } else {
+      panel.append(renderVocabulary(vocabulary));
+    }
+    var host = document.createElement("div");
+    host.id = "vocab-game";
+    panel.append(host);
+  }
+
+  function emptyNote(text) {
+    var note = document.createElement("p");
+    note.className = "empty-note";
+    note.textContent = text;
+    return note;
+  }
+
+  function renderPartNav(neighbors) {
+    if (!neighbors || (!neighbors.prev && !neighbors.next)) return null;
+    var nav = document.createElement("nav");
+    nav.className = "part-nav";
+    nav.setAttribute("aria-label", "Story parts");
+    if (neighbors.prev) nav.append(partLink(neighbors.prev, "Previous", "Previous part"));
+    if (neighbors.next) nav.append(partLink(neighbors.next, "Next", "Next part", "next"));
+    return nav;
+  }
+
+  function partLink(id, label, aria, className) {
+    var link = document.createElement("a");
+    if (className) link.className = className;
+    link.href = "lesson.html?id=" + encodeURIComponent(id) + "#reading";
+    link.textContent = label;
+    link.setAttribute("aria-label", aria);
+    return link;
   }
 
   function renderCredit(credit) {
@@ -215,13 +386,6 @@
     }
     if (last < credit.length) note.append(document.createTextNode(credit.slice(last)));
     return note;
-  }
-
-  function sectionLabel(text) {
-    var heading = document.createElement("h2");
-    heading.className = "section-label";
-    heading.textContent = text;
-    return heading;
   }
 
   function renderSentence(sentence, index) {
@@ -304,9 +468,10 @@
     return list;
   }
 
-  function wireReadings(main, toggle) {
+  function wireReadings(main) {
+    var toggle = document.getElementById("toggle-readings");
     var tokens = main.querySelectorAll(".token");
-    if (!tokens.length) return;
+    if (!tokens.length || !toggle) return;
     toggle.hidden = false;
     toggle.setAttribute("aria-pressed", "false");
     toggle.setAttribute("aria-controls", "passage");
@@ -329,11 +494,8 @@
     });
   }
 
-  function mountGame(main, vocabulary) {
-    if (!window.JapaneseStudyGame) return;
-    var host = document.createElement("div");
-    host.id = "vocab-game";
-    main.append(host);
+  function mountGame(host, vocabulary) {
+    if (!window.JapaneseStudyGame || !host) return;
     JapaneseStudyGame.mount(host, vocabulary, { lockReadings: lockReadings });
   }
 

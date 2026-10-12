@@ -20,12 +20,12 @@ Fetch is blocked on `file://`, so open the site through a local server or GitHub
 
 ## Add a lesson
 
-Touch only these two things:
+Touch only these things:
 
 1. Create `lessons/<id>.json`.
-2. Add `"<id>"` to the `lessons` array in `lessons/index.json`.
+2. Add `"<id>"` to the `lessons` array in `lessons/index.json`, or, if the lesson is one part of a longer story, add it to that story's `parts` array.
 
-Do not edit HTML, CSS, or JS to add a lesson. The home page lists ids in the order they appear in the index.
+Do not edit HTML, CSS, or JS to add a lesson. Standalone lessons are listed in index order. Parts of a story are listed in `parts` order, and that same order is where the previous and next links come from.
 
 `<id>` rules:
 
@@ -46,7 +46,7 @@ UTF-8 JSON. No comments and no trailing commas. Unknown fields are ignored.
 | `titleReading` | no | Hiragana (and katakana) for the whole title. Shown under the title. |
 | `summary` | no | One English sentence on the home page card. |
 | `level` | no | Short label such as `beginner` or `intermediate`. |
-| `credit` | no | Source note: author, title, and URL. Shown under the lesson title. A web address in the text becomes a link. If you shorten the text or modernise spelling, say so here. |
+| `credit` | no | Source note: author, title, and URL. Shown under the lesson title on the Reading tab. A web address in the text becomes a link. If you shorten the text, split it into parts, or change spelling, say so here. Do not write a vocabulary `reading` in hiragana inside `credit`: the note stays visible while the vocabulary game hides readings. |
 | `sentences` | yes | Non-empty array. One object per sentence (or short paragraph). |
 | `sentences[].jp` | yes | Japanese with `漢字{かんじ}` readings. Braces are source notation; learners never see the braces. |
 | `sentences[].en` | yes | English for that sentence. Hidden until the learner reveals it. |
@@ -125,20 +125,35 @@ Leave words with no extra reading unmarked (`コーヒー`, `です`, `それか
   "lessons": [
     "morning-coffee",
     "your-lesson-id"
+  ],
+  "stories": [
+    {
+      "title": "桃太郎",
+      "titleReading": "ももたろう",
+      "parts": ["momotaro-1", "momotaro-2"]
+    }
   ]
 }
 ```
 
-Each entry is only the id string. Title, reading, summary, level, and credit come from the lesson file.
+`lessons` is standalone lessons. `stories` is optional. Each story has a Japanese `title`, an optional `titleReading`, and `parts`: lesson ids in reading order. Title, summary, level, and credit on each card still come from the lesson file. If `stories` is omitted, the home page lists `lessons` only.
+
+A lesson page looks up its id in `stories` and links **Previous** and **Next** to the neighboring parts. Those links open the Reading tab.
+
+Old ids `urashima` and `hanasaka-jijii` still open part 1 (`urashima-1`, `hanasaka-jijii-1`). New parts use the numbered ids.
 
 ## What the learner sees
 
+Each lesson has three tabs: **Reading**, **Grammar**, and **Vocab**. Reading is the default. The selected tab is the URL hash (`#reading`, `#grammar`, `#vocab`), so a reload or a shared link keeps it. Any other hash shows Reading. The tabs are buttons in a `tablist`, with `aria-selected` and `aria-controls`.
+
+- **Reading**: title, title reading, credit, previous/next part links, the passage, **Show all readings**, and **Show English** on each sentence.
+- **Grammar**: the grammar notes, or a short note when the lesson has none.
+- **Vocab**: the word list and the vocabulary game.
 - The passage is normal Japanese, with no furigana until asked.
 - Tap or click a marked word to show its hiragana above the kanji. Tap again to hide it.
 - **Show all readings** / **Hide all readings** toggles every marked word.
 - **Show English** / **Hide English** is per sentence.
-- Vocabulary shows word, reading, and meaning. Grammar notes are always visible.
-- A vocabulary game at the bottom of the lesson spells each kanji headword from its `reading`. The game needs no extra fields. While a word is still unsolved, furigana, the title reading, and the vocabulary reading column are hidden.
+- The vocabulary game spells each kanji headword from its `reading`. The game needs no extra fields. While a word is still unsolved, furigana, the title reading, and the vocabulary reading column are hidden, including if you switch back to Reading.
 - If a lesson has `credit`, that source note is shown under the title.
 
 Tiles are the reading split into kana. A small kana (ゃゅょぁぃぅぇぉゎ, and the katakana forms) stays on the preceding kana, so `きょう` is the tiles `きょ` and `う`. `っ`, `ん`, and `ー` are their own tiles. Repeated kana are repeated tiles. Headwords with no kanji, such as `コーヒー`, are skipped because the prompt would already be the answer.
@@ -147,4 +162,4 @@ Tiles are the reading split into kana. A small kana (ゃゅょぁぃぅぇぉゎ
 
 GitHub Pages, branch `main`, folder `/` (the repo root). There is no build. `.nojekyll` is present so Pages serves the files as-is and does not run Jekyll.
 
-The sample lesson is `lessons/morning-coffee.json`.
+The sample lesson is `lessons/morning-coffee.json`. The folk tales are grouped under `stories` in `lessons/index.json`: 桃太郎, 浦島太郎, and 花咲かじじい, each split into consecutive parts of the full 楠山正雄 text.

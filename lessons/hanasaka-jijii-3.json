@@ -1,0 +1,111 @@
+{
+  "id": "hanasaka-jijii-3",
+  "title": "花咲かじじい（三）",
+  "titleReading": "はなさかじじい",
+  "summary": "The greedy old man finds only filth, and he kills Shiro with his hoe.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "「おれの畑{はたけ}にも小判{こばん}がうまっているはずだ。さあ、どこだ、どこだ」といいながら、よけいつよくひっぱりますと、白{しろ}は苦{くる}しがって、やたらに、そこらの土{つち}をひっかきました。",
+      "en": "\"There must be gold coins buried in my field too. Come on, where, where?\" he said, and when he pulled even harder, Shiro suffered and scratched at the earth here and there."
+    },
+    {
+      "jp": "欲{よく}ばりおじいさんは、",
+      "en": "The greedy old man,"
+    },
+    {
+      "jp": "「うん、ここか。しめたぞ、しめたぞ」といいながら、ほりはじめましたが、ほっても、ほっても出{で}てくるものは、石{いし}ころやかわらのかけらばかりでした。",
+      "en": "saying \"Yes, here? I've got it, I've got it,\" began to dig, but dig as he might, all that came out was pebbles and bits of tile."
+    },
+    {
+      "jp": "それでもかまわず、やたらにほって行{い}きますと、ぷんとくさいにおいがして、きたないものが、うじゃうじゃ、出{で}てきました。",
+      "en": "Even so he dug on regardless, and a foul smell rose, and filthy things came swarming out."
+    },
+    {
+      "jp": "欲{よく}ばりおじいさんは、「くさい」とさけんで、鼻{はな}をおさえました。",
+      "en": "The greedy old man cried \"It stinks!\" and held his nose."
+    },
+    {
+      "jp": "そうして、腹立{はらだ}ちまぎれに、いきなりくわをふり上{あ}げて、白{しろ}のあたまから打{う}ちおろしますと、かわいそうに、白{しろ}はひと声{こえ}、「きゃん」とないたなり、死{し}んでしまいました。",
+      "en": "Then, in a fit of anger, he suddenly swung the hoe up and brought it down on Shiro's head, and poor Shiro cried \"Kyan\" once and died."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "苦しい",
+      "reading": "くるしい",
+      "meaning": "painful; suffering"
+    },
+    {
+      "word": "石",
+      "reading": "いし",
+      "meaning": "stone"
+    },
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "meaning": "nose"
+    },
+    {
+      "word": "腹立ち",
+      "reading": "はらだち",
+      "meaning": "anger"
+    },
+    {
+      "word": "上げる",
+      "reading": "あげる",
+      "meaning": "to raise"
+    },
+    {
+      "word": "打つ",
+      "reading": "うつ",
+      "meaning": "to strike"
+    },
+    {
+      "word": "死ぬ",
+      "reading": "しぬ",
+      "meaning": "to die"
+    },
+    {
+      "word": "畑",
+      "reading": "はたけ",
+      "meaning": "field"
+    },
+    {
+      "word": "小判",
+      "reading": "こばん",
+      "meaning": "gold coin"
+    },
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to come out"
+    },
+    {
+      "word": "土",
+      "reading": "つち",
+      "meaning": "earth; soil"
+    },
+    {
+      "word": "白",
+      "reading": "しろ",
+      "meaning": "white; Shiro"
+    },
+    {
+      "word": "欲",
+      "reading": "よく",
+      "meaning": "greed"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "ても",
+      "note": "ほっても、ほっても: however much he digs, the result does not change. Repeating the ても verb stresses the useless effort."
+    },
+    {
+      "title": "なり",
+      "note": "ないたなり、死んでしまいました: なり means \"and just like that.\" He cried out and, with that, died."
+    }
+  ]
+}

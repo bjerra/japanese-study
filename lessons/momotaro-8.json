@@ -1,0 +1,138 @@
+{
+  "id": "momotaro-8",
+  "title": "桃太郎（八）",
+  "titleReading": "ももたろう",
+  "summary": "Dressed like a samurai, Momotaro says goodbye and sets out.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "きびだんごがうまそうにでき上{あ}がると、桃太郎{ももたろう}のしたくもすっかりでき上{あ}がりました。",
+      "en": "When the millet dumplings were finished and looked delicious, Momotaro's preparations were all finished too."
+    },
+    {
+      "jp": "桃太郎{ももたろう}はお侍{さむらい}の着{き}るような陣羽織{じんばおり}を着{き}て、刀{かたな}を腰{こし}にさして、きびだんごの袋{ふくろ}をぶら下{さ}げました。",
+      "en": "He put on a campaign coat such as a samurai wears, stuck a sword at his waist, and hung the bag of millet dumplings from it."
+    },
+    {
+      "jp": "そして桃{もも}の絵{え}のかいてある軍扇{ぐんせん}を手{て}に持{も}って、",
+      "en": "Then, with a war fan painted with a peach in his hand,"
+    },
+    {
+      "jp": "「ではおとうさん、おかあさん、行{い}ってまいります。」と言{い}って、ていねいに頭{あたま}を下{さ}げました。",
+      "en": "he bowed politely and said, \"Well then, Father, Mother, I'm off.\""
+    },
+    {
+      "jp": "「じゃあ、りっぱに鬼{おに}を退治{たいじ}してくるがいい。」とおじいさんは言{い}いました。",
+      "en": "\"Go and subdue those ogres in fine style,\" the old man said."
+    },
+    {
+      "jp": "「気{き}をつけて、けがをしないようにおしよ。」とおばあさんも言{い}いました。",
+      "en": "\"Be careful, and mind you don't get hurt,\" the old woman said too."
+    },
+    {
+      "jp": "「なに、大丈夫{だいじょうぶ}です、日本一{にっぽんいち}のきびだんごを持{も}っているから。」と桃太郎{ももたろう}は言{い}って、",
+      "en": "\"It's all right. I have the finest millet dumplings in Japan,\" Momotaro said, and"
+    },
+    {
+      "jp": "「では、ごきげんよう。」と元気{げんき}な声{こえ}をのこして、出{で}ていきました。",
+      "en": "with a hearty \"Farewell,\" he went out."
+    },
+    {
+      "jp": "おじいさんとおばあさんは、門{もん}の外{そと}に立{た}って、いつまでも、いつまでも見送{みおく}っていました。",
+      "en": "The old man and the old woman stood outside the gate and watched him go, on and on."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "侍",
+      "reading": "さむらい",
+      "meaning": "samurai"
+    },
+    {
+      "word": "着る",
+      "reading": "きる",
+      "meaning": "to wear"
+    },
+    {
+      "word": "陣羽織",
+      "reading": "じんばおり",
+      "meaning": "campaign coat"
+    },
+    {
+      "word": "刀",
+      "reading": "かたな",
+      "meaning": "sword"
+    },
+    {
+      "word": "袋",
+      "reading": "ふくろ",
+      "meaning": "bag"
+    },
+    {
+      "word": "下げる",
+      "reading": "さげる",
+      "meaning": "to hang; to lower"
+    },
+    {
+      "word": "絵",
+      "reading": "え",
+      "meaning": "picture"
+    },
+    {
+      "word": "軍扇",
+      "reading": "ぐんせん",
+      "meaning": "war fan"
+    },
+    {
+      "word": "頭",
+      "reading": "あたま",
+      "meaning": "head"
+    },
+    {
+      "word": "退治",
+      "reading": "たいじ",
+      "meaning": "subjugation; driving out"
+    },
+    {
+      "word": "大丈夫",
+      "reading": "だいじょうぶ",
+      "meaning": "all right; safe"
+    },
+    {
+      "word": "日本一",
+      "reading": "にっぽんいち",
+      "meaning": "the best in Japan"
+    },
+    {
+      "word": "門",
+      "reading": "もん",
+      "meaning": "gate"
+    },
+    {
+      "word": "外",
+      "reading": "そと",
+      "meaning": "outside"
+    },
+    {
+      "word": "見送る",
+      "reading": "みおくる",
+      "meaning": "to see someone off"
+    },
+    {
+      "word": "出る",
+      "reading": "でる",
+      "meaning": "to go out"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "ように",
+      "note": "けがをしないように names the way she hopes things will turn out: so that he does not get hurt."
+    },
+    {
+      "title": "〜てくる",
+      "note": "退治してくる means go, do it, and come back. くる points homeward."
+    }
+  ]
+}

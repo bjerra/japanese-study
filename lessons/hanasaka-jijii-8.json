@@ -1,0 +1,110 @@
+{
+  "id": "hanasaka-jijii-8",
+  "title": "花咲かじじい（八）",
+  "titleReading": "はなさかじじい",
+  "summary": "The lord rewards him, and the greedy neighbor sets out with the leftover ash.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "「これはみごとだ。これはふしぎだ」といって、おじいさんをほめて、たくさんにごほうびをくださいました。",
+      "en": "said, \"This is splendid. This is a marvel,\" praised the old man, and gave him a great reward."
+    },
+    {
+      "jp": "するとまた、おとなりの欲{よく}ばりおじいさんが、それをきいて、うらやましがって、のこっている灰{はい}をかきあつめてざるに入{い}れて、正直{しょうじき}おじいさんのまねをして、",
+      "en": "Then the greedy old man next door heard of it and envied him, scraped together the remaining ash into a basket, copied the honest old man, and"
+    },
+    {
+      "jp": "「花咲{はなさ}かじじい、花咲{はなさ}かじじい、日本一{にっぽんいち}の花咲{はなさ}かじじい、枯{か}れ木{き}に花{はな}を咲{さ}かせましょう」と、往来{おうらい}をどなってあるきました。",
+      "en": "walked along the street shouting, \"The old man who makes flowers bloom, the old man who makes flowers bloom, the finest flower-blooming old man in Japan — I'll make dead trees bloom.\""
+    },
+    {
+      "jp": "するとこんども、殿{との}さまがとおりかかって、",
+      "en": "Then this time too the lord passed by and"
+    },
+    {
+      "jp": "「こないだの花咲{はなさ}かじじいがきたな。また花{はな}を咲{さ}かせて見{み}せよ」といいました。",
+      "en": "said, \"The flower-blooming old man from the other day has come. Make the flowers bloom again, and show me.\""
+    },
+    {
+      "jp": "欲{よく}ばりおじいさんは、とくいらしい顔{かお}をしながら、灰{はい}を入{い}れたざるをかかえて、さくらの木{き}に上{あ}がって、おなじように、",
+      "en": "The greedy old man, with a smug look, took up the basket of ash, climbed the cherry tree, and in the same way,"
+    },
+    {
+      "jp": "「金{きん}のさくら、さらさら。",
+      "en": "\"Golden cherry, sarasara."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "word": "欲",
+      "reading": "よく",
+      "meaning": "greed"
+    },
+    {
+      "word": "灰",
+      "reading": "はい",
+      "meaning": "ash"
+    },
+    {
+      "word": "入れる",
+      "reading": "いれる",
+      "meaning": "to put in"
+    },
+    {
+      "word": "正直",
+      "reading": "しょうじき",
+      "meaning": "honest"
+    },
+    {
+      "word": "花咲",
+      "reading": "はなさ",
+      "meaning": "flower-blooming"
+    },
+    {
+      "word": "日本一",
+      "reading": "にっぽんいち",
+      "meaning": "the best in Japan"
+    },
+    {
+      "word": "往来",
+      "reading": "おうらい",
+      "meaning": "street"
+    },
+    {
+      "word": "殿",
+      "reading": "との",
+      "meaning": "lord"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    },
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "to see; to show"
+    },
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "てくださる",
+      "note": "ごほうびをくださいました: the lord gives downward, and くださる honors him for it. ごほうび already carries a polite ご."
+    },
+    {
+      "title": "らしい",
+      "note": "とくいらしい顔: らしい here means \"looking like.\" His face has a smug look."
+    }
+  ]
+}

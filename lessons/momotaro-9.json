@@ -1,0 +1,132 @@
+{
+  "id": "momotaro-9",
+  "title": "桃太郎（九）",
+  "titleReading": "ももたろう",
+  "summary": "On a mountain, a dog joins him in exchange for one millet dumpling.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "桃太郎{ももたろう}はずんずん行{い}きますと、大{おお}きな山{やま}の上{うえ}に来{き}ました。",
+      "en": "Momotaro strode on and came to the top of a great mountain."
+    },
+    {
+      "jp": "すると、草{くさ}むらの中{なか}から、「ワン、ワン。」と声{こえ}をかけながら、犬{いぬ}が一{いっ}ぴきかけて来{き}ました。",
+      "en": "Then a dog came running from the grass, calling \"Wan, wan.\""
+    },
+    {
+      "jp": "桃太郎{ももたろう}がふり返{かえ}ると、犬{いぬ}はていねいに、おじぎをして、",
+      "en": "When Momotaro turned around, the dog bowed politely and"
+    },
+    {
+      "jp": "「桃太郎{ももたろう}さん、桃太郎{ももたろう}さん、どちらへおいでになります。」とたずねました。",
+      "en": "asked, \"Momotaro, Momotaro, where are you going?\""
+    },
+    {
+      "jp": "「鬼{おに}が島{しま}へ、鬼{おに}せいばつに行{い}くのだ。」",
+      "en": "\"To Onigashima, to punish the ogres.\""
+    },
+    {
+      "jp": "「お腰{こし}に下{さ}げたものは、何{なん}でございます。」",
+      "en": "\"What is that thing hanging at your waist?\""
+    },
+    {
+      "jp": "「日本{にっぽん}一{いち}のきびだんごさ。」",
+      "en": "\"The finest millet dumplings in Japan.\""
+    },
+    {
+      "jp": "「一{ひと}つ下{くだ}さい、お供{とも}しましょう。」",
+      "en": "\"Please give me one, and I will accompany you.\""
+    },
+    {
+      "jp": "「よし、よし、やるから、ついて来{こ}い。」",
+      "en": "\"All right, all right. I'll give you one, so come along.\""
+    },
+    {
+      "jp": "犬{いぬ}はきびだんごを一{ひと}つもらって、桃太郎{ももたろう}のあとから、ついて行{い}きました。",
+      "en": "The dog received one millet dumpling and followed after Momotaro."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "草",
+      "reading": "くさ",
+      "meaning": "grass"
+    },
+    {
+      "word": "犬",
+      "reading": "いぬ",
+      "meaning": "dog"
+    },
+    {
+      "word": "返る",
+      "reading": "かえる",
+      "meaning": "to turn back"
+    },
+    {
+      "word": "供",
+      "reading": "とも",
+      "meaning": "attendant; companion"
+    },
+    {
+      "word": "山",
+      "reading": "やま",
+      "meaning": "mountain"
+    },
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "top; above"
+    },
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "to come"
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "word": "腰",
+      "reading": "こし",
+      "meaning": "waist"
+    },
+    {
+      "word": "何",
+      "reading": "なん",
+      "meaning": "what"
+    },
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    },
+    {
+      "word": "下さる",
+      "reading": "くださる",
+      "meaning": "to give (honorific)"
+    },
+    {
+      "word": "桃太郎",
+      "reading": "ももたろう",
+      "meaning": "Momotaro"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "お〜になる",
+      "note": "おいでになります is a polite honorific for going or coming. The dog speaks up to Momotaro."
+    },
+    {
+      "title": "お供する",
+      "note": "お供しましょう is humble: the speaker offers to accompany a person of higher standing."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "momotaro-15",
+  "title": "桃太郎（十五）",
+  "titleReading": "ももたろう",
+  "summary": "The pheasant, the monkey, and the dog break in, and the ogres surrender.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "鬼{おに}はその声{こえ}を聞{き}くと、ふるえ上{あ}がって、よけい一生懸命{いっしょうけんめい}に、中{なか}から押{お}さえていました。",
+      "en": "When the ogres heard that voice, they trembled and pressed against the gate from inside all the harder, with everything they had."
+    },
+    {
+      "jp": "するときじが屋根{やね}の上{うえ}からとび下{お}りてきて、門{もん}を押{お}さえている鬼{おに}どもの目{め}をつつきまわりましたから、鬼{おに}はへいこうして逃{に}げ出{だ}しました。",
+      "en": "Then the pheasant flew down from the roof and pecked all around at the eyes of the ogres holding the gate, so the ogres panicked and fled."
+    },
+    {
+      "jp": "その間{ま}に、猿{さる}がするすると高{たか}い岩壁{いわかべ}をよじ登{のぼ}っていって、ぞうさなく門{もん}を中{なか}からあけました。",
+      "en": "Meanwhile the monkey climbed nimbly up the high rock wall and opened the gate from the inside with no trouble."
+    },
+    {
+      "jp": "「わあッ。」とときの声{こえ}を上{あ}げて、桃太郎{ももたろう}の主従{しゅじゅう}が、いさましくお城{しろ}の中{なか}に攻{せ}め込{こ}んでいきますと、鬼{おに}の大将{たいしょう}も大{おお}ぜいの家来{けらい}を引{ひ}き連{つ}れて、一人一人{ひとりひとり}、太{ふと}い鉄{てつ}の棒{ぼう}をふりまわしながら、「おう、おう。」とさけんで、向{む}かってきました。",
+      "en": "With a war cry of \"Waa!\", Momotaro and his followers charged bravely into the castle, and the ogre chief, leading a great crowd of retainers, each one swinging a thick iron club, came at them shouting \"Oh, oh.\""
+    },
+    {
+      "jp": "けれども、体{からだ}が大{おお}きいばっかりで、いくじのない鬼{おに}どもは、さんざんきじに目{め}をつつかれた上{うえ}に、こんどは犬{いぬ}に向{む}こうずねをくいつかれたといっては、痛{いた}い、痛{いた}いと逃{に}げまわり、猿{さる}に顔{かお}を引{ひ}っかかれたといっては、おいおい泣{な}き出{だ}して、鉄{てつ}の棒{ぼう}も何{なに}もほうり出{だ}して、降参{こうさん}してしまいました。",
+      "en": "But the ogres, big in body and nothing in courage, had their eyes pecked mercilessly by the pheasant, and then, when the dog bit their shins, they ran about crying that it hurt, and when the monkey scratched their faces they burst into tears, threw away their iron clubs and everything else, and surrendered."
+    },
+    {
+      "jp": "おしまいまでがまんして、たたかっていた鬼{おに}の大将{たいしょう}も、とうとう桃太郎{ももたろう}に組{く}みふせられてしまいました。",
+      "en": "The ogre chief, who held out and kept fighting to the last, was at last pinned down by Momotaro."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "一生懸命",
+      "reading": "いっしょうけんめい",
+      "meaning": "with all one's might"
+    },
+    {
+      "word": "押さえる",
+      "reading": "おさえる",
+      "meaning": "to hold down; to press"
+    },
+    {
+      "word": "岩壁",
+      "reading": "いわかべ",
+      "meaning": "rock wall"
+    },
+    {
+      "word": "登る",
+      "reading": "のぼる",
+      "meaning": "to climb"
+    },
+    {
+      "word": "主従",
+      "reading": "しゅじゅう",
+      "meaning": "master and followers"
+    },
+    {
+      "word": "攻める",
+      "reading": "せめる",
+      "meaning": "to attack"
+    },
+    {
+      "word": "大将",
+      "reading": "たいしょう",
+      "meaning": "chief; general"
+    },
+    {
+      "word": "鉄",
+      "reading": "てつ",
+      "meaning": "iron"
+    },
+    {
+      "word": "棒",
+      "reading": "ぼう",
+      "meaning": "rod; club"
+    },
+    {
+      "word": "痛い",
+      "reading": "いたい",
+      "meaning": "painful"
+    },
+    {
+      "word": "泣く",
+      "reading": "なく",
+      "meaning": "to cry"
+    },
+    {
+      "word": "降参",
+      "reading": "こうさん",
+      "meaning": "surrender"
+    },
+    {
+      "word": "組む",
+      "reading": "くむ",
+      "meaning": "to grapple"
+    },
+    {
+      "word": "太い",
+      "reading": "ふとい",
+      "meaning": "thick"
+    },
+    {
+      "word": "連れる",
+      "reading": "つれる",
+      "meaning": "to take along"
+    },
+    {
+      "word": "一人一人",
+      "reading": "ひとりひとり",
+      "meaning": "each one"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "といっては",
+      "note": "くいつかれたといっては、引っかかれたといっては sets each mishap beside the next: what with being bitten, what with being scratched."
+    },
+    {
+      "title": "主従",
+      "note": "桃太郎の主従 is Momotaro together with the retainers who follow him, treated as one party."
+    }
+  ]
+}

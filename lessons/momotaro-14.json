@@ -1,0 +1,109 @@
+{
+  "id": "momotaro-14",
+  "title": "桃太郎（十四）",
+  "titleReading": "ももたろう",
+  "summary": "They reach the iron gate, and the dog demands that the ogres open it.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "見{み}る見{み}る鬼{おに}が島{しま}が近{ちか}くなって、もう硬{かた}い岩{いわ}で畳{たた}んだ鬼{おに}のお城{しろ}が見{み}えました。",
+      "en": "In no time Onigashima drew near, and the ogres' castle, piled of hard rock, could already be seen."
+    },
+    {
+      "jp": "いかめしいくろがねの門{もん}の前{まえ}に見{み}はりをしている鬼{おに}の兵隊{へいたい}のすがたも見{み}えました。",
+      "en": "In front of the grim gate of black iron, the figures of ogre soldiers standing watch could be seen too."
+    },
+    {
+      "jp": "そのお城{しろ}のいちばん高{たか}い屋根{やね}の上{うえ}に、きじがとまって、こちらを見{み}ていました。",
+      "en": "On the highest roof of the castle, the pheasant had perched and was looking this way."
+    },
+    {
+      "jp": "こうして何年{なんねん}も、何年{なんねん}もこいで行{い}かなければならないという鬼{おに}が島{しま}へ、ほんの目{め}をつぶっている間{ま}に来{き}たのです。",
+      "en": "They had reached, in the time it takes to shut one's eyes, the Onigashima that was said to take years and years of rowing."
+    },
+    {
+      "jp": "桃太郎{ももたろう}は、犬{いぬ}と猿{さる}をしたがえて、船{ふね}からひらりと陸{おか}の上{うえ}にとび上{あ}がりました。",
+      "en": "Momotaro, with the dog and the monkey following, leapt lightly from the boat onto the land."
+    },
+    {
+      "jp": "見{み}はりをしていた鬼{おに}の兵隊{へいたい}は、その見{み}なれないすがたを見{み}ると、びっくりして、あわてて門{もん}の中{なか}に逃{に}げ込{こ}んで、くろがねの門{もん}を固{かた}くしめてしまいました。",
+      "en": "The ogre soldiers on watch, seeing that unfamiliar figure, were startled, fled in a panic in through the gate, and shut the iron gate tight."
+    },
+    {
+      "jp": "その時{とき}犬{いぬ}は門{もん}の前{まえ}に立{た}って、",
+      "en": "Then the dog stood before the gate and,"
+    },
+    {
+      "jp": "「日本{にほん}の桃太郎{ももたろう}さんが、お前{まえ}たちをせいばいにおいでになったのだぞ。あけろ、あけろ。」とどなりながら、ドン、ドン、扉{とびら}をたたきました。",
+      "en": "pounding on the doors — bang, bang — roared, \"Momotaro of Japan has come to punish you. Open up, open up!\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "近い",
+      "reading": "ちかい",
+      "meaning": "near"
+    },
+    {
+      "word": "硬い",
+      "reading": "かたい",
+      "meaning": "hard"
+    },
+    {
+      "word": "岩",
+      "reading": "いわ",
+      "meaning": "rock"
+    },
+    {
+      "word": "畳む",
+      "reading": "たたむ",
+      "meaning": "to pile up; to fold"
+    },
+    {
+      "word": "兵隊",
+      "reading": "へいたい",
+      "meaning": "soldier"
+    },
+    {
+      "word": "屋根",
+      "reading": "やね",
+      "meaning": "roof"
+    },
+    {
+      "word": "陸",
+      "reading": "おか",
+      "meaning": "land; shore"
+    },
+    {
+      "word": "逃げる",
+      "reading": "にげる",
+      "meaning": "to flee"
+    },
+    {
+      "word": "固い",
+      "reading": "かたい",
+      "meaning": "firm; tight"
+    },
+    {
+      "word": "扉",
+      "reading": "とびら",
+      "meaning": "door"
+    },
+    {
+      "word": "時",
+      "reading": "とき",
+      "meaning": "time"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "なければならない",
+      "note": "こいで行かなければならない: have to row. It reports what people said the voyage required."
+    },
+    {
+      "title": "てしまう",
+      "note": "門を固くしめてしまいました: the shutting is finished and complete. しまう often adds that the result is settled."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "momotaro-18",
+  "title": "桃太郎（十八）",
+  "titleReading": "ももたろう",
+  "summary": "The animals celebrate, and cherry blossoms fill the garden.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "「まあ、まあ、けががなくって、何{なに}よりさ。」とおばあさんは言{い}いました。",
+      "en": "\"There, there. Nothing matters more than that you weren't hurt,\" the old woman said."
+    },
+    {
+      "jp": "桃太郎{ももたろう}は、その時{とき}犬{いぬ}と猿{さる}ときじの方{ほう}を向{む}いてこう言{い}いました。",
+      "en": "Momotaro then turned toward the dog, the monkey, and the pheasant and said,"
+    },
+    {
+      "jp": "「どうだ。鬼{おに}せいばつはおもしろかったなあ。」",
+      "en": "\"Well? Punishing the ogres was fun, wasn't it?\""
+    },
+    {
+      "jp": "犬{いぬ}はワン、ワンとうれしそうにほえながら、前足{まえあし}で立{た}ちました。",
+      "en": "The dog stood up on his front paws, barking happily, \"Wan, wan.\""
+    },
+    {
+      "jp": "猿{さる}はキャッ、キャッと笑{わら}いながら、白{しろ}い歯{は}をむき出{だ}しました。",
+      "en": "The monkey bared his white teeth, laughing \"Kya, kya.\""
+    },
+    {
+      "jp": "きじはケン、ケンと鳴{な}きながら、くるくると宙返{ちゅうがえ}りをしました。",
+      "en": "The pheasant turned somersaults, crying \"Ken, ken.\""
+    },
+    {
+      "jp": "空{そら}は青々{あおあお}と晴{は}れ上{あ}がって、お庭{にわ}には桜{さくら}の花{はな}が咲{さ}き乱{みだ}れていました。",
+      "en": "The sky cleared a deep blue, and in the garden the cherry blossoms were blooming in a riot."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "前足",
+      "reading": "まえあし",
+      "meaning": "front paw"
+    },
+    {
+      "word": "白い",
+      "reading": "しろい",
+      "meaning": "white"
+    },
+    {
+      "word": "歯",
+      "reading": "は",
+      "meaning": "tooth"
+    },
+    {
+      "word": "宙返り",
+      "reading": "ちゅうがえり",
+      "meaning": "somersault"
+    },
+    {
+      "word": "青々",
+      "reading": "あおあお",
+      "meaning": "vivid green; deep blue"
+    },
+    {
+      "word": "晴れる",
+      "reading": "はれる",
+      "meaning": "to clear up"
+    },
+    {
+      "word": "桜",
+      "reading": "さくら",
+      "meaning": "cherry tree"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    },
+    {
+      "word": "咲く",
+      "reading": "さく",
+      "meaning": "to bloom"
+    },
+    {
+      "word": "乱れる",
+      "reading": "みだれる",
+      "meaning": "to bloom in profusion; to be disordered"
+    },
+    {
+      "word": "方",
+      "reading": "ほう",
+      "meaning": "direction"
+    },
+    {
+      "word": "向く",
+      "reading": "むく",
+      "meaning": "to turn toward"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "ながら",
+      "note": "ほえながら、笑いながら、鳴きながら: each animal celebrates at the same time as the sound it makes."
+    },
+    {
+      "title": "咲き乱れる",
+      "note": "咲き乱れていました is blossoms blooming in a crowded mass. 乱れる is the second half of that compound."
+    }
+  ]
+}

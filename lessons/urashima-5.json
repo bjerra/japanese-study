@@ -1,0 +1,158 @@
+{
+  "id": "urashima-5",
+  "title": "浦島太郎（五）",
+  "titleReading": "うらしまたろう",
+  "summary": "They reach a glittering palace, and Princess Otohime comes out to welcome him.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "かめはすぐに白{しろ}い波{なみ}を切{き}って、ずんずんおよいで行{い}きました。",
+      "en": "The turtle at once cut through the white waves and swam steadily on."
+    },
+    {
+      "jp": "ざあざあいう波{なみ}の音{おと}がだんだん遠{とお}くなって、青{あお}い青{あお}い水{みず}の底{そこ}へ、ただもう夢{ゆめ}のようにはこばれて行{い}きますと、ふと、そこらがかっとあかるくなって、白玉{しらたま}のようにきれいな砂{すな}の道{みち}がつづいて、むこうにりっぱな門{もん}が見{み}えました。",
+      "en": "The roar of the waves grew farther and farther away, and he was carried, as if in a dream, down to the bottom of the deep blue water, when suddenly the place grew bright, a path of sand as lovely as white jewels stretched on, and a splendid gate could be seen ahead."
+    },
+    {
+      "jp": "その奥{おく}にきらきら光{ひか}って、目{め}のくらむような金銀{きんぎん}のいらかが、たかくそびえていました。",
+      "en": "Beyond it, roofs of gold and silver towered high, glittering so brightly they dazzled the eyes."
+    },
+    {
+      "jp": "「さあ、りゅう宮{ぐう}へまいりました」",
+      "en": "\"Here we are. We have come to the Dragon Palace.\""
+    },
+    {
+      "jp": "かめはこういって、浦島{うらしま}を背中{せなか}からおろして、",
+      "en": "Saying this, the turtle let Urashima down from its back and"
+    },
+    {
+      "jp": "「しばらくお待{ま}ちください」といったまま、門{もん}のなかへはいって行{い}きました。",
+      "en": "went in through the gate, saying only, \"Please wait a moment.\""
+    },
+    {
+      "jp": "まもなく、かめはまた出{で}てきて、",
+      "en": "Soon the turtle came out again and"
+    },
+    {
+      "jp": "「さあ、こちらへ」と、浦島{うらしま}を御殿{ごてん}のなかへ案内{あんない}しました。",
+      "en": "guided Urashima into the palace, saying, \"This way.\""
+    },
+    {
+      "jp": "たいや、ひらめやかれいや、いろいろのおさかなが、ものめずらしそうな目{め}で見{み}ているなかをとおって、はいって行{い}きますと、乙姫{おとひめ}さまがおおぜいの腰元{こしもと}をつれて、お迎{むか}えに出{で}てきました。",
+      "en": "He passed among sea bream, flounder, flatfish, and all sorts of fish watching him with curious eyes, and Princess Otohime came out to welcome him, bringing a great many ladies-in-waiting."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "白い",
+      "reading": "しろい",
+      "meaning": "white"
+    },
+    {
+      "word": "波",
+      "reading": "なみ",
+      "meaning": "wave"
+    },
+    {
+      "word": "切る",
+      "reading": "きる",
+      "meaning": "to cut"
+    },
+    {
+      "word": "音",
+      "reading": "おと",
+      "meaning": "sound"
+    },
+    {
+      "word": "青い",
+      "reading": "あおい",
+      "meaning": "blue"
+    },
+    {
+      "word": "夢",
+      "reading": "ゆめ",
+      "meaning": "dream"
+    },
+    {
+      "word": "白玉",
+      "reading": "しらたま",
+      "meaning": "white jewel"
+    },
+    {
+      "word": "砂",
+      "reading": "すな",
+      "meaning": "sand"
+    },
+    {
+      "word": "道",
+      "reading": "みち",
+      "meaning": "path; road"
+    },
+    {
+      "word": "門",
+      "reading": "もん",
+      "meaning": "gate"
+    },
+    {
+      "word": "奥",
+      "reading": "おく",
+      "meaning": "the interior; beyond"
+    },
+    {
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "to shine"
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meaning": "eye"
+    },
+    {
+      "word": "金銀",
+      "reading": "きんぎん",
+      "meaning": "gold and silver"
+    },
+    {
+      "word": "御殿",
+      "reading": "ごてん",
+      "meaning": "palace"
+    },
+    {
+      "word": "案内",
+      "reading": "あんない",
+      "meaning": "guiding"
+    },
+    {
+      "word": "乙姫",
+      "reading": "おとひめ",
+      "meaning": "Princess Otohime"
+    },
+    {
+      "word": "腰元",
+      "reading": "こしもと",
+      "meaning": "lady-in-waiting"
+    },
+    {
+      "word": "迎える",
+      "reading": "むかえる",
+      "meaning": "to welcome"
+    },
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "to wait"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "ように",
+      "note": "夢のようにはこばれて compares the journey to a dream. ように is the adverbial form of ようだ."
+    },
+    {
+      "title": "て行く",
+      "note": "およいで行きました and はいって行きました: the action moves on, away from where he was."
+    }
+  ]
+}

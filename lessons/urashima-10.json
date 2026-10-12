@@ -1,0 +1,119 @@
+{
+  "id": "urashima-10",
+  "title": "浦島太郎（十）",
+  "titleReading": "うらしまたろう",
+  "summary": "Homesick, he tells Princess Otohime that he wants to go back.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "浦島{うらしま}はいまさらのように、",
+      "en": "Urashima, as if noticing it only now,"
+    },
+    {
+      "jp": "「おとうさんや、おかあさんは、いまごろどうしておいでになるだろう」と、こうおもい出{だ}すと、もう、いても立{た}ってもいられなくなるような気{き}がしました。",
+      "en": "thought, \"I wonder how Father and Mother are getting along these days,\" and once he thought that, he felt he could no longer sit still."
+    },
+    {
+      "jp": "なんでも早{はや}くうちへ帰{かえ}りたいとばかりおもうようになりました。",
+      "en": "He came to think of nothing but wanting to get home as soon as he could."
+    },
+    {
+      "jp": "ですから、もうこのごろでは、歌{うた}をきいても、踊{おど}りを見{み}ても、おもしろくない顔{かお}をして、ふさぎこんでばかりいました。",
+      "en": "So these days, even when he heard songs or watched dances, he wore a face that took no pleasure in them, and only moped."
+    },
+    {
+      "jp": "その様子{ようす}を見{み}ると、乙姫{おとひめ}さまは心配{しんぱい}して、",
+      "en": "Seeing him like that, Princess Otohime grew worried and"
+    },
+    {
+      "jp": "「浦島{うらしま}さん、ご気分{きぶん}でもおわるいのですか」とおききになりました。",
+      "en": "asked, \"Urashima, are you feeling unwell?\""
+    },
+    {
+      "jp": "浦島{うらしま}はもじもじしながら、",
+      "en": "Urashima fidgeted and"
+    },
+    {
+      "jp": "「いいえ、そうではありません。じつはうちへ帰{かえ}りたくなったものですから」といいますと、乙姫{おとひめ}さまはきゅうに、たいそうがっかりした様子{ようす}をなさいました。",
+      "en": "said, \"No, it isn't that. The truth is, I have come to want to go home,\" and Princess Otohime suddenly looked very downcast."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "気",
+      "reading": "き",
+      "meaning": "feeling"
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "early; soon"
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "word": "様子",
+      "reading": "ようす",
+      "meaning": "look; manner"
+    },
+    {
+      "word": "心配",
+      "reading": "しんぱい",
+      "meaning": "worry"
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meaning": "feeling; one's condition"
+    },
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to recall; to come out"
+    },
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning": "to stand"
+    },
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "to return home"
+    },
+    {
+      "word": "歌",
+      "reading": "うた",
+      "meaning": "song"
+    },
+    {
+      "word": "踊る",
+      "reading": "おどる",
+      "meaning": "to dance"
+    },
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "to watch"
+    },
+    {
+      "word": "乙姫",
+      "reading": "おとひめ",
+      "meaning": "Princess Otohime"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "と",
+      "note": "おもい出すと here is \"as soon as he remembers,\" not a quotation. The same と can mark speech, as in どうしておいでになるだろうと."
+    },
+    {
+      "title": "たくなる",
+      "note": "帰りたくなった is たい plus なる: the wish was not there before, and then it arose."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "hanasaka-jijii-9",
+  "title": "花咲かじじい（九）",
+  "titleReading": "はなさかじじい",
+  "summary": "The ash blows into the lord's eyes, and the greedy old man is taken off to jail.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "銀{ぎん}のさくら、さらさら」ととなえながら、やたらに灰{はい}をふりまきましたが、いっこうに花{はな}は咲{さ}きません。",
+      "en": "Silver cherry, sarasara,\" he chanted, and scattered the ash wildly, but no flowers bloomed at all."
+    },
+    {
+      "jp": "するうち、どっとひどい風{かぜ}が吹{ふ}いてきて、灰{はい}は遠慮{えんりょ}なしに四方八方{しほうはっぽう}へ、ばらばら、ばらばらちって、殿{との}さまやご家来{けらい}の目{め}や鼻{はな}のなかへはいりました。",
+      "en": "Just then a terrible wind blew up, and the ash flew without any mercy in every direction, rattling as it scattered, and went into the eyes and noses of the lord and his retainers."
+    },
+    {
+      "jp": "そこでもここでも、目{め}をこするやら、くしゃみをするやら、あたまの毛{け}をはらうやら、たいへんなさわぎになりました。",
+      "en": "Here and there people rubbed their eyes, sneezed, and brushed the hair on their heads, and it became a tremendous uproar."
+    },
+    {
+      "jp": "殿{との}さまはたいそうお腹立{はらだ}ちになって、",
+      "en": "The lord grew very angry and"
+    },
+    {
+      "jp": "「にせものの花咲{はなさ}かじじいにちがいない。ふとどきなやつだ」といって、欲{よく}ばりおじいさんを、しばらせてしまいました。",
+      "en": "said, \"He must be a false flower-blooming old man. An insolent fellow,\" and had the greedy old man tied up."
+    },
+    {
+      "jp": "おじいさんは、「ごめんなさい。ごめんなさい」といいましたが、とうとうろう屋{や}へつれて行{い}かれました。",
+      "en": "The old man said, \"I'm sorry, I'm sorry,\" but in the end he was taken off to the jail."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "遠慮",
+      "reading": "えんりょ",
+      "meaning": "reserve; holding back"
+    },
+    {
+      "word": "四方八方",
+      "reading": "しほうはっぽう",
+      "meaning": "every direction"
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meaning": "eye"
+    },
+    {
+      "word": "毛",
+      "reading": "け",
+      "meaning": "hair"
+    },
+    {
+      "word": "屋",
+      "reading": "や",
+      "meaning": "house (in ろう屋, a jail)"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    },
+    {
+      "word": "咲く",
+      "reading": "さく",
+      "meaning": "to bloom"
+    },
+    {
+      "word": "風",
+      "reading": "かぜ",
+      "meaning": "wind"
+    },
+    {
+      "word": "灰",
+      "reading": "はい",
+      "meaning": "ash"
+    },
+    {
+      "word": "殿",
+      "reading": "との",
+      "meaning": "lord"
+    },
+    {
+      "word": "家来",
+      "reading": "けらい",
+      "meaning": "retainer"
+    },
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "meaning": "nose"
+    },
+    {
+      "word": "腹立ち",
+      "reading": "はらだち",
+      "meaning": "anger"
+    },
+    {
+      "word": "花咲",
+      "reading": "はなさ",
+      "meaning": "flower-blooming"
+    },
+    {
+      "word": "欲",
+      "reading": "よく",
+      "meaning": "greed"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "が",
+      "note": "ふりまきましたが、花は咲きません: が contrasts what he did with what failed to happen."
+    },
+    {
+      "title": "やら〜やら",
+      "note": "目をこするやら、くしゃみをするやら lists a flurry of reactions, each one an example of the uproar."
+    }
+  ]
+}

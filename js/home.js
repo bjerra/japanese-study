@@ -3,6 +3,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     var list = document.getElementById("lesson-list");
+    var storiesHost = document.getElementById("stories");
     var status = document.getElementById("status");
 
     fetch("lessons/index.json")
@@ -14,21 +15,40 @@
         var index = JSON.parse(text.replace(/^\uFEFF/, ""));
         var ids = index && Array.isArray(index.lessons) ? index.lessons : null;
         if (!ids) throw new Error('lessons/index.json must be an object with a "lessons" array of id strings.');
-        if (!ids.length) {
+        var stories = index && Array.isArray(index.stories) ? index.stories : [];
+        if (!ids.length && !stories.length) {
           status.hidden = false;
           status.textContent = "No lessons yet.";
           return;
         }
-        return Promise.all(ids.map(function (id) {
+        var lessonCards = Promise.all(ids.map(function (id) {
           return loadLesson(id);
         }));
+        var storySections = Promise.all(stories.map(function (story) {
+          var parts = story && Array.isArray(story.parts) ? story.parts : [];
+          return Promise.all(parts.map(function (id) {
+            return loadLesson(id);
+          })).then(function (cards) {
+            return storySection(story, cards);
+          });
+        }));
+        return Promise.all([lessonCards, storySections]);
       })
-      .then(function (cards) {
-        if (!cards) return;
+      .then(function (loaded) {
+        if (!loaded) return;
         status.hidden = true;
-        cards.forEach(function (card) {
+        loaded[0].forEach(function (card) {
           list.append(card);
         });
+        if (loaded[1].length && storiesHost) {
+          var kicker = document.createElement("p");
+          kicker.className = "page-kicker stories-kicker";
+          kicker.textContent = "Stories";
+          storiesHost.append(kicker);
+          loaded[1].forEach(function (section) {
+            storiesHost.append(section);
+          });
+        }
       })
       .catch(function (error) {
         var hint = location.protocol === "file:"
@@ -57,11 +77,40 @@
       });
   }
 
+  function storySection(story, cards) {
+    var section = document.createElement("section");
+    section.className = "story-block";
+
+    var title = document.createElement("h2");
+    title.className = "story-title";
+    title.lang = "ja";
+    title.setAttribute("translate", "no");
+    title.textContent = (story && story.title) || "Story";
+    section.append(title);
+
+    if (story && story.titleReading) {
+      var reading = document.createElement("p");
+      reading.className = "story-reading";
+      reading.lang = "ja";
+      reading.setAttribute("translate", "no");
+      reading.textContent = story.titleReading;
+      section.append(reading);
+    }
+
+    var list = document.createElement("ul");
+    list.className = "lesson-list";
+    cards.forEach(function (card) {
+      list.append(card);
+    });
+    section.append(list);
+    return section;
+  }
+
   function lessonCard(id, lesson) {
     var item = document.createElement("li");
     var link = document.createElement("a");
     link.className = "lesson-card";
-    link.href = "lesson.html?id=" + encodeURIComponent(id);
+    link.href = "lesson.html?id=" + encodeURIComponent(id) + "#reading";
 
     if (lesson.level) {
       var level = document.createElement("p");

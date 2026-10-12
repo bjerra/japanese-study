@@ -1,0 +1,96 @@
+{
+  "id": "hanasaka-jijii-6",
+  "title": "花咲かじじい（六）",
+  "titleReading": "はなさかじじい",
+  "summary": "The old man scatters the ash, and dead trees bloom in the middle of winter.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "でも、もしてしまったものはしかたがありませんから、がっかりしながら、ざるのなかに、のこった灰{はい}をかきあつめて、しおしおうちへ帰{かえ}りました。",
+      "en": "But there was nothing to be done about what was already done, so, crestfallen, he scraped the remaining ash into a basket and went sadly home."
+    },
+    {
+      "jp": "「おばあさん、白{しろ}のまつの木{き}が、灰{はい}になってしまったよ」",
+      "en": "\"Grandma, Shiro's pine has turned to ash.\""
+    },
+    {
+      "jp": "こういっておじいさんは、お庭{にわ}のすみの白{しろ}のお墓{はか}のところまで、灰{はい}をかかえて行{い}ってまきますと、どこからか、すうすうあたたかい風{かぜ}が吹{ふ}いてきて、ぱっと、灰{はい}をお庭{にわ}いっぱいに吹{ふ}きちらしました。",
+      "en": "Saying this, he carried the ash to Shiro's grave in the corner of the garden and scattered it, and from somewhere a warm wind came blowing and suddenly scattered the ash all through the garden."
+    },
+    {
+      "jp": "するとどうでしょう、そこらに枯{か}れ木{き}のまま立{た}っていたうめの木{き}や、さくらの木{き}が、灰{はい}をかぶると、みるみるそれが花{はな}になって、よそはまだ冬{ふゆ}のさなかなのに、おじいさんのお庭{にわ}ばかりは、すっかり春{はる}げしきになってしまいました。",
+      "en": "And what do you think? The plum trees and cherry trees that had been standing there as dead wood, once covered with the ash, turned into blossoms as they watched, and though everywhere else it was still the middle of winter, only the old man's garden became a complete spring scene."
+    },
+    {
+      "jp": "おじいさんは、手{て}をたたいてよろこびました。",
+      "en": "The old man clapped his hands with joy."
+    },
+    {
+      "jp": "「これはおもしろい。ついでに、いっそ、ほうぼうの木{き}に花{はな}を咲{さ}かせてやりましょう」",
+      "en": "\"This is wonderful. While I'm at it, I'll make the trees everywhere bloom.\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "to go home"
+    },
+    {
+      "word": "風",
+      "reading": "かぜ",
+      "meaning": "wind"
+    },
+    {
+      "word": "吹く",
+      "reading": "ふく",
+      "meaning": "to blow"
+    },
+    {
+      "word": "枯れる",
+      "reading": "かれる",
+      "meaning": "to wither; to be dead (of a tree)"
+    },
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning": "to stand"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    },
+    {
+      "word": "冬",
+      "reading": "ふゆ",
+      "meaning": "winter"
+    },
+    {
+      "word": "春",
+      "reading": "はる",
+      "meaning": "spring"
+    },
+    {
+      "word": "手",
+      "reading": "て",
+      "meaning": "hand"
+    },
+    {
+      "word": "咲く",
+      "reading": "さく",
+      "meaning": "to bloom"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "ながら",
+      "note": "がっかりしながら: he goes home in that crestfallen state. ながら adds the feeling that accompanies the action."
+    },
+    {
+      "title": "とどうでしょう",
+      "note": "するとどうでしょう turns to the listener and asks them to picture the surprise that follows."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "urashima-11",
+  "title": "浦島太郎（十一）",
+  "titleReading": "うらしまたろう",
+  "summary": "She gives him the tamatebako and warns him never to open it.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "「まあ、それはざんねんでございますこと。でもあなたのお顔{かお}をはいけんいたしますと、この上{うえ}おひきとめ申{もう}しても、むだのようにおもわれます。ではいたし方{かた}ございません、行{い}っていらっしゃいまし」",
+      "en": "\"Oh, what a pity that is. But when I look at your face, it seems useless to keep you here any longer. Then there is nothing to be done. Please go.\""
+    },
+    {
+      "jp": "こうかなしそうにいって、乙姫{おとひめ}さまは、奥{おく}からきれいな宝石{ほうせき}でかざった箱{はこ}を持{も}っておいでになって、",
+      "en": "Saying this sadly, Princess Otohime brought from the inner rooms a box decorated with beautiful jewels, and"
+    },
+    {
+      "jp": "「これは玉手箱{たまてばこ}といって、なかには、人間{にんげん}のいちばんだいじなたからがこめてございます。これをおわかれのしるしにさし上{あ}げますから、お持{も}ちかえりくださいまし。ですが、あなたがもういちどりゅう宮{ぐう}へ帰{かえ}ってきたいとおぼしめすなら、どんなことがあっても、けっしてこの箱{はこ}をあけてごらんになってはいけません」",
+      "en": "said, \"This is called the tamatebako, and inside it is sealed the most precious treasure a human being has. I give it to you as a token of parting, so please take it home. But if you should ever wish to return to the Dragon Palace, you must never, whatever happens, open this box and look inside.\""
+    },
+    {
+      "jp": "と、くれぐれもねんをおして、玉手箱{たまてばこ}をおわたしになりました。",
+      "en": "She pressed the warning on him again and again, and handed him the tamatebako."
+    },
+    {
+      "jp": "浦島{うらしま}は、",
+      "en": "Urashima,"
+    },
+    {
+      "jp": "「ええ、ええ、けっしてあけません」といって、玉手箱{たまてばこ}をこわきにかかえたまま、りゅう宮{ぐう}の門{もん}を出{で}ますと、乙姫{おとひめ}さまは、またおおぜいの腰元{こしもと}をつれて、門{もん}のそとまでお見送{みおく}りになりました。",
+      "en": "saying \"Yes, yes, I will never open it,\" and still holding the tamatebako under his arm, went out the gate of the Dragon Palace, and Princess Otohime, bringing her many ladies-in-waiting again, saw him off as far as outside the gate."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "申す",
+      "reading": "もうす",
+      "meaning": "to say (humble)"
+    },
+    {
+      "word": "方",
+      "reading": "かた",
+      "meaning": "way; means"
+    },
+    {
+      "word": "箱",
+      "reading": "はこ",
+      "meaning": "box"
+    },
+    {
+      "word": "玉手箱",
+      "reading": "たまてばこ",
+      "meaning": "tamatebako; jeweled hand-box"
+    },
+    {
+      "word": "人間",
+      "reading": "にんげん",
+      "meaning": "human being"
+    },
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "to hold"
+    },
+    {
+      "word": "門",
+      "reading": "もん",
+      "meaning": "gate"
+    },
+    {
+      "word": "見送る",
+      "reading": "みおくる",
+      "meaning": "to see someone off"
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "word": "奥",
+      "reading": "おく",
+      "meaning": "inner rooms"
+    },
+    {
+      "word": "宝石",
+      "reading": "ほうせき",
+      "meaning": "jewel"
+    },
+    {
+      "word": "乙姫",
+      "reading": "おとひめ",
+      "meaning": "Princess Otohime"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "てはいけません",
+      "note": "あけてごらんになってはいけません forbids the act. The honorific ごらんになる stays inside the prohibition because she is speaking of what he might do."
+    },
+    {
+      "title": "おぼしめす",
+      "note": "帰ってきたいとおぼしめす is honorific 思う. Otohime speaks up to Urashima about his own wish."
+    }
+  ]
+}

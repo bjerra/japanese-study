@@ -1,0 +1,109 @@
+{
+  "id": "hanasaka-jijii-2",
+  "title": "花咲かじじい（二）",
+  "titleReading": "はなさかじじい",
+  "summary": "The digging uncovers gold coins, and the greedy neighbor borrows Shiro.",
+  "level": "beginner",
+  "credit": "楠山正雄「花咲かじじい」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3391.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と、冒頭の題名と作者名は省く。",
+  "sentences": [
+    {
+      "jp": "「ここほれ、ワン、ワン。",
+      "en": "barked, \"Dig here, wan, wan."
+    },
+    {
+      "jp": "ここほれ、ワン、ワン」となきました。",
+      "en": "Dig here, wan, wan.\""
+    },
+    {
+      "jp": "「なんだな、なんだな」と、おじいさんはいいながら、くわを入{い}れてみますと、かちりと音{おと}がして、穴{あな}のそこできらきら光{ひか}るものがありました。",
+      "en": "\"What is it, what is it?\" the old man said, and when he put the hoe in, there was a clink, and something glittering at the bottom of the hole."
+    },
+    {
+      "jp": "ずんずんほって行{い}くと、小判{こばん}がたくさん、出{で}てきました。",
+      "en": "As he dug on, a great many gold coins came out."
+    },
+    {
+      "jp": "おじいさんはびっくりして、大{おお}きな声{こえ}でおばあさんをよびたてて、えんやら、えんやら、小判{こばん}をうちのなかへはこび込{こ}みました。",
+      "en": "The old man was astonished, called the old woman in a loud voice, and, heave-ho, carried the coins into the house."
+    },
+    {
+      "jp": "正直{しょうじき}なおじいさんとおばあさんは、きゅうにお金{かね}持{も}ちになりました。",
+      "en": "The honest old man and old woman suddenly became rich."
+    },
+    {
+      "jp": "すると、おとなりの欲{よく}ばりおじいさんが、それをきいてたいへんうらやましがって、さっそく白{しろ}をかりにきました。",
+      "en": "Then the greedy old man next door heard of it, envied them terribly, and came at once to borrow Shiro."
+    },
+    {
+      "jp": "正直{しょうじき}おじいさんは、人{ひと}がいいものですから、うっかり白{しろ}をかしてやりますと、欲{よく}ばりおじいさんは、いやがる白{しろ}の首{くび}になわをつけて、ぐんぐん、畑{はたけ}のほうへひっぱって行{い}きました。",
+      "en": "The honest old man was a kind person, so he carelessly lent Shiro, and the greedy old man put a rope on the neck of the unwilling dog and dragged him off toward the field."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "入れる",
+      "reading": "いれる",
+      "meaning": "to put in"
+    },
+    {
+      "word": "音",
+      "reading": "おと",
+      "meaning": "sound"
+    },
+    {
+      "word": "穴",
+      "reading": "あな",
+      "meaning": "hole"
+    },
+    {
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "to shine"
+    },
+    {
+      "word": "小判",
+      "reading": "こばん",
+      "meaning": "gold coin"
+    },
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to come out"
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "word": "込む",
+      "reading": "こむ",
+      "meaning": "to go in (in 運び込む)"
+    },
+    {
+      "word": "お金",
+      "reading": "かね",
+      "meaning": "money"
+    },
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "to hold; to possess"
+    },
+    {
+      "word": "首",
+      "reading": "くび",
+      "meaning": "neck"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "てみる",
+      "note": "くわを入れてみますと: he tries putting the hoe in, and と is \"when\" the result follows."
+    },
+    {
+      "title": "てやる",
+      "note": "かしてやります lends it for the other person. てやる is familiar, toward the neighbor who has asked."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "urashima-8",
+  "title": "浦島太郎（八）",
+  "titleReading": "うらしまたろう",
+  "summary": "She shows him summer, autumn, and winter, each beyond its own door.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "次{つぎ}に、南{みなみ}の戸{と}をおあけになりました。",
+      "en": "Next she opened the southern door."
+    },
+    {
+      "jp": "そこは夏{なつ}のけしきで、垣根{かきね}には白{しろ}いうの花{はな}が咲{さ}いて、お庭{にわ}の木{き}の青葉{あおば}のなかでは、せみやひぐらしがないていました。",
+      "en": "There it was summer: white deutzia bloomed on the hedge, and in the green leaves of the garden trees cicadas and evening cicadas were singing."
+    },
+    {
+      "jp": "お池{いけ}には赤{あか}と白{しろ}のはすの花{はな}が咲{さ}いて、その葉{は}の上{うえ}には、水晶{すいしょう}の珠{たま}のように露{つゆ}がたまっていました。",
+      "en": "Red and white lotus flowers bloomed in the pond, and on their leaves dew had gathered like beads of crystal."
+    },
+    {
+      "jp": "お池{いけ}のふちには、きれいなさざ波{なみ}が立{た}って、おしどりやかもがうかんでいました。",
+      "en": "Pretty ripples stood at the edge of the pond, and mandarin ducks and wild ducks were floating."
+    },
+    {
+      "jp": "次{つぎ}に西{にし}の戸{と}をおあけになりました。",
+      "en": "Next she opened the western door."
+    },
+    {
+      "jp": "そこは秋{あき}のけしきで花壇{かだん}のなかには、黄{き}ぎく、白{しら}ぎくが咲{さ}き乱{みだ}れて、ぷんといいかおりを立{た}てました。",
+      "en": "There it was autumn: in the flower bed, yellow chrysanthemums and white chrysanthemums bloomed in a riot and gave off a rich fragrance."
+    },
+    {
+      "jp": "むこうを見{み}ると、かっともえ立{た}つようなもみじの林{はやし}の奥{おく}に、白{しろ}い霧{きり}がたちこめていて、しかのなく声{こえ}がかなしくきこえました。",
+      "en": "Looking beyond, white mist hung in the depths of a maple wood blazing red, and the sad cry of a deer could be heard."
+    },
+    {
+      "jp": "いちばんおしまいに、北{きた}の戸{と}をおあけになりました。",
+      "en": "Last of all she opened the northern door."
+    },
+    {
+      "jp": "そこは冬{ふゆ}のけしきで、野{の}には散{ち}りのこった枯葉{かれは}の上{うえ}に、霜{しも}がきらきら光{ひか}っていました。",
+      "en": "There it was winter: on the withered leaves left scattered over the fields, frost glittered."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "次",
+      "reading": "つぎ",
+      "meaning": "next"
+    },
+    {
+      "word": "南",
+      "reading": "みなみ",
+      "meaning": "south"
+    },
+    {
+      "word": "夏",
+      "reading": "なつ",
+      "meaning": "summer"
+    },
+    {
+      "word": "垣根",
+      "reading": "かきね",
+      "meaning": "hedge"
+    },
+    {
+      "word": "庭",
+      "reading": "にわ",
+      "meaning": "garden"
+    },
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree"
+    },
+    {
+      "word": "青葉",
+      "reading": "あおば",
+      "meaning": "green leaves"
+    },
+    {
+      "word": "池",
+      "reading": "いけ",
+      "meaning": "pond"
+    },
+    {
+      "word": "赤い",
+      "reading": "あかい",
+      "meaning": "red"
+    },
+    {
+      "word": "葉",
+      "reading": "は",
+      "meaning": "leaf"
+    },
+    {
+      "word": "西",
+      "reading": "にし",
+      "meaning": "west"
+    },
+    {
+      "word": "秋",
+      "reading": "あき",
+      "meaning": "autumn"
+    },
+    {
+      "word": "花壇",
+      "reading": "かだん",
+      "meaning": "flower bed"
+    },
+    {
+      "word": "林",
+      "reading": "はやし",
+      "meaning": "woods"
+    },
+    {
+      "word": "霧",
+      "reading": "きり",
+      "meaning": "mist"
+    },
+    {
+      "word": "北",
+      "reading": "きた",
+      "meaning": "north"
+    },
+    {
+      "word": "冬",
+      "reading": "ふゆ",
+      "meaning": "winter"
+    },
+    {
+      "word": "野",
+      "reading": "の",
+      "meaning": "field"
+    },
+    {
+      "word": "枯葉",
+      "reading": "かれは",
+      "meaning": "dead leaf"
+    },
+    {
+      "word": "霜",
+      "reading": "しも",
+      "meaning": "frost"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "お〜になる",
+      "note": "戸をおあけになりました is honorific 開ける. The honorific is for Princess Otohime, not for the door."
+    },
+    {
+      "title": "次に",
+      "note": "次に orders the doors: south, then west, then last of all the north."
+    }
+  ]
+}

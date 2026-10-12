@@ -1,0 +1,108 @@
+{
+  "id": "urashima-13",
+  "title": "浦島太郎（十三）",
+  "titleReading": "うらしまたろう",
+  "summary": "His house is gone, and a tottering old woman comes along.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "「おかしなこともあるものだ。たった三{さん}年{ねん}のあいだに、みんなどこかへ行{い}ってしまうはずはない。まあ、なんでも早{はや}くうちへ行{い}ってみよう」",
+      "en": "\"What an odd thing. In only three years, they can't all have gone off somewhere. Well, whatever it is, I'll go home quickly and see.\""
+    },
+    {
+      "jp": "こうひとりごとをいいながら、浦島{うらしま}はじぶんの家{いえ}の方角{ほうがく}へあるき出{だ}しました。",
+      "en": "Talking to himself like this, Urashima set off toward where his own house lay."
+    },
+    {
+      "jp": "ところが、そことおもうあたりには草{くさ}やあしがぼうぼうとしげって、家{いえ}なぞはかげもかたちもありません。",
+      "en": "But around the spot he thought was the place, grass and reeds grew thick, and there was not a shadow or a trace of a house."
+    },
+    {
+      "jp": "むかし家{いえ}の立{た}っていたらしいあとさえものこってはいませんでした。",
+      "en": "Not even what seemed to be the site where the house had once stood remained."
+    },
+    {
+      "jp": "いったい、おとうさんやおかあさんはどうなったのでしょうか。",
+      "en": "Whatever had become of his father and mother?"
+    },
+    {
+      "jp": "浦島{うらしま}は、",
+      "en": "Urashima,"
+    },
+    {
+      "jp": "「ふしぎだ。ふしぎだ」とくり返{かえ}しながら、きつねにつままれたような、きょとんとした顔{かお}をしていました。",
+      "en": "repeating \"Strange, strange,\" wore the blank face of someone bewitched by a fox."
+    },
+    {
+      "jp": "するとそこへ、よぼよぼのおばあさんがひとり、つえにすがってやってきました。",
+      "en": "Then a tottering old woman came along, leaning on a staff."
+    },
+    {
+      "jp": "浦島{うらしま}はさっそく、",
+      "en": "Urashima at once"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "三",
+      "reading": "さん",
+      "meaning": "three"
+    },
+    {
+      "word": "家",
+      "reading": "いえ",
+      "meaning": "house"
+    },
+    {
+      "word": "方角",
+      "reading": "ほうがく",
+      "meaning": "direction"
+    },
+    {
+      "word": "草",
+      "reading": "くさ",
+      "meaning": "grass"
+    },
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning": "to stand"
+    },
+    {
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to repeat"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go"
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "soon; quickly"
+    },
+    {
+      "word": "浦島",
+      "reading": "うらしま",
+      "meaning": "Urashima"
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "はずはない",
+      "note": "行ってしまうはずはない: there is no reason to expect it. はず is what follows from what one knows."
+    },
+    {
+      "title": "ような",
+      "note": "きつねにつままれたような顔: ような attaches the comparison to the noun 顔."
+    }
+  ]
+}

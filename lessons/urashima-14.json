@@ -1,0 +1,110 @@
+{
+  "id": "urashima-14",
+  "title": "浦島太郎（十四）",
+  "titleReading": "うらしまたろう",
+  "summary": "The old woman says Urashima Taro was a man of three hundred years ago.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "「もしもし、おばあさん、浦島太郎{うらしまたろう}のうちはどこでしょう」と、声{こえ}をかけますと、おばあさんはけげんそうに、しょぼしょぼした目{め}で、浦島{うらしま}の顔{かお}をながめながら、",
+      "en": "called out, \"Excuse me, grandmother, where is Urashima Taro's house?\" and the old woman, looking puzzled, gazed at Urashima's face with bleary eyes and"
+    },
+    {
+      "jp": "「へえ、浦島太郎{うらしまたろう}。そんな人{ひと}はきいたことがありませんよ」といいました。",
+      "en": "said, \"Urashima Taro? I've never heard of such a person.\""
+    },
+    {
+      "jp": "浦島{うらしま}はやっきとなって、",
+      "en": "Urashima grew worked up and"
+    },
+    {
+      "jp": "「そんなはずはありません。たしかにこのへんに住{す}んでいたのです」といいました。",
+      "en": "said, \"That can't be. He certainly lived around here.\""
+    },
+    {
+      "jp": "そういわれて、おばあさんは、",
+      "en": "Told that, the old woman"
+    },
+    {
+      "jp": "「はてね」と、首{くび}をかしげながら、つえでせいのびしてしばらくかんがえこんでいましたが、やがてぽんとひざをたたいて、",
+      "en": "tilted her head — \"Let me see\" — stretched up on her staff, and thought for a while; then she slapped her knee and"
+    },
+    {
+      "jp": "「ああ、そうそう、浦島太郎{うらしまたろう}さんというと、あれはもう三{さん}百{びゃく}年{ねん}も前{まえ}の人{ひと}ですよ。なんでも、わたしが子{こ}どものじぶんきいた話{はなし}に、むかし、むかし、この水{みず}の江{え}の浜{はま}に、浦島太郎{うらしまたろう}という人{ひと}があって、ある日{ひ}、舟{ふね}にのってつりに出{で}たまま、帰{かえ}ってこなくなりました。たぶんりゅう宮{ぐう}へでも行{い}ったのだろうということです。なにしろ大昔{おおむかし}の話{はなし}だからね」",
+      "en": "said, \"Ah, yes, yes. If you mean Urashima Taro, that was a man of three hundred years ago. The story I heard when I was a child was that long, long ago, on this beach at Mizunoe, there was a man called Urashima Taro, and one day he went out fishing in a boat and never came back. They say he probably went to the Dragon Palace or some such place. It is a tale from the ancient past, after all.\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "浦島太郎",
+      "reading": "うらしまたろう",
+      "meaning": "Urashima Taro"
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meaning": "eye"
+    },
+    {
+      "word": "住む",
+      "reading": "すむ",
+      "meaning": "to live"
+    },
+    {
+      "word": "首",
+      "reading": "くび",
+      "meaning": "neck"
+    },
+    {
+      "word": "百",
+      "reading": "びゃく",
+      "meaning": "hundred"
+    },
+    {
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "ago; before"
+    },
+    {
+      "word": "日",
+      "reading": "ひ",
+      "meaning": "day"
+    },
+    {
+      "word": "舟",
+      "reading": "ふね",
+      "meaning": "boat"
+    },
+    {
+      "word": "出る",
+      "reading": "でる",
+      "meaning": "to go out"
+    },
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "to come back"
+    },
+    {
+      "word": "大昔",
+      "reading": "おおむかし",
+      "meaning": "the ancient past"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "のです",
+      "note": "住んでいたのです insists on the fact and explains. のです is not just the past of です."
+    },
+    {
+      "title": "ということです",
+      "note": "行ったのだろうということです reports what people say, at one remove from the speaker."
+    }
+  ]
+}

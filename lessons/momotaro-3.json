@@ -1,0 +1,127 @@
+{
+  "id": "momotaro-3",
+  "title": "桃太郎（三）",
+  "titleReading": "ももたろう",
+  "summary": "The old man comes home, and she shows him the peach she found in the river.",
+  "level": "beginner",
+  "credit": "楠山正雄「桃太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card18376.html ）。底本は講談社学術文庫『日本の神話と十大昔話』（1983年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記と節の見出しは省く。歌の音は底本どおり、のばしたまま。",
+  "sentences": [
+    {
+      "jp": "夕方{ゆうがた}になってやっと、おじいさんは山{やま}からしばを背負{せお}って帰{かえ}って来{き}ました。",
+      "en": "Evening came at last, and the old man returned from the mountain with brushwood on his back."
+    },
+    {
+      "jp": "「おばあさん、今{いま}帰{かえ}ったよ。」",
+      "en": "\"Grandma, I'm home.\""
+    },
+    {
+      "jp": "「おや、おじいさん、おかいんなさい。待{ま}っていましたよ。さあ、早{はや}くお上{あ}がんなさい。いいものを上{あ}げますから。」",
+      "en": "\"Oh, Grandpa, welcome back. I was waiting. Come, step inside quickly. I'll give you something nice.\""
+    },
+    {
+      "jp": "「それはありがたいな。何{なん}だね、そのいいものというのは。」",
+      "en": "\"That is kind of you. And what is this nice thing?\""
+    },
+    {
+      "jp": "こういいながら、おじいさんはわらじをぬいで、上{うえ}に上{あ}がりました。",
+      "en": "Saying this, the old man took off his straw sandals and stepped up into the house."
+    },
+    {
+      "jp": "その間{ま}に、おばあさんは戸棚{とだな}の中{なか}からさっきの桃{もも}を重{おも}そうにかかえて来{き}て、",
+      "en": "Meanwhile the old woman brought the peach from a little while ago out of the cupboard, holding it as if it were heavy,"
+    },
+    {
+      "jp": "「ほら、ごらんなさいこの桃{もも}を。」と言{い}いました。",
+      "en": "and said, \"Look. Just look at this peach.\""
+    },
+    {
+      "jp": "「ほほう、これはこれは。どこからこんなみごとな桃{もも}を買{か}って来{き}た。」",
+      "en": "\"Well, well, well. Wherever did you buy such a splendid peach?\""
+    },
+    {
+      "jp": "「いいえ、買{か}って来{き}たのではありません。今日{きょう}川{かわ}で拾{ひろ}って来{き}たのですよ。」",
+      "en": "\"No, I did not buy it. I picked it up in the river today.\""
+    },
+    {
+      "jp": "「え、なに、川{かわ}で拾{ひろ}って来{き}た。それはいよいよめずらしい。」",
+      "en": "\"What? You picked it up in the river? That makes it rarer still.\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "meaning": "evening"
+    },
+    {
+      "word": "背負う",
+      "reading": "せおう",
+      "meaning": "to carry on one's back"
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "meaning": "now"
+    },
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "to wait"
+    },
+    {
+      "word": "何",
+      "reading": "なん",
+      "meaning": "what"
+    },
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "up; above"
+    },
+    {
+      "word": "間",
+      "reading": "ま",
+      "meaning": "interval; while"
+    },
+    {
+      "word": "戸棚",
+      "reading": "とだな",
+      "meaning": "cupboard"
+    },
+    {
+      "word": "重い",
+      "reading": "おもい",
+      "meaning": "heavy"
+    },
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meaning": "to buy"
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "today"
+    },
+    {
+      "word": "拾う",
+      "reading": "ひろう",
+      "meaning": "to pick up"
+    },
+    {
+      "word": "上がる",
+      "reading": "あがる",
+      "meaning": "to step up; to rise"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "〜て来る",
+      "note": "背負って帰って来ました and 買って来た: 来る after て brings the action toward here, or means she did it and came back with the result."
+    },
+    {
+      "title": "のではありません",
+      "note": "買って来たのではありません denies the whole idea, not only the verb. の turns 買って来た into the thing being denied."
+    }
+  ]
+}

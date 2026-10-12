@@ -1,0 +1,101 @@
+{
+  "id": "urashima-6",
+  "title": "浦島太郎（六）",
+  "titleReading": "うらしまたろう",
+  "summary": "She thanks him, and a feast of every kind of fish begins.",
+  "level": "beginner",
+  "credit": "楠山正雄「浦島太郎」（青空文庫 https://www.aozora.gr.jp/cards/000329/card3390.html ）。底本は童話屋『むかし むかし あるところに』（1996年）。親本は童話春秋社『日本童話宝玉集』（1948–1949年）。新字新仮名の全文で、続きの短い部分に分ける。青空文庫の作業注記は省く。「丹後の国、水の江」の読点は、底本に無いものを足す。",
+  "sentences": [
+    {
+      "jp": "やがて乙姫{おとひめ}さまについて、浦島{うらしま}はずんずん奥{おく}へとおって行{い}きました。",
+      "en": "Presently, following Princess Otohime, Urashima went steadily deeper inside."
+    },
+    {
+      "jp": "めのうの天井{てんじょう}にさんごの柱{はしら}、廊下{ろうか}にはるりがしきつめてありました。",
+      "en": "The ceilings were agate, the pillars coral, and the corridors were paved with lapis."
+    },
+    {
+      "jp": "こわごわその上{うえ}をあるいて行{い}きますと、どこからともなくいいにおいがして、たのしい楽{がく}の音{ね}がきこえてきました。",
+      "en": "As he walked timidly over them, a pleasant scent came from somewhere, and the sound of cheerful music reached him."
+    },
+    {
+      "jp": "やがて、水晶{すいしょう}の壁{かべ}に、いろいろの宝石{ほうせき}をちりばめた大広間{おおひろま}にとおりますと、",
+      "en": "Soon they came into a great hall whose crystal walls were inlaid with all kinds of jewels, and"
+    },
+    {
+      "jp": "「浦島{うらしま}さん、ようこそおいでくださいました。先日{せんじつ}はかめのいのちをお助{たす}けくださいまして、まことにありがとうございます。なんにもおもてなしはございませんが、どうぞゆっくりおあそびくださいまし」と、乙姫{おとひめ}さまはいって、ていねいにおじぎしました。",
+      "en": "Princess Otohime bowed politely and said, \"Welcome, Urashima. Thank you truly for saving the turtle's life the other day. I have nothing much with which to entertain you, but please stay and enjoy yourself at your leisure.\""
+    },
+    {
+      "jp": "やがて、たいをかしらに、かつおだの、ふぐだの、えびだの、たこだの、大小{だいしょう}いろいろのおさかなが、めずらしいごちそうを山{やま}とはこんできて、にぎやかなお酒盛{さかもり}がはじまりました。",
+      "en": "Soon, with the sea bream at their head, bonito, pufferfish, shrimp, octopus, and fish great and small brought rare delicacies piled like a mountain, and a lively feast began."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "天井",
+      "reading": "てんじょう",
+      "meaning": "ceiling"
+    },
+    {
+      "word": "柱",
+      "reading": "はしら",
+      "meaning": "pillar"
+    },
+    {
+      "word": "廊下",
+      "reading": "ろうか",
+      "meaning": "corridor"
+    },
+    {
+      "word": "楽",
+      "reading": "がく",
+      "meaning": "music"
+    },
+    {
+      "word": "水晶",
+      "reading": "すいしょう",
+      "meaning": "crystal"
+    },
+    {
+      "word": "壁",
+      "reading": "かべ",
+      "meaning": "wall"
+    },
+    {
+      "word": "宝石",
+      "reading": "ほうせき",
+      "meaning": "jewel"
+    },
+    {
+      "word": "大広間",
+      "reading": "おおひろま",
+      "meaning": "great hall"
+    },
+    {
+      "word": "大小",
+      "reading": "だいしょう",
+      "meaning": "large and small"
+    },
+    {
+      "word": "山",
+      "reading": "やま",
+      "meaning": "mountain"
+    },
+    {
+      "word": "酒盛",
+      "reading": "さかもり",
+      "meaning": "drinking feast"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "をかしらに",
+      "note": "たいをかしらに puts the sea bream at the head of the group that follows."
+    },
+    {
+      "title": "ございません",
+      "note": "なんにもおもてなしはございません is a humble negative. Otohime speaks politely of her own hospitality."
+    }
+  ]
+}
