@@ -77,6 +77,171 @@ button, a { touch-action: manipulation; }
 
 .brand:hover { color: var(--accent); }
 
+.menu-open,
+.menu-close {
+  appearance: none;
+  flex: 0 0 auto;
+  min-height: 2.75rem;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.menu-open[aria-expanded="true"] {
+  background: var(--accent);
+  color: #fff;
+}
+
+.lesson-menu {
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: min(24rem, 100vw);
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) 0;
+  border: 0;
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: -12px 0 32px rgba(34, 30, 26, 0.16);
+}
+
+.lesson-menu[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.lesson-menu::backdrop {
+  background: rgba(34, 30, 26, 0.4);
+}
+
+.lesson-menu-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.lesson-menu-head h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.lesson-menu-body {
+  overflow: auto;
+  overscroll-behavior: contain;
+  flex: 1 1 auto;
+  padding: 0.45rem 0.55rem 1.25rem;
+}
+
+.menu-message {
+  margin: 0.6rem 0.4rem;
+  color: var(--muted);
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.65rem;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.65rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu-link:hover { background: var(--hover); }
+
+.menu-link.is-current {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.menu-link-title {
+  font-family: var(--jp);
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.menu-link-reading,
+.menu-story-reading {
+  color: var(--reading);
+  font-family: var(--jp);
+  font-size: 0.92rem;
+}
+
+.menu-current {
+  margin-left: auto;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.menu-story { margin-top: 0.2rem; }
+
+.menu-story summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem 0.65rem;
+  min-height: 2.75rem;
+  padding: 0.45rem 0.7rem 0.45rem 1.7rem;
+  border-radius: 0.65rem;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+.menu-story summary::-webkit-details-marker { display: none; }
+
+.menu-story summary::before {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  top: 1.15rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-30%) rotate(-45deg);
+}
+
+.menu-story[open] summary::before { transform: translateY(-10%) rotate(45deg); }
+
+.menu-story summary:hover { background: var(--hover); }
+
+.menu-story-name {
+  font-family: var(--jp);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.menu-story-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.menu-story .menu-list { margin: 0 0 0.35rem 0.85rem; }
+
 .page { padding: 1.5rem 0 3.5rem; }
 
 .lede {
@@ -670,6 +835,12 @@ body.readings-locked rt {
   .passage { padding: 1rem 0.85rem 0.25rem; }
 
   .sentence { padding-left: 1.7rem; }
+
+  .lesson-menu {
+    inset: 0;
+    width: 100vw;
+    max-width: 100vw;
+  }
 }
 
 @media (max-width: 28rem) {
