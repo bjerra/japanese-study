@@ -25,7 +25,7 @@ Touch only these things:
 1. Create `lessons/<id>.json`.
 2. Add `"<id>"` to the `lessons` array in `lessons/index.json`, or, if the lesson is one part of a longer story, add it to that story's `parts` array.
 
-Do not edit HTML, CSS, or JS to add a lesson. Standalone lessons are listed in index order. Parts of a story are listed in `parts` order, and that same order is where the previous and next links come from.
+Do not edit HTML, CSS, or JS to add a lesson. Standalone lessons are listed in index order. Parts of a story are listed in `parts` order, and that same order is where the previous and next links come from. The Kanji page reads this index and the lesson files when it opens, so new vocabulary shows up there with no extra step.
 
 `<id>` rules:
 
@@ -144,6 +144,10 @@ The **Lessons** button in the header, on the home page and on every lesson, open
 
 **Mark as cleared** sits on each lesson page. Press it again to undo. The choice is stored in this browser only, under the localStorage key `japanese-study-cleared` (a list of lesson ids). Cleared lessons show a checkmark on the home page and in the Lessons menu. Each story shows how many of its parts are cleared, such as `5/18 cleared`. Finishing the vocabulary game offers the same toggle and does not mark the lesson by itself.
 
+**Kanji**, in the header and at the top of the Lessons menu, opens `kanji.html`. It gathers every vocabulary entry from the index, splits each word into its kanji, and groups those kanji by approximate JLPT level (N5, then N4, N3, N2, N1, then kanji with no level). The same word in several lessons is listed once, with a link to each lesson. Search matches the kanji, its readings and meanings, and the lesson words. A level chip narrows the list.
+
+The spelling game on that page is the same tile game as a lesson. Practice all collected words, one JLPT level, the words that match the current search and level filter, or one kanji (the **Practice** button on its card). A point is a first-try correct reading. The round ends with that session score. Each finished word is stored in this browser under `japanese-study-vocab-scores`: attempts, how many were right on the first try, and whether the latest try was first-try (`first`) or only after a miss (`later`). A word is mastered when the latest try was `first`. The list shows that as `2/5 mastered` on the card and for the level, with a bar that turns green when every word on it is mastered. **Reset scores** clears the saved results after a confirm.
+
 Old ids `urashima` and `hanasaka-jijii` still open part 1 (`urashima-1`, `hanasaka-jijii-1`). New parts use the numbered ids.
 
 ## What the learner sees
@@ -161,6 +165,20 @@ Each lesson has three tabs: **Reading**, **Grammar**, and **Vocab**. Reading is 
 - If a lesson has `credit`, that source note is shown under the title.
 
 Tiles are the reading split into kana. A small kana (ゃゅょぁぃぅぇぉゎ, and the katakana forms) stays on the preceding kana, so `きょう` is the tiles `きょ` and `う`. `っ`, `ん`, and `ー` are their own tiles. Repeated kana are repeated tiles. Headwords with no kanji, such as `コーヒー`, are skipped because the prompt would already be the answer.
+
+## Kanji levels
+
+`data/jlpt-kanji.json` maps a kanji to `[level, meanings, on readings, kun readings]`. The page uses it only as a dictionary. Which kanji appear, and which words sit under them, is computed from `lessons/index.json` and the lesson files.
+
+There has been no official N5–N1 kanji list since 2010. Levels are Jonathan Waller's community lists, which are widely used and unofficial. Readings and English meanings are from KANJIDIC2. The trimmed file is CC BY-SA 4.0. Credit, the upstream licences, and the date it was retrieved are in `data/jlpt-kanji.LICENSE.txt`.
+
+To refresh the reference file from [OpenJLPT](https://github.com/evanclan/OpenJLPT):
+
+```bash
+node tools/build-jlpt-kanji.js
+```
+
+That is not part of publishing a lesson. A kanji that is missing from the file still appears, under **No JLPT level**, without a dictionary gloss. The vocabulary line from the lesson is still there.
 
 ## Hosting
 

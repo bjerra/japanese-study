@@ -12,13 +12,21 @@
   <header class="site-header">
     <div class="wrap bar">
       <a class="brand" href="index.html">Japanese Study</a>
-      <button id="lesson-menu-open" class="menu-open" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="lesson-menu">Lessons</button>
+      <div class="bar-actions">
+        <a class="header-link" href="kanji.html">Kanji</a>
+        <button id="lesson-menu-open" class="menu-open" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="lesson-menu">Lessons</button>
+      </div>
     </div>
   </header>
   <main class="wrap page">
     <p class="page-kicker">Lessons</p>
     <h1>Japanese Study</h1>
     <p class="lede">Reading practice for coached lessons. Kanji stay unmarked until you tap a word or show every reading.</p>
+    <a class="lesson-card kanji-entry" href="kanji.html">
+      <p class="level">Kanji</p>
+      <h2>Kanji from every lesson</h2>
+      <p class="card-summary">Grouped by character and approximate JLPT level, with a spelling game and saved scores.</p>
+    </a>
     <p id="status" class="panel">Loading lessons…</p>
     <ul id="lesson-list" class="lesson-list"></ul>
     <div id="stories"></div>

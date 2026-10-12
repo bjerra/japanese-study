@@ -24,7 +24,12 @@
     close.type = "button";
     close.className = "menu-close";
     close.textContent = "Close";
-    head.append(title, close);
+    var kanjiLink = document.createElement("a");
+    kanjiLink.className = "menu-kanji";
+    kanjiLink.href = "kanji.html";
+    kanjiLink.textContent = "Kanji";
+    if (/(^|\/)kanji\.html$/.test(location.pathname)) kanjiLink.setAttribute("aria-current", "page");
+    head.append(title, kanjiLink, close);
 
     var body = document.createElement("div");
     body.className = "lesson-menu-body";
