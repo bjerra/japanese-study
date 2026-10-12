@@ -1,0 +1,30 @@
+Japanese Study — data/jlpt-kanji.json
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This file is a trimmed derivative of the OpenJLPT kanji dataset
+(https://github.com/evanclan/OpenJLPT), CC BY-SA 4.0.
+
+Level assignments (N5, N4, N3, N2, N1) come from Jonathan Waller's JLPT
+Resources (https://www.tanos.co.uk/jlpt/), CC BY. They are unofficial.
+The Japan Foundation has not published official kanji lists for the
+five-level JLPT used since 2010. KANJIDIC2's older four-level jlpt field
+(1–4, from before 2010) is not used here.
+
+On readings, kun readings, and English meanings come from KANJIDIC2,
+the property of the Electronic Dictionary Research and Development Group
+(EDRDG), used under CC BY-SA 4.0.
+https://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+https://www.edrdg.org/edrdg/licence.html
+
+Each entry keeps only the level, meanings, on readings, and kun readings.
+Retrieved 12 October 2026 from OpenJLPT data/json/kanji/n5.json through
+n1.json. Rebuild with: node tools/build-jlpt-kanji.js
+
+Adding a lesson does not require rebuilding this file. The Kanji page
+reads lessons/index.json and the lesson files when it opens. A character
+that is not in this file is still listed, under "No JLPT level", without
+a dictionary gloss.
+
+If you redistribute this file, or a derivative of it, keep this attribution
+and license the data under CC BY-SA 4.0.

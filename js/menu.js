@@ -24,7 +24,12 @@
     close.type = "button";
     close.className = "menu-close";
     close.textContent = "Close";
-    head.append(title, close);
+    var kanjiLink = document.createElement("a");
+    kanjiLink.className = "menu-kanji";
+    kanjiLink.href = "kanji.html";
+    kanjiLink.textContent = "Kanji";
+    if (/(^|\/)kanji\.html$/.test(location.pathname)) kanjiLink.setAttribute("aria-current", "page");
+    head.append(title, kanjiLink, close);
 
     var body = document.createElement("div");
     body.className = "lesson-menu-body";
@@ -42,6 +47,7 @@
       dialog.showModal();
       if (catalog) {
         markCurrent(body, currentId());
+        applyProgress(body);
         focusCurrent(body, close);
         return;
       }
@@ -146,6 +152,7 @@
       var parts = story && Array.isArray(story.parts) ? story.parts : [];
       var group = document.createElement("details");
       group.className = "menu-story";
+      group.dataset.parts = parts.join(" ");
 
       var summary = document.createElement("summary");
       var name = document.createElement("span");
@@ -178,6 +185,7 @@
     });
 
     markCurrent(body, currentId());
+    applyProgress(body);
   }
 
   function menuItem(lesson, withReading) {
@@ -225,6 +233,40 @@
     });
     body.querySelectorAll(".menu-story").forEach(function (group) {
       group.open = !!id && !!group.querySelector('.menu-link[data-lesson-id="' + cssEscape(id) + '"]');
+    });
+  }
+
+  function applyProgress(body) {
+    var progress = window.JapaneseStudyProgress;
+    if (!progress) return;
+    var map = progress.clearedMap();
+    body.querySelectorAll(".menu-link").forEach(function (link) {
+      var on = !!map[link.dataset.lessonId];
+      link.classList.toggle("is-cleared", on);
+      var mark = link.querySelector(".menu-cleared");
+      var label = link.querySelector(".menu-cleared-label");
+      if (on && !mark) {
+        mark = document.createElement("span");
+        mark.className = "menu-cleared";
+        mark.setAttribute("aria-hidden", "true");
+        mark.textContent = "✓";
+        label = document.createElement("span");
+        label.className = "menu-cleared-label sr-only";
+        label.textContent = "Cleared";
+        var badge = link.querySelector(".menu-current");
+        if (badge) link.insertBefore(mark, badge);
+        else link.append(mark);
+        link.append(label);
+      } else if (!on) {
+        if (mark) mark.remove();
+        if (label) label.remove();
+      }
+    });
+    body.querySelectorAll(".menu-story").forEach(function (group) {
+      var ids = (group.dataset.parts || "").split(" ").filter(Boolean);
+      var count = group.querySelector(".menu-story-count");
+      if (!count) return;
+      count.textContent = progress.countCleared(ids) + "/" + ids.length + " cleared";
     });
   }
 

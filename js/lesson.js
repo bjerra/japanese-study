@@ -44,7 +44,7 @@
         renderLesson(main, lesson, findNeighbors(loaded[1], id));
         wireReadings(main);
         wireTranslations(main);
-        mountGame(document.getElementById("panel-vocab"), lesson.vocabulary || []);
+        mountGame(document.getElementById("panel-vocab"), lesson.vocabulary || [], lesson.id);
         selectTab(tabFromHash(), false);
       })
       .catch(function (error) {
@@ -185,6 +185,7 @@
     back.href = "index.html";
     back.textContent = "All lessons";
     main.append(back);
+    main.append(clearedToggle(lesson.id));
 
     var tablist = document.createElement("div");
     tablist.className = "lesson-tabs";
@@ -494,10 +495,43 @@
     });
   }
 
-  function mountGame(host, vocabulary) {
+  function mountGame(host, vocabulary, lessonId) {
     if (!window.JapaneseStudyGame || !host) return;
-    JapaneseStudyGame.mount(host, vocabulary, { lockReadings: lockReadings });
+    JapaneseStudyGame.mount(host, vocabulary, {
+      lockReadings: lockReadings,
+      onRoundComplete: function (card) {
+        var offer = document.createElement("p");
+        offer.className = "game-offer";
+        offer.textContent = "Finished the round. Mark this lesson as cleared if you want.";
+        card.append(offer);
+        card.append(clearedToggle(lessonId));
+      }
+    });
   }
+
+  function clearedToggle(id) {
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "cleared-toggle";
+    button.dataset.lessonId = id;
+    paintClearedToggle(button);
+    button.addEventListener("click", function () {
+      if (!window.JapaneseStudyProgress) return;
+      JapaneseStudyProgress.setCleared(id, button.getAttribute("aria-pressed") !== "true");
+    });
+    return button;
+  }
+
+  function paintClearedToggle(button) {
+    var id = button.dataset.lessonId;
+    var on = !!(window.JapaneseStudyProgress && JapaneseStudyProgress.isCleared(id));
+    button.setAttribute("aria-pressed", on ? "true" : "false");
+    button.textContent = on ? "Cleared" : "Mark as cleared";
+  }
+
+  window.addEventListener("japanese-study-cleared", function () {
+    document.querySelectorAll(".cleared-toggle").forEach(paintClearedToggle);
+  });
 
   function lockReadings(locked) {
     var toggle = document.getElementById("toggle-readings");

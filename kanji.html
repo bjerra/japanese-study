@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Kanji from every lesson, grouped by approximate JLPT level, with a spelling game.">
+  <title>Kanji · Japanese Study</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Japanese Study</a>
+      <div class="bar-actions">
+        <a class="header-link" href="kanji.html" aria-current="page">Kanji</a>
+        <button id="lesson-menu-open" class="menu-open" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="lesson-menu">Lessons</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap page">
+    <p class="page-kicker">Kanji</p>
+    <h1>Kanji</h1>
+    <p class="lede">Every vocabulary word from the lessons, grouped by the kanji in it. JLPT levels are approximate: there has been no official list since 2010.</p>
+    <p id="kanji-status" class="panel">Loading kanji…</p>
+    <div id="kanji-tools" class="kanji-tools" hidden>
+      <div class="kanji-search-row">
+        <label class="kanji-search-label" for="kanji-search">Search</label>
+        <input id="kanji-search" class="kanji-search" type="search" placeholder="Kanji, reading, or meaning" autocomplete="off" enterkeyhint="search">
+      </div>
+      <div class="level-filters" role="group" aria-label="JLPT level">
+        <button type="button" class="level-chip" data-level="all" aria-pressed="true">All <span class="chip-count"></span></button>
+        <button type="button" class="level-chip" data-level="N5" aria-pressed="false">N5 <span class="chip-count"></span></button>
+        <button type="button" class="level-chip" data-level="N4" aria-pressed="false">N4 <span class="chip-count"></span></button>
+        <button type="button" class="level-chip" data-level="N3" aria-pressed="false">N3 <span class="chip-count"></span></button>
+        <button type="button" class="level-chip" data-level="N2" aria-pressed="false">N2 <span class="chip-count"></span></button>
+        <button type="button" class="level-chip" data-level="N1" aria-pressed="false">N1 <span class="chip-count"></span></button>
+        <button type="button" class="level-chip" data-level="none" aria-pressed="false">No level <span class="chip-count"></span></button>
+      </div>
+      <div class="practice-bar">
+        <label class="practice-label" for="practice-set">Practice</label>
+        <select id="practice-set">
+          <option value="all" data-label="All words">All words</option>
+          <option value="N5" data-label="N5">N5</option>
+          <option value="N4" data-label="N4">N4</option>
+          <option value="N3" data-label="N3">N3</option>
+          <option value="N2" data-label="N2">N2</option>
+          <option value="N1" data-label="N1">N1</option>
+          <option value="none" data-label="No JLPT level">No JLPT level</option>
+          <option value="filtered" data-label="Filtered words">Filtered words</option>
+        </select>
+        <button type="button" id="practice-start" class="kanji-start">Start</button>
+        <button type="button" id="score-reset" class="kanji-reset">Reset scores</button>
+      </div>
+      <p class="hint">A word is mastered when its latest try was right on the first attempt. Scores stay in this browser.</p>
+    </div>
+    <p id="kanji-summary" class="kanji-summary" aria-live="polite"></p>
+    <div id="kanji-game"></div>
+    <p id="kanji-empty" class="panel" hidden>No kanji match that search.</p>
+    <div id="kanji-list"></div>
+    <p class="credit">Levels follow <a href="https://www.tanos.co.uk/jlpt/">Jonathan Waller's JLPT lists</a> (CC BY), via <a href="https://github.com/evanclan/OpenJLPT">OpenJLPT</a> (CC BY-SA 4.0). Readings and meanings are from <a href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project">KANJIDIC2</a> (EDRDG, CC BY-SA 4.0). They are not an official JLPT list.</p>
+  </main>
+  <noscript>
+    <p class="wrap panel error">This site needs JavaScript to load kanji.</p>
+  </noscript>
+  <script src="js/progress.js"></script>
+  <script src="js/scores.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/kanji.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

@@ -98,6 +98,7 @@
       if (!tiles.length) return;
       words.push({
         word: item.word,
+        reading: item.reading.replace(/^\s+|\s+$/g, ""),
         meaning: typeof item.meaning === "string" ? item.meaning : "",
         tiles: tiles
       });
@@ -285,6 +286,9 @@
       if (sameSequence(answer, item.tiles)) {
         solved = true;
         if (!missed) score += 1;
+        if (options && typeof options.onWordResult === "function") {
+          options.onWordResult(item, { firstTry: !missed });
+        }
         paint();
         var metaScore = card.querySelector(".game-meta span:last-child");
         if (metaScore) metaScore.textContent = "Score " + score;
@@ -319,6 +323,7 @@
       var again = el("button", "game-next game-again", "Play again");
       again.type = "button";
       card.append(again);
+      if (options && typeof options.onRoundComplete === "function") options.onRoundComplete(card);
     }
   }
 

@@ -97,6 +97,14 @@
       section.append(reading);
     }
 
+    var parts = story && Array.isArray(story.parts) ? story.parts : [];
+    if (parts.length && window.JapaneseStudyProgress) {
+      var progress = document.createElement("p");
+      progress.className = "story-progress";
+      progress.textContent = JapaneseStudyProgress.countCleared(parts) + "/" + parts.length + " cleared";
+      section.append(progress);
+    }
+
     var list = document.createElement("ul");
     list.className = "lesson-list";
     cards.forEach(function (card) {
@@ -111,6 +119,7 @@
     var link = document.createElement("a");
     link.className = "lesson-card";
     link.href = "lesson.html?id=" + encodeURIComponent(id) + "#reading";
+    link.dataset.lessonId = id;
 
     if (lesson.level) {
       var level = document.createElement("p");
@@ -139,6 +148,18 @@
       summary.className = "card-summary";
       summary.textContent = lesson.summary;
       link.append(summary);
+    }
+
+    if (window.JapaneseStudyProgress && JapaneseStudyProgress.isCleared(id)) {
+      link.classList.add("is-cleared");
+      var mark = document.createElement("span");
+      mark.className = "cleared-mark";
+      mark.setAttribute("aria-hidden", "true");
+      mark.textContent = "✓";
+      var status = document.createElement("span");
+      status.className = "sr-only";
+      status.textContent = "Cleared";
+      link.append(mark, status);
     }
 
     item.append(link);
