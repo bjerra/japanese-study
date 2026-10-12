@@ -140,6 +140,8 @@ Leave words with no extra reading unmarked (`コーヒー`, `です`, `それか
 
 A lesson page looks up its id in `stories` and links **Previous** and **Next** to the neighboring parts. Those links open the Reading tab.
 
+The **Lessons** button in the header, on the home page and on every lesson, opens the same index: standalone lessons first, then each story as a collapsible group. Choosing an entry opens that lesson. The lesson you are on is marked. A new file shows up in the menu once its id is in the index.
+
 Old ids `urashima` and `hanasaka-jijii` still open part 1 (`urashima-1`, `hanasaka-jijii-1`). New parts use the numbered ids.
 
 ## What the learner sees
