@@ -21,7 +21,7 @@
   <main class="wrap page">
     <p class="page-kicker">Kanji</p>
     <h1>Kanji</h1>
-    <p class="lede">Every vocabulary word from the lessons, grouped by the kanji in it. JLPT levels are approximate: there has been no official list since 2010.</p>
+    <p class="lede">Every vocabulary word from the lessons, grouped by the kanji in it. Tiles stay closed until you open one. JLPT levels are approximate: there has been no official list since 2010.</p>
     <p id="kanji-status" class="panel">Loading kanji…</p>
     <div id="kanji-tools" class="kanji-tools" hidden>
       <div class="kanji-search-row">
@@ -37,6 +37,7 @@
         <button type="button" class="level-chip" data-level="N1" aria-pressed="false">N1 <span class="chip-count"></span></button>
         <button type="button" class="level-chip" data-level="none" aria-pressed="false">No level <span class="chip-count"></span></button>
       </div>
+      <button type="button" id="kanji-expand" class="kanji-expand" aria-pressed="false">Expand all</button>
       <div class="practice-bar">
         <label class="practice-label" for="practice-set">Practice</label>
         <select id="practice-set">
