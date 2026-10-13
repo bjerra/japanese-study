@@ -212,10 +212,12 @@
       head.append(title, meta, meter(), levelScore);
       section.append(head);
 
+      var grid = document.createElement("div");
+      grid.className = "kanji-grid";
       var words = [];
       var seen = Object.create(null);
       kanji.forEach(function (entry) {
-        section.append(kanjiCard(entry));
+        grid.append(kanjiCard(entry));
         entry.words.forEach(function (word) {
           var key = word.word + "\n" + word.reading;
           if (seen[key]) return;
@@ -223,6 +225,7 @@
           words.push(word);
         });
       });
+      section.append(grid);
       sectionWords.set(section, words);
       list.append(section);
     });
@@ -250,31 +253,49 @@
     return node;
   }
 
+  var detailSeq = 0;
+
   function kanjiCard(entry) {
     var card = document.createElement("article");
     card.className = "kanji-card";
     card.dataset.kanji = entry.char;
+    detailSeq += 1;
+    var detailId = "kanji-detail-" + detailSeq;
 
-    var top = document.createElement("div");
-    top.className = "kanji-card-top";
-    var glyph = document.createElement("p");
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "kanji-toggle";
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-controls", detailId);
+    var glyph = document.createElement("span");
     glyph.className = "kanji-char";
     glyph.lang = "ja";
     glyph.setAttribute("translate", "no");
     glyph.textContent = entry.char;
-    var body = document.createElement("div");
-    body.className = "kanji-card-body";
+    var tileMeter = meter();
+    tileMeter.setAttribute("aria-hidden", "true");
+    var tileScore = scoreText();
+    tileScore.textContent = "0/" + entry.words.length;
+    toggle.append(glyph, tileMeter, tileScore);
+    toggle.addEventListener("click", function () {
+      setExpanded(card, !card.classList.contains("is-open"));
+      syncExpandAll();
+    });
+
+    var detail = document.createElement("div");
+    detail.className = "kanji-detail";
+    detail.id = detailId;
+    detail.hidden = true;
 
     var tag = document.createElement("p");
     tag.className = "kanji-tag";
     tag.textContent = entry.levelId === "none" ? "No JLPT level" : entry.levelId;
-    body.append(tag);
-
+    detail.append(tag);
     if (entry.meanings) {
       var gloss = document.createElement("p");
       gloss.className = "kanji-gloss";
       gloss.textContent = entry.meanings;
-      body.append(gloss);
+      detail.append(gloss);
     }
     var reading = [entry.on, entry.kun].filter(Boolean).join(" · ");
     if (reading) {
@@ -283,14 +304,8 @@
       read.lang = "ja";
       read.setAttribute("translate", "no");
       read.textContent = reading;
-      body.append(read);
+      detail.append(read);
     }
-
-    var score = document.createElement("div");
-    score.className = "kanji-score";
-    score.append(meter(), scoreText());
-    body.append(score);
-
     var practice = document.createElement("button");
     practice.type = "button";
     practice.className = "kanji-practice";
@@ -298,16 +313,14 @@
     practice.addEventListener("click", function () {
       startPractice(entry.words, entry.char);
     });
-    body.append(practice);
-    top.append(glyph, body);
-    card.append(top);
-
+    detail.append(practice);
     var words = document.createElement("ul");
     words.className = "kanji-words";
     entry.words.forEach(function (word) {
       words.append(wordItem(word));
     });
-    card.append(words);
+    detail.append(words);
+    card.append(toggle, detail);
 
     cardWords.set(card, entry.words);
     cardSearch.set(card, fold([
@@ -319,7 +332,40 @@
         return word.word + " " + word.reading + " " + word.meaning;
       }).join(" ")
     ].join(" ")));
+    paintToggle(card, 0, entry.words.length);
     return card;
+  }
+
+  function setExpanded(card, open) {
+    var toggle = card.querySelector(".kanji-toggle");
+    var detail = card.querySelector(".kanji-detail");
+    card.classList.toggle("is-open", !!open);
+    if (toggle) toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    if (detail) detail.hidden = !open;
+    var words = cardWords.get(card) || [];
+    paintToggle(card, countMastered(words), words.length);
+  }
+
+  function paintToggle(card, got, total) {
+    var toggle = card.querySelector(".kanji-toggle");
+    if (!toggle) return;
+    var open = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-label", card.dataset.kanji + ", " + got + " of " + total + " words mastered. " + (open ? "Hide details." : "Show details."));
+  }
+
+  function visibleExpanded() {
+    var cards = visibleCards();
+    return cards.length > 0 && cards.every(function (card) {
+      return card.classList.contains("is-open");
+    });
+  }
+
+  function syncExpandAll() {
+    var button = document.getElementById("kanji-expand");
+    if (!button) return;
+    var allOpen = visibleExpanded();
+    button.textContent = allOpen ? "Collapse all" : "Expand all";
+    button.setAttribute("aria-pressed", allOpen ? "true" : "false");
   }
 
   function wordItem(word) {
@@ -394,6 +440,18 @@
         JapaneseStudyScores.reset();
       });
     }
+    var expand = document.getElementById("kanji-expand");
+    if (expand) {
+      expand.addEventListener("click", function () {
+        var open = !visibleExpanded();
+        visibleCards().forEach(function (card) {
+          setExpanded(card, open);
+        });
+        syncExpandAll();
+      });
+    }
+    var list = document.getElementById("kanji-list");
+    if (list) list.addEventListener("keydown", onGridKey);
   }
 
   function wordsFor(value) {
@@ -450,6 +508,7 @@
     if (empty) empty.hidden = shown !== 0;
     updatePracticeControl();
     updateSummary();
+    syncExpandAll();
   }
 
   function updatePracticeControl() {
@@ -492,8 +551,9 @@
       var words = cardWords.get(card) || [];
       var got = countMastered(words);
       setMeter(card.querySelector(".kanji-meter"), got, words.length);
-      var text = card.querySelector(".kanji-score-text");
-      if (text) text.textContent = got + "/" + words.length + " mastered";
+      var text = card.querySelector(".kanji-toggle .kanji-score-text");
+      if (text) text.textContent = got + "/" + words.length;
+      paintToggle(card, got, words.length);
       card.querySelectorAll(".kanji-word-item").forEach(function (item) {
         var on = window.JapaneseStudyScores && JapaneseStudyScores.isMastered(item.dataset.word, item.dataset.reading);
         item.classList.toggle("is-mastered", !!on);
@@ -504,11 +564,53 @@
     document.querySelectorAll(".kanji-level").forEach(function (section) {
       var words = sectionWords.get(section) || [];
       var got = countMastered(words);
-      setMeter(section.querySelector(".kanji-meter"), got, words.length);
-      var text = section.querySelector(".kanji-score-text");
+      setMeter(section.querySelector(".kanji-level-head .kanji-meter"), got, words.length);
+      var text = section.querySelector(".kanji-level-score");
       if (text) text.textContent = got + "/" + words.length + " mastered";
     });
     updateSummary();
+  }
+
+  function onGridKey(event) {
+    if (event.key === "Escape") {
+      var card = event.target.closest && event.target.closest(".kanji-card");
+      if (!card || !card.classList.contains("is-open")) return;
+      event.preventDefault();
+      setExpanded(card, false);
+      syncExpandAll();
+      var toggle = card.querySelector(".kanji-toggle");
+      if (toggle) toggle.focus();
+      return;
+    }
+    var arrows = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"];
+    if (arrows.indexOf(event.key) === -1) return;
+    var current = event.target.closest && event.target.closest(".kanji-toggle");
+    if (!current) return;
+    var buttons = visibleCards().map(function (item) {
+      return item.querySelector(".kanji-toggle");
+    }).filter(Boolean);
+    var index = buttons.indexOf(current);
+    if (index < 0) return;
+    var columns = gridColumns(current);
+    var next = index;
+    if (event.key === "ArrowRight") next = index + 1;
+    else if (event.key === "ArrowLeft") next = index - 1;
+    else if (event.key === "ArrowDown") next = index + columns;
+    else if (event.key === "ArrowUp") next = index - columns;
+    else if (event.key === "Home") next = 0;
+    else if (event.key === "End") next = buttons.length - 1;
+    if (next < 0 || next >= buttons.length || next === index) return;
+    event.preventDefault();
+    buttons[next].focus();
+  }
+
+  function gridColumns(button) {
+    var grid = button.closest(".kanji-grid");
+    if (!grid) return 1;
+    var template = window.getComputedStyle(grid).gridTemplateColumns;
+    if (!template || template === "none") return 1;
+    var count = template.split(" ").filter(Boolean).length;
+    return count || 1;
   }
 
   function updateSummary() {
